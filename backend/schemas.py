@@ -2,33 +2,30 @@ from pydantic import BaseModel
 from typing import Optional
 
 class StudentProfile(BaseModel):
+    Age: int
     Gender: str
-    District: str
-    Schooling_Type: str
+    City: str
+    Province: str
+    CGPA: float
+    Family_Income_PKR: str
+    Parents_Education: str
+    Study_Hours_Per_Week: int
+    Attendance_Percentage: int
     Internet_Access: str
-    Parental_Education_Level: str
-    Scholarship_Status: str
-    Extracurricular_Participation: Optional[str] = "None"
-    Residence_Type: str
-    School_Medium: str
-    Education_System: str
+    Private_Tuition: str
+    Device_Available: Optional[str] = "None"
+    Electricity_Availability: str
+    School_Type: str
+    Medium_of_Instruction: str
+    Distance_to_Institute_km: float
     Transport_Mode: str
-    Attendance_Percentage: float
-    Study_Hours_per_Week: float
-    Assignment_Average: float
-    Quiz_Average: float
-    Mid_Marks: float
-    # Add other columns if used by the model (e.g., Matric_Percentage if we generated it back? 
-    # In my synthesis script I mainly used Attendance/StudyHours for the synthetic target, 
-    # but the model was trained on ALL X features.
-    
-    # We must ensure the input matches the columns expected by the preprocessor.
-    # The 'Extra_Expanded' dataset had many columns.
-    # Ideally, we should list all used Features.
-    # For robust MVP, we can allow extra fields or just match the CSV columns.
+    Parental_Support_Level: str
+    Health_Issues: Optional[str] = "None"
+    Part_Time_Job: str
+    Extra_Curricular: Optional[str] = "None"
+    Motivation_Level: str
 
 class PredictionResult(BaseModel):
-    Risk_Status: str  # "Pass" or "Fail"
-    Performance_Trend: str # "Improving" or "Declining"
-    Engagement_Score: float
+    Performance_Class: str  # Weak, Average, Good
+    Needs_Advice: str  # Needs Advice, Doesn't Need Advice
     Advice: str = ""

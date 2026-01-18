@@ -1,0 +1,286 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<h2>Academic Insights Hub</h2>
+{% endblock %}
+
+{% block content %}
+<!-- Filtering Bar -->
+<div class="filters-bar">
+    <div class="filter-group">
+        <ion-icon name="filter-outline"></ion-icon>
+        <label>FILTERS:</label>
+    </div>
+    <div class="filter-group">
+        <label>Province</label>
+        <select class="filter-select" id="filter-province" onchange="applyFilters()">
+            <option value="all">All Provinces</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <label>Gender</label>
+        <select class="filter-select" id="filter-gender" onchange="applyFilters()">
+            <option value="all">All Genders</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <label>Performance</label>
+        <select class="filter-select" id="filter-performance" onchange="applyFilters()">
+            <option value="all">All Levels</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Weak">Weak</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <label>Income</label>
+        <select class="filter-select" id="filter-income" onchange="applyFilters()">
+            <option value="all">All Levels</option>
+        </select>
+    </div>
+    <button class="btn-primary" onclick="resetFilters()"
+        style="padding: 0.4rem 1rem; font-size: 0.85rem;">Reset</button>
+</div>
+
+{% if summary %}
+<!-- Statistics Overview -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-label">TOTAL STUDENTS</div>
+        <div class="stat-value" id="stat-total">{{ summary.total_students }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">AVG ATTENDANCE</div>
+        <div class="stat-value" style="color: var(--primary);" id="stat-attendance">{{ summary.avg_attendance|round(1)
+            }}%</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">AVG CGPA</div>
+        <div class="stat-value" style="color: #8b5cf6;" id="stat-cgpa">{{ summary.avg_cgpa|round(2) }}</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-label">NEEDS ADVICE</div>
+        <div class="stat-value" style="color: var(--warning);" id="stat-advice">
+            {% if summary.advice_distribution %}
+            {{ summary.advice_distribution.get('Needs Advice', 0) }}
+            {% else %}
+            0
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Charts Section -->
+<div class="charts-grid">
+    <div class="chart-container">
+        <div class="chart-header">
+            <div class="chart-title">Academic Performance Distribution</div>
+        </div>
+        <canvas id="performanceChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <div class="chart-header">
+            <div class="chart-title">Advice Need Status</div>
+        </div>
+        <canvas id="adviceChart"></canvas>
+    </div>
+</div>
+
+<div class="charts-grid">
+    <div class="chart-container">
+        <div class="chart-header">
+            <div class="chart-title">CGPA Distribution by Province</div>
+        </div>
+        <canvas id="provinceChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <div class="chart-header">
+            <div class="chart-title">Gender Diversity</div>
+        </div>
+        <canvas id="genderChart"></canvas>
+    </div>
+</div>
+
+<div class="charts-grid">
+    <div class="chart-container">
+        <div class="chart-header">
+            <div class="chart-title">Family Income Distribution</div>
+        </div>
+        <canvas id="incomeChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <div class="chart-header">
+            <div class="chart-title">Internet Access Impact</div>
+        </div>
+        <canvas id="internetChart"></canvas>
+    </div>
+</div>
+
+{% else %}
+<div class="card">
+    <p>Backend disconnected. Please start the FastAPI server on port 8000.</p>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let rawData = {{ summary| tojson if summary else '{}' }};
+    let filteredData = rawData;
+
+    document.addEventListener('DOMContentLoaded', function () {
+        {% if summary %}
+        // Populate filter dropdowns
+        const provinces = Object.keys(rawData.province_distribution || {});
+        const provinceSelect = document.getElementById('filter-province');
+        provinces.forEach(p => {
+            const opt = document.createElement('option');
+            opt.value = p;
+            opt.textContent = p;
+            provinceSelect.appendChild(opt);
+        });
+
+        const incomes = Object.keys(rawData.income_distribution || {});
+        const incomeSelect = document.getElementById('filter-income');
+        incomes.forEach(i => {
+            const opt = document.createElement('option');
+            opt.value = i;
+            opt.textContent = i;
+            incomeSelect.appendChild(opt);
+        });
+
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('province')) document.getElementById('filter-province').value = params.get('province');
+        if (params.has('gender')) document.getElementById('filter-gender').value = params.get('gender');
+        if (params.has('performance')) document.getElementById('filter-performance').value = params.get('performance');
+        if (params.has('income')) document.getElementById('filter-income').value = params.get('income');
+
+        renderCharts(rawData);
+        {% endif %}
+    });
+
+    function applyFilters() {
+        const province = document.getElementById('filter-province').value;
+        const gender = document.getElementById('filter-gender').value;
+        const performance = document.getElementById('filter-performance').value;
+        const income = document.getElementById('filter-income').value;
+
+        const params = new URLSearchParams();
+        if (province !== 'all') params.append('province', province);
+        if (gender !== 'all') params.append('gender', gender);
+        if (performance !== 'all') params.append('performance', performance);
+        if (income !== 'all') params.append('income', income);
+
+        window.location.href = `/?${params.toString()}`;
+    }
+
+    function resetFilters() {
+        window.location.href = '/';
+    }
+
+    function renderCharts(data) {
+        // Performance Chart
+        new Chart(document.getElementById('performanceChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data.performance_distribution || {}),
+                datasets: [{
+                    label: 'Student Count',
+                    data: Object.values(data.performance_distribution || {}),
+                    backgroundColor: ['#10b981', '#3b82f6', '#ef4444'],
+                    borderRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true } }
+            }
+        });
+
+        // Advice Chart
+        new Chart(document.getElementById('adviceChart'), {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(data.advice_distribution || {}),
+                datasets: [{
+                    data: Object.values(data.advice_distribution || {}),
+                    backgroundColor: ['#10b981', '#f59e0b'],
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                cutout: '60%',
+                plugins: { legend: { position: 'bottom' } }
+            }
+        });
+
+        // Province Chart
+        new Chart(document.getElementById('provinceChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data.province_distribution || {}),
+                datasets: [{
+                    label: 'Student Count',
+                    data: Object.values(data.province_distribution || {}),
+                    backgroundColor: '#8b5cf6',
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } }
+            }
+        });
+
+        // Gender Chart
+        new Chart(document.getElementById('genderChart'), {
+            type: 'pie',
+            data: {
+                labels: Object.keys(data.gender_distribution || {}),
+                datasets: [{
+                    data: Object.values(data.gender_distribution || {}),
+                    backgroundColor: ['#3b82f6', '#ec4899']
+                }]
+            }
+        });
+
+        // Income Chart
+        new Chart(document.getElementById('incomeChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(data.income_distribution || {}),
+                datasets: [{
+                    label: 'Students',
+                    data: Object.values(data.income_distribution || {}),
+                    backgroundColor: '#10b981',
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                plugins: { legend: { display: false } }
+            }
+        });
+
+        // Internet Chart
+        const internetData = data.internet_distribution || { 'Yes': 0, 'No': 0 };
+        new Chart(document.getElementById('internetChart'), {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(internetData),
+                datasets: [{
+                    data: Object.values(internetData),
+                    backgroundColor: ['#10b981', '#ef4444']
+                }]
+            },
+            options: {
+                cutout: '60%'
+            }
+        });
+    }
+</script>
+{% endblock %}

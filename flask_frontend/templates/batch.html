@@ -1,0 +1,181 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<h2>Batch Advisory Processing</h2>
+{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div style="margin-bottom: 2rem;">
+        <h3 style="font-weight: 700;">Upload Student Records</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">Upload a CSV or Excel file containing student data to
+            generate batch advisory reports with Gemini AI.</p>
+    </div>
+
+    <form id="batch-upload-form" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Select File (CSV or Excel)</label>
+            <input type="file" class="form-control" id="file-input" accept=".csv,.xlsx,.xls" required>
+        </div>
+        <div style="margin-top: 1.5rem;">
+            <button type="submit" class="btn-primary" id="process-btn">Process Batch</button>
+        </div>
+    </form>
+</div>
+
+<!-- Results Table -->
+<div class="result-card" id="results-section" style="margin-top: 2rem;">
+    <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+            <div>
+                <h3 style="font-weight: 700;">Advisory Results</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem;" id="results-count">0 students processed</p>
+            </div>
+            <button class="btn-primary" id="download-csv" style="padding: 0.75rem 1.5rem;">
+                <ion-icon name="download-outline" style="margin-right: 8px;"></ion-icon>
+                Download CSV
+            </button>
+        </div>
+
+        <div style="overflow-x: auto;">
+            <table id="results-table" style="width: 100%; border-collapse: collapse;">
+                <thead style="background: var(--bg-main); border-bottom: 2px solid var(--border);">
+                    <tr>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            ID</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            Name</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            Age</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            Province</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            CGPA</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            Performance</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            Advice Status</th>
+                        <th
+                            style="padding: 1rem; text-align: left; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+                            Advisory Note</th>
+                    </tr>
+                </thead>
+                <tbody id="results-tbody">
+                    <!-- Results will be populated here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let batchResults = [];
+
+    document.getElementById('batch-upload-form').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const fileInput = document.getElementById('file-input');
+        const processBtn = document.getElementById('process-btn');
+        const resultsSection = document.getElementById('results-section');
+
+        if (!fileInput.files[0]) {
+            alert('Please select a file');
+            return;
+        }
+
+        processBtn.innerHTML = 'Processing...';
+        processBtn.disabled = true;
+
+        const formData = new FormData();
+        formData.append('file', fileInput.files[0]);
+
+        try {
+            const response = await fetch('/upload/batch', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                batchResults = data.results;
+                displayResults(data.results);
+                document.getElementById('results-count').innerText = `${data.total_processed} students processed`;
+                resultsSection.style.display = 'block';
+                resultsSection.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                alert('Error: ' + (data.detail || 'Processing failed'));
+            }
+        } catch (err) {
+            alert('Connection error. Is the backend running?');
+        } finally {
+            processBtn.innerHTML = 'Process Batch';
+            processBtn.disabled = false;
+        }
+    });
+
+    function displayResults(results) {
+        const tbody = document.getElementById('results-tbody');
+        tbody.innerHTML = '';
+
+        results.forEach(row => {
+            const tr = document.createElement('tr');
+            tr.style.borderBottom = '1px solid var(--border)';
+
+            const perfColor = row.Performance_Class === 'Good' ? 'var(--success)' :
+                row.Performance_Class === 'Weak' ? 'var(--danger)' : 'var(--primary)';
+            const adviceColor = row.Needs_Advice === 'Needs Advice' ? 'var(--warning)' : 'var(--success)';
+
+            tr.innerHTML = `
+            <td style="padding: 1rem; font-size: 0.9rem;">${row.Student_ID}</td>
+            <td style="padding: 1rem; font-weight: 600;">${row.Name}</td>
+            <td style="padding: 1rem;">${row.Age}</td>
+            <td style="padding: 1rem;">${row.Province}</td>
+            <td style="padding: 1rem; font-weight: 600;">${row.CGPA}</td>
+            <td style="padding: 1rem; color: ${perfColor}; font-weight: 700;">${row.Performance_Class}</td>
+            <td style="padding: 1rem; color: ${adviceColor}; font-weight: 600; font-size: 0.85rem;">${row.Needs_Advice}</td>
+            <td style="padding: 1rem; font-size: 0.85rem; line-height: 1.5; max-width: 400px;">${row.Advice}</td>
+        `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    document.getElementById('download-csv').addEventListener('click', function () {
+        if (batchResults.length === 0) {
+            alert('No results to download');
+            return;
+        }
+
+        // Convert to CSV
+        const headers = ['Student_ID', 'Name', 'Age', 'Province', 'CGPA', 'Performance_Class', 'Needs_Advice', 'Advice'];
+        let csv = headers.join(',') + '\n';
+
+        batchResults.forEach(row => {
+            const values = headers.map(header => {
+                const value = row[header] || '';
+                // Escape quotes and wrap in quotes if contains comma
+                return `"${String(value).replace(/"/g, '""')}"`;
+            });
+            csv += values.join(',') + '\n';
+        });
+
+        // Download
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `advisory_report_${new Date().toISOString().split('T')[0]}.csv`;
+        a.click();
+        window.URL.revokeObjectURL(url);
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,1001 @@
+Student_ID,Age,Gender,City,Province,CGPA,Performance_Class,Family_Income_PKR,Parents_Education,Study_Hours_Per_Week,Attendance_Percentage,Internet_Access,Private_Tuition,Device_Available,Electricity_Availability,School_Type,Medium_of_Instruction,Distance_to_Institute_km,Transport_Mode,Parental_Support_Level,Health_Issues,Part_Time_Job,Extra_Curricular,Motivation_Level
+1,21,Female,Faisalabad,KPK,1.5,Weak,Low (<30k),Graduate,6,88,No,No,Laptop,Frequent Outages,Private,Urdu,15.6,Bus,Low,Chronic,Yes,Clubs,Low
+2,23,Male,Mardan,Punjab,1.5,Weak,Middle (60k-120k),Primary,10,96,No,Yes,Desktop,Consistent,Public,Urdu,19.0,Bike,Medium,Minor,Yes,Clubs,High
+3,20,Male,Gilgit,Gilgit Baltistan,1.5,Weak,Upper-Middle (120k-250k),Matric,17,80,No,No,Mobile,Frequent Outages,Public,English,6.4,Van,Medium,Minor,Yes,None,Low
+4,20,Female,Dir,Punjab,1.51,Weak,Middle (60k-120k),Intermediate,30,72,No,No,None,Consistent,Private,English,24.2,Walk,Low,Minor,No,Sports,Low
+5,24,Male,Faisalabad,KPK,1.51,Weak,High (>250k),Primary,23,57,Yes,No,Mobile,Frequent Outages,Public,Urdu,22.7,Bus,High,Minor,Yes,Clubs,High
+6,24,Male,Peshawar,KPK,1.51,Weak,Upper-Middle (120k-250k),Graduate,23,79,Yes,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,8.1,Walk,Medium,None,Yes,Sports,High
+7,24,Male,Charsadda,KPK,1.51,Weak,High (>250k),Intermediate,14,63,No,No,None,Frequent Outages,Private,Urdu,1.1,Car,High,Chronic,No,Clubs,High
+8,25,Male,Bhimber,Gilgit Baltistan,1.52,Weak,Middle (60k-120k),Matric,35,94,No,No,Laptop,Frequent Outages,Semi-Government,English,1.8,Car,Low,Minor,No,None,Low
+9,25,Male,Diamer,Punjab,1.52,Weak,Lower-Middle (30k-60k),Primary,10,59,No,Yes,Desktop,Frequent Outages,Public,Urdu,31.4,Bus,Medium,None,No,Sports,Low
+10,24,Female,Bahawalpur,KPK,1.52,Weak,Upper-Middle (120k-250k),Graduate,23,70,No,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,19.6,Walk,Medium,Chronic,Yes,Sports,Low
+11,23,Female,Multan,Azad Kashmir,1.52,Weak,Upper-Middle (120k-250k),Graduate,33,83,No,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,22.9,Bike,Low,None,No,None,High
+12,21,Female,Multan,KPK,1.53,Weak,High (>250k),Graduate,27,59,No,No,Desktop,Consistent,Private,English,33.7,Walk,Medium,Minor,Yes,Clubs,High
+13,17,Female,Bahawalpur,Punjab,1.53,Weak,High (>250k),Matric,18,99,Yes,No,Mobile,Frequent Outages,Public,Urdu,13.9,Car,Low,Minor,Yes,None,Medium
+14,24,Male,Skardu,KPK,1.53,Weak,Low (<30k),Primary,17,79,Yes,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,23.6,Van,Medium,Chronic,Yes,None,Low
+15,17,Male,Dir,Punjab,1.53,Weak,Low (<30k),Primary,22,88,Yes,No,Mobile,Frequent Outages,Semi-Government,English,34.7,Bus,Low,None,Yes,Sports,Low
+16,24,Female,Abbottabad,KPK,1.54,Weak,Middle (60k-120k),Intermediate,36,99,Yes,No,None,Frequent Outages,Public,English,15.7,Van,Low,None,No,Clubs,High
+17,23,Female,Diamer,Punjab,1.54,Weak,Upper-Middle (120k-250k),Intermediate,33,78,Yes,No,Mobile,Consistent,Semi-Government,English,20.9,Walk,Low,Minor,Yes,Sports,Medium
+18,20,Female,Skardu,Punjab,1.54,Weak,Middle (60k-120k),Primary,21,63,No,Yes,Mobile,Frequent Outages,Private,Urdu,34.7,Bus,Medium,Minor,Yes,Sports,Low
+19,22,Female,Gujranwala,Azad Kashmir,1.54,Weak,Low (<30k),Graduate,12,57,Yes,Yes,None,Consistent,Private,Urdu,16.0,Walk,High,Chronic,No,Clubs,Low
+20,25,Female,Rahim Yar Khan,Punjab,1.55,Weak,High (>250k),Graduate,17,69,No,Yes,Mobile,Consistent,Public,English,9.8,Bus,High,None,No,Sports,Low
+21,25,Female,Diamer,KPK,1.55,Weak,Lower-Middle (30k-60k),Intermediate,22,81,No,Yes,None,Consistent,Public,Urdu,26.2,Walk,Medium,None,No,Sports,High
+22,24,Male,Multan,Punjab,1.55,Weak,Middle (60k-120k),Postgraduate,11,70,Yes,Yes,Desktop,Consistent,Semi-Government,English,1.8,Van,Low,None,Yes,Clubs,High
+23,22,Female,Okara,KPK,1.55,Weak,Upper-Middle (120k-250k),Postgraduate,8,70,No,No,None,Frequent Outages,Semi-Government,Urdu,13.6,Van,Medium,Chronic,No,None,Medium
+24,17,Female,Okara,Punjab,1.56,Weak,Lower-Middle (30k-60k),Matric,34,87,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,9.2,Walk,High,Chronic,Yes,Clubs,Low
+25,17,Female,Muzaffarabad,Punjab,1.56,Weak,Middle (60k-120k),Matric,6,93,Yes,Yes,None,Frequent Outages,Private,Urdu,31.1,Van,Medium,None,No,Sports,Low
+26,19,Male,Sargodha,Punjab,1.56,Weak,Middle (60k-120k),Primary,24,83,Yes,Yes,None,Frequent Outages,Semi-Government,English,5.2,Bus,Low,Chronic,No,Clubs,High
+27,25,Female,Mardan,Punjab,1.56,Weak,High (>250k),Primary,32,79,Yes,Yes,Laptop,Consistent,Public,English,5.4,Van,Medium,Chronic,No,Clubs,Low
+28,23,Male,Kotli,Punjab,1.56,Weak,High (>250k),Intermediate,34,68,No,Yes,Mobile,Consistent,Semi-Government,English,32.5,Van,High,Minor,No,Sports,Low
+29,21,Female,Diamer,Azad Kashmir,1.57,Weak,Upper-Middle (120k-250k),Postgraduate,14,61,Yes,No,Mobile,Consistent,Private,English,20.4,Van,Medium,None,No,None,High
+30,24,Male,Diamer,KPK,1.57,Weak,Middle (60k-120k),Matric,17,71,No,Yes,None,Consistent,Private,English,21.3,Car,Low,None,No,Sports,High
+31,20,Male,Mardan,Punjab,1.57,Weak,Upper-Middle (120k-250k),Primary,38,72,Yes,Yes,Desktop,Consistent,Private,Urdu,20.1,Bike,High,Chronic,Yes,Clubs,High
+32,20,Female,Bannu,Gilgit Baltistan,1.57,Weak,High (>250k),Primary,23,59,No,Yes,Desktop,Consistent,Public,English,5.0,Bike,High,None,No,Clubs,Low
+33,25,Female,Skardu,Punjab,1.58,Weak,High (>250k),Intermediate,32,78,Yes,Yes,Laptop,Consistent,Semi-Government,Urdu,29.4,Van,Medium,Minor,No,Clubs,Low
+34,20,Female,Peshawar,Punjab,1.58,Weak,High (>250k),Graduate,21,96,Yes,Yes,Desktop,Consistent,Semi-Government,Urdu,7.6,Car,Medium,Minor,No,None,Low
+35,17,Female,Kotli,KPK,1.58,Weak,Upper-Middle (120k-250k),Postgraduate,38,83,Yes,Yes,None,Frequent Outages,Private,Urdu,31.6,Van,High,Minor,Yes,Sports,Medium
+36,18,Male,Bhimber,Punjab,1.58,Weak,Low (<30k),Graduate,23,89,Yes,Yes,Mobile,Frequent Outages,Public,Urdu,31.8,Car,High,None,No,None,Low
+37,17,Male,Diamer,KPK,1.59,Weak,Lower-Middle (30k-60k),Primary,21,57,Yes,Yes,Desktop,Frequent Outages,Public,English,5.0,Walk,Low,None,Yes,Sports,Medium
+38,17,Male,Okara,KPK,1.59,Weak,Lower-Middle (30k-60k),Primary,17,69,No,No,Laptop,Consistent,Public,Urdu,1.8,Bus,Medium,None,Yes,None,High
+39,23,Female,Skardu,Punjab,1.59,Weak,Low (<30k),Graduate,18,81,No,Yes,None,Consistent,Semi-Government,Urdu,0.7,Van,Low,None,No,None,High
+40,24,Male,Hunza,KPK,1.59,Weak,Lower-Middle (30k-60k),Primary,13,78,Yes,Yes,Desktop,Frequent Outages,Semi-Government,English,23.4,Van,Low,Chronic,Yes,Sports,Medium
+41,24,Female,Abbottabad,Azad Kashmir,1.6,Weak,Middle (60k-120k),Matric,21,94,No,Yes,Laptop,Frequent Outages,Private,English,22.8,Bus,High,Minor,No,None,Medium
+42,20,Female,Chiniot,Punjab,1.6,Weak,Upper-Middle (120k-250k),Intermediate,14,74,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,3.0,Bike,Low,Minor,Yes,Sports,Low
+43,17,Female,Lahore,Punjab,1.6,Weak,Middle (60k-120k),Intermediate,20,99,Yes,No,None,Frequent Outages,Public,English,18.6,Bike,Medium,Minor,Yes,Clubs,High
+44,24,Male,Mardan,Punjab,1.6,Weak,Lower-Middle (30k-60k),Intermediate,6,71,No,No,Desktop,Frequent Outages,Private,Urdu,21.5,Bike,Low,None,Yes,Sports,High
+45,24,Female,Peshawar,Azad Kashmir,1.61,Weak,High (>250k),Primary,35,92,No,Yes,None,Frequent Outages,Public,Urdu,23.7,Walk,Low,Minor,No,None,Low
+46,24,Female,Bahawalpur,KPK,1.61,Weak,Lower-Middle (30k-60k),Primary,15,82,Yes,No,None,Consistent,Semi-Government,Urdu,0.9,Bike,Low,None,Yes,Sports,High
+47,17,Female,Lahore,Punjab,1.61,Weak,Middle (60k-120k),Matric,10,94,No,Yes,Mobile,Frequent Outages,Private,Urdu,23.5,Van,High,Minor,No,Clubs,High
+48,22,Male,Okara,Gilgit Baltistan,1.61,Weak,High (>250k),Intermediate,27,77,Yes,No,Desktop,Consistent,Public,Urdu,16.2,Bus,High,None,No,None,Medium
+49,21,Male,Peshawar,KPK,1.62,Weak,Upper-Middle (120k-250k),Postgraduate,38,79,No,No,Mobile,Frequent Outages,Public,Urdu,14.3,Bike,Medium,None,Yes,Clubs,High
+50,20,Male,Chiniot,KPK,1.62,Weak,Middle (60k-120k),Graduate,7,73,Yes,No,None,Consistent,Public,English,22.5,Bus,Low,None,Yes,None,Medium
+51,18,Male,Peshawar,KPK,1.62,Weak,Middle (60k-120k),Graduate,28,95,Yes,No,None,Consistent,Private,Urdu,26.6,Car,Low,Minor,Yes,Clubs,Medium
+52,20,Male,Sialkot,Gilgit Baltistan,1.62,Weak,Upper-Middle (120k-250k),Intermediate,26,66,Yes,No,None,Frequent Outages,Semi-Government,Urdu,10.0,Walk,Low,Minor,Yes,Sports,Medium
+53,18,Male,Gilgit,Punjab,1.62,Weak,Lower-Middle (30k-60k),Graduate,32,99,No,Yes,Laptop,Frequent Outages,Public,English,23.7,Walk,High,Minor,Yes,None,Low
+54,20,Female,Kotli,Punjab,1.63,Weak,Upper-Middle (120k-250k),Intermediate,19,81,No,Yes,Desktop,Consistent,Semi-Government,English,3.8,Bike,Medium,Minor,No,None,High
+55,21,Female,Chiniot,Gilgit Baltistan,1.63,Weak,Lower-Middle (30k-60k),Intermediate,38,95,Yes,Yes,None,Consistent,Semi-Government,Urdu,5.0,Car,Low,None,Yes,None,Medium
+56,20,Female,Bannu,Punjab,1.63,Weak,High (>250k),Postgraduate,28,71,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,16.6,Van,Medium,Minor,No,None,Low
+57,18,Male,Hunza,Azad Kashmir,1.63,Weak,Low (<30k),Intermediate,17,55,No,No,Desktop,Consistent,Semi-Government,Urdu,5.5,Bus,Medium,Minor,No,None,Low
+58,22,Female,Mirpur,Punjab,1.64,Weak,Low (<30k),Graduate,15,72,Yes,No,Desktop,Consistent,Semi-Government,Urdu,21.2,Van,Medium,None,Yes,Clubs,Medium
+59,18,Female,Bannu,Punjab,1.64,Weak,Lower-Middle (30k-60k),Graduate,22,85,Yes,Yes,Desktop,Consistent,Public,Urdu,17.9,Van,Medium,None,No,None,Medium
+60,19,Male,Okara,KPK,1.64,Weak,Upper-Middle (120k-250k),Graduate,12,55,No,Yes,Laptop,Consistent,Semi-Government,Urdu,31.5,Walk,Medium,Chronic,No,Clubs,Low
+61,20,Male,Chiniot,Punjab,1.64,Weak,Low (<30k),Primary,20,58,No,No,None,Frequent Outages,Semi-Government,English,24.7,Bus,High,Minor,No,None,Low
+62,19,Male,Swat,KPK,1.65,Weak,High (>250k),Postgraduate,7,77,Yes,No,Laptop,Frequent Outages,Public,Urdu,9.5,Walk,Medium,Chronic,No,Clubs,High
+63,19,Male,Skardu,KPK,1.65,Weak,Upper-Middle (120k-250k),Intermediate,26,97,Yes,Yes,None,Frequent Outages,Public,Urdu,33.6,Car,High,None,Yes,Clubs,Low
+64,22,Male,Swat,KPK,1.65,Weak,Middle (60k-120k),Postgraduate,23,79,No,Yes,Mobile,Frequent Outages,Public,English,28.6,Van,Low,Chronic,No,Clubs,Low
+65,24,Female,Multan,Gilgit Baltistan,1.65,Weak,Lower-Middle (30k-60k),Matric,18,99,Yes,No,Mobile,Frequent Outages,Private,Urdu,9.3,Bike,Medium,Chronic,No,Sports,Medium
+66,20,Male,Okara,Punjab,1.66,Weak,High (>250k),Postgraduate,12,60,No,No,Mobile,Frequent Outages,Public,Urdu,32.8,Bike,High,None,No,Sports,Medium
+67,17,Male,Okara,Punjab,1.66,Weak,Low (<30k),Intermediate,20,97,Yes,Yes,Desktop,Consistent,Semi-Government,Urdu,33.0,Bike,Low,Minor,Yes,None,Medium
+68,20,Female,Gilgit,Punjab,1.66,Weak,Middle (60k-120k),Primary,29,65,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,4.2,Bus,Low,Minor,No,Clubs,Low
+69,21,Female,Bahawalpur,Punjab,1.66,Weak,High (>250k),Matric,18,98,Yes,No,Mobile,Consistent,Private,Urdu,24.2,Bus,Low,None,Yes,None,Low
+70,22,Male,Bhimber,Punjab,1.67,Weak,Upper-Middle (120k-250k),Intermediate,29,59,No,Yes,None,Consistent,Semi-Government,Urdu,21.7,Car,Medium,None,Yes,Clubs,Low
+71,20,Female,Diamer,Punjab,1.67,Weak,High (>250k),Primary,22,57,No,No,Mobile,Frequent Outages,Private,Urdu,34.7,Car,High,None,No,None,Low
+72,17,Female,Multan,Gilgit Baltistan,1.67,Weak,Middle (60k-120k),Postgraduate,25,84,No,Yes,Desktop,Frequent Outages,Semi-Government,English,32.8,Car,Low,Minor,No,Clubs,Low
+73,21,Male,Muzaffarabad,Gilgit Baltistan,1.67,Weak,Upper-Middle (120k-250k),Postgraduate,25,91,Yes,No,Desktop,Frequent Outages,Private,English,25.5,Car,Low,Chronic,Yes,Sports,Medium
+74,25,Male,Sialkot,Gilgit Baltistan,1.68,Weak,Upper-Middle (120k-250k),Intermediate,11,72,No,Yes,Laptop,Frequent Outages,Private,English,27.9,Walk,Medium,Minor,Yes,Sports,High
+75,23,Male,Skardu,Punjab,1.68,Weak,Low (<30k),Graduate,26,56,Yes,Yes,Laptop,Frequent Outages,Public,Urdu,18.6,Car,Medium,None,No,None,Medium
+76,24,Female,Okara,Azad Kashmir,1.68,Weak,Upper-Middle (120k-250k),Intermediate,7,70,Yes,No,Laptop,Frequent Outages,Semi-Government,English,33.2,Walk,Medium,None,No,None,Medium
+77,19,Female,Abbottabad,Punjab,1.68,Weak,Middle (60k-120k),Primary,13,96,Yes,Yes,None,Consistent,Semi-Government,English,23.7,Van,Low,None,No,None,High
+78,24,Male,Mansehra,Punjab,1.68,Weak,Middle (60k-120k),Primary,32,69,Yes,No,Mobile,Consistent,Public,Urdu,10.2,Van,Medium,None,Yes,None,Medium
+79,20,Male,Swat,Punjab,1.69,Weak,Middle (60k-120k),Graduate,35,97,Yes,No,Laptop,Consistent,Public,English,31.4,Walk,High,Minor,No,Clubs,High
+80,25,Male,Gujranwala,Punjab,1.69,Weak,Upper-Middle (120k-250k),Intermediate,37,91,Yes,No,Mobile,Consistent,Public,English,34.9,Van,High,Chronic,Yes,None,Medium
+81,23,Male,Bahawalpur,Punjab,1.69,Weak,Lower-Middle (30k-60k),Intermediate,22,59,Yes,Yes,Desktop,Consistent,Private,English,12.3,Walk,High,Chronic,Yes,Sports,Low
+82,23,Female,Muzaffarabad,Punjab,1.69,Weak,Middle (60k-120k),Postgraduate,36,61,Yes,Yes,None,Frequent Outages,Public,Urdu,13.2,Walk,Medium,None,Yes,None,Medium
+83,22,Male,Mirpur,KPK,1.7,Weak,High (>250k),Intermediate,14,87,No,No,None,Consistent,Semi-Government,English,15.4,Van,High,Minor,Yes,None,Low
+84,23,Female,Okara,Azad Kashmir,1.7,Weak,Middle (60k-120k),Intermediate,33,59,No,No,Laptop,Frequent Outages,Semi-Government,English,31.0,Bike,Low,Minor,No,Sports,Low
+85,22,Female,Abbottabad,Azad Kashmir,1.7,Weak,Upper-Middle (120k-250k),Primary,23,74,No,Yes,Laptop,Frequent Outages,Public,English,16.3,Bike,Low,None,No,Sports,High
+86,24,Male,Swat,Punjab,1.7,Weak,Upper-Middle (120k-250k),Graduate,30,56,No,Yes,None,Frequent Outages,Private,Urdu,10.6,Van,Low,None,Yes,Sports,Medium
+87,18,Male,Muzaffarabad,KPK,1.71,Weak,Upper-Middle (120k-250k),Primary,38,84,No,No,None,Frequent Outages,Semi-Government,Urdu,23.8,Van,Low,None,Yes,None,Medium
+88,22,Female,Abbottabad,Punjab,1.71,Weak,Upper-Middle (120k-250k),Graduate,29,64,No,Yes,Mobile,Frequent Outages,Private,Urdu,0.7,Bus,Medium,Minor,No,None,Low
+89,21,Female,Sargodha,Punjab,1.71,Weak,High (>250k),Matric,27,86,Yes,Yes,Laptop,Consistent,Public,Urdu,22.1,Bus,Medium,Chronic,Yes,Sports,High
+90,21,Female,Mirpur,Punjab,1.71,Weak,Middle (60k-120k),Intermediate,19,88,Yes,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,16.9,Bus,Low,None,Yes,None,Medium
+91,17,Male,Dir,KPK,1.72,Weak,Lower-Middle (30k-60k),Matric,34,89,No,No,None,Consistent,Public,English,25.9,Car,Low,Minor,Yes,Sports,Low
+92,23,Male,Gilgit,Punjab,1.72,Weak,Low (<30k),Primary,8,82,No,No,Desktop,Frequent Outages,Semi-Government,English,31.0,Bus,Medium,Chronic,Yes,None,Medium
+93,19,Female,Kotli,KPK,1.72,Weak,Low (<30k),Matric,17,75,Yes,Yes,Mobile,Consistent,Public,English,11.8,Bus,Low,Chronic,No,Clubs,Medium
+94,23,Female,Bannu,Punjab,1.72,Weak,Low (<30k),Primary,34,69,Yes,Yes,Mobile,Frequent Outages,Public,Urdu,1.7,Bus,Low,None,Yes,Sports,Medium
+95,25,Male,Lahore,Punjab,1.73,Weak,High (>250k),Graduate,21,78,No,Yes,Laptop,Frequent Outages,Private,Urdu,4.3,Walk,High,Chronic,Yes,None,Low
+96,19,Female,Dir,Gilgit Baltistan,1.73,Weak,High (>250k),Intermediate,30,80,Yes,Yes,None,Frequent Outages,Public,English,5.7,Bus,High,None,Yes,None,Low
+97,21,Male,Rahim Yar Khan,KPK,1.73,Weak,Upper-Middle (120k-250k),Matric,18,98,Yes,Yes,Laptop,Consistent,Public,English,32.6,Bike,High,None,No,Sports,Medium
+98,18,Male,Skardu,KPK,1.73,Weak,Lower-Middle (30k-60k),Primary,33,66,No,No,Desktop,Consistent,Public,Urdu,30.3,Bike,High,None,Yes,None,High
+99,23,Male,Mansehra,Punjab,1.74,Weak,Lower-Middle (30k-60k),Matric,11,64,No,No,Mobile,Consistent,Public,Urdu,9.3,Car,Low,None,Yes,Sports,High
+100,18,Female,Chiniot,KPK,1.74,Weak,Middle (60k-120k),Graduate,15,78,Yes,No,None,Consistent,Public,English,22.1,Bus,High,None,No,Clubs,High
+101,22,Female,Mardan,Gilgit Baltistan,1.74,Weak,Low (<30k),Intermediate,38,58,No,No,Mobile,Frequent Outages,Private,Urdu,15.3,Car,Low,None,Yes,Sports,High
+102,18,Male,Bahawalpur,Gilgit Baltistan,1.74,Weak,Low (<30k),Matric,24,74,No,No,Desktop,Frequent Outages,Private,English,16.7,Walk,High,Chronic,Yes,None,Medium
+103,23,Female,Gilgit,Azad Kashmir,1.75,Weak,High (>250k),Matric,17,82,Yes,No,Laptop,Frequent Outages,Semi-Government,Urdu,28.3,Van,High,Chronic,No,Sports,Low
+104,25,Male,Sargodha,Azad Kashmir,1.75,Weak,Middle (60k-120k),Intermediate,26,78,No,Yes,Mobile,Consistent,Public,English,7.7,Walk,High,None,Yes,Clubs,Low
+105,23,Male,Okara,Gilgit Baltistan,1.75,Weak,Low (<30k),Primary,17,96,No,Yes,Mobile,Consistent,Private,English,34.4,Bus,Low,Chronic,Yes,None,Medium
+106,22,Male,Peshawar,Gilgit Baltistan,1.75,Weak,Middle (60k-120k),Graduate,7,55,Yes,No,Mobile,Frequent Outages,Public,Urdu,16.0,Car,High,None,No,None,Low
+107,24,Female,Mirpur,Azad Kashmir,1.75,Weak,Middle (60k-120k),Matric,20,68,No,No,Mobile,Frequent Outages,Semi-Government,Urdu,29.6,Bike,Low,None,Yes,Clubs,Low
+108,22,Female,Multan,Punjab,1.76,Weak,Lower-Middle (30k-60k),Primary,17,76,No,No,Laptop,Frequent Outages,Semi-Government,English,11.7,Van,Low,Chronic,No,Clubs,High
+109,21,Male,Muzaffarabad,Punjab,1.76,Weak,Low (<30k),Graduate,12,61,Yes,Yes,Mobile,Consistent,Semi-Government,Urdu,19.9,Car,Low,Minor,Yes,Clubs,Low
+110,23,Male,Skardu,KPK,1.76,Weak,Low (<30k),Matric,16,76,No,No,Desktop,Consistent,Semi-Government,Urdu,3.5,Walk,Low,Minor,Yes,None,Low
+111,25,Female,Abbottabad,KPK,1.76,Weak,High (>250k),Primary,23,77,Yes,Yes,Laptop,Consistent,Public,English,17.4,Car,Medium,Minor,Yes,Sports,High
+112,18,Female,Muzaffarabad,Punjab,1.77,Weak,Lower-Middle (30k-60k),Graduate,12,72,No,Yes,Desktop,Frequent Outages,Private,Urdu,10.6,Bike,Medium,Chronic,Yes,Clubs,Low
+113,22,Female,Gilgit,Azad Kashmir,1.77,Weak,Low (<30k),Postgraduate,19,60,Yes,Yes,Mobile,Consistent,Semi-Government,English,13.6,Bike,Medium,Chronic,No,Sports,Low
+114,22,Female,Kotli,KPK,1.77,Weak,Lower-Middle (30k-60k),Graduate,10,58,No,No,Mobile,Consistent,Public,English,29.6,Bus,High,Chronic,No,Sports,Low
+115,25,Female,Swat,Punjab,1.77,Weak,Lower-Middle (30k-60k),Postgraduate,7,57,Yes,No,Mobile,Frequent Outages,Private,Urdu,33.6,Bus,Low,Chronic,No,Sports,High
+116,20,Male,Diamer,Azad Kashmir,1.78,Weak,Upper-Middle (120k-250k),Intermediate,15,64,No,No,Mobile,Consistent,Semi-Government,English,6.1,Bike,Low,Chronic,No,Clubs,High
+117,24,Male,Bannu,KPK,1.78,Weak,High (>250k),Matric,37,84,No,No,Mobile,Frequent Outages,Private,Urdu,28.4,Van,Low,None,Yes,None,Medium
+118,24,Male,Lahore,KPK,1.78,Weak,Middle (60k-120k),Graduate,20,66,Yes,Yes,Laptop,Consistent,Public,Urdu,29.9,Van,Low,Chronic,No,None,Low
+119,21,Female,Mirpur,KPK,1.78,Weak,High (>250k),Intermediate,27,55,No,No,Desktop,Consistent,Public,Urdu,23.0,Walk,High,Chronic,Yes,Sports,Low
+120,24,Female,Sialkot,KPK,1.79,Weak,Middle (60k-120k),Intermediate,15,56,No,No,Desktop,Consistent,Public,English,12.9,Bike,Medium,Minor,No,None,Medium
+121,22,Male,Skardu,Punjab,1.79,Weak,Middle (60k-120k),Graduate,26,71,No,Yes,Mobile,Frequent Outages,Private,Urdu,25.8,Bus,Low,Minor,Yes,Clubs,Low
+122,23,Female,Kotli,Punjab,1.79,Weak,Low (<30k),Postgraduate,26,63,No,Yes,Laptop,Frequent Outages,Public,English,0.7,Walk,Low,Minor,Yes,None,Medium
+123,19,Female,Diamer,Punjab,1.79,Weak,Lower-Middle (30k-60k),Postgraduate,10,78,No,Yes,None,Consistent,Private,Urdu,1.0,Walk,Low,Minor,Yes,Sports,Medium
+124,17,Female,Sargodha,KPK,1.8,Weak,Lower-Middle (30k-60k),Graduate,15,79,Yes,Yes,Mobile,Consistent,Semi-Government,English,5.4,Bike,Low,None,Yes,None,Low
+125,22,Male,Swat,KPK,1.8,Weak,Lower-Middle (30k-60k),Graduate,20,55,Yes,Yes,None,Frequent Outages,Semi-Government,English,33.0,Car,High,Chronic,No,Sports,Medium
+126,20,Female,Sargodha,KPK,1.8,Weak,Low (<30k),Postgraduate,26,98,No,No,None,Consistent,Semi-Government,English,4.0,Van,High,None,No,Sports,High
+127,17,Male,Rahim Yar Khan,KPK,1.8,Weak,Low (<30k),Intermediate,15,99,Yes,No,Laptop,Consistent,Private,Urdu,15.3,Bus,Medium,None,Yes,None,High
+128,22,Male,Mardan,Gilgit Baltistan,1.81,Weak,Upper-Middle (120k-250k),Postgraduate,14,59,Yes,Yes,Desktop,Frequent Outages,Public,Urdu,11.4,Walk,High,Minor,No,Sports,Low
+129,24,Female,Charsadda,Punjab,1.81,Weak,High (>250k),Postgraduate,30,56,Yes,Yes,Laptop,Frequent Outages,Private,English,34.4,Van,Low,Chronic,No,Clubs,Low
+130,18,Male,Mardan,KPK,1.81,Weak,High (>250k),Postgraduate,37,80,No,No,Laptop,Consistent,Public,English,4.6,Walk,Medium,None,No,Sports,Medium
+131,25,Male,Charsadda,Punjab,1.81,Weak,Middle (60k-120k),Primary,29,90,Yes,Yes,Desktop,Frequent Outages,Semi-Government,English,26.3,Car,Medium,Minor,No,Sports,High
+132,21,Female,Bahawalpur,KPK,1.81,Weak,Lower-Middle (30k-60k),Postgraduate,31,64,Yes,No,None,Consistent,Private,Urdu,13.6,Car,Low,None,No,None,Low
+133,17,Male,Sialkot,KPK,1.82,Weak,Lower-Middle (30k-60k),Primary,37,96,Yes,No,None,Consistent,Semi-Government,English,30.6,Van,Medium,Minor,Yes,None,Medium
+134,19,Female,Sargodha,Gilgit Baltistan,1.82,Weak,Middle (60k-120k),Primary,38,59,No,Yes,None,Consistent,Semi-Government,Urdu,17.6,Van,Low,Chronic,Yes,Sports,High
+135,17,Female,Mansehra,Gilgit Baltistan,1.82,Weak,Middle (60k-120k),Intermediate,13,61,No,Yes,Mobile,Consistent,Semi-Government,Urdu,12.1,Walk,High,None,Yes,Sports,Low
+136,24,Male,Kotli,Gilgit Baltistan,1.82,Weak,High (>250k),Graduate,23,97,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,32.6,Van,High,Minor,Yes,Clubs,Medium
+137,23,Female,Hunza,Gilgit Baltistan,1.83,Weak,Middle (60k-120k),Graduate,6,63,No,No,Desktop,Consistent,Semi-Government,English,33.8,Walk,High,Minor,No,Clubs,High
+138,19,Male,Mirpur,KPK,1.83,Weak,Middle (60k-120k),Primary,10,59,No,Yes,None,Consistent,Semi-Government,English,23.8,Walk,High,None,No,Clubs,High
+139,22,Female,Hunza,Punjab,1.83,Weak,Middle (60k-120k),Postgraduate,36,78,Yes,No,Mobile,Consistent,Semi-Government,English,24.5,Bus,Low,Minor,No,None,Low
+140,18,Female,Sargodha,KPK,1.83,Weak,Middle (60k-120k),Postgraduate,18,72,Yes,Yes,Desktop,Frequent Outages,Public,Urdu,6.7,Car,Medium,None,No,Clubs,High
+141,17,Male,Swat,Punjab,1.84,Weak,Lower-Middle (30k-60k),Primary,6,58,Yes,No,Desktop,Consistent,Public,Urdu,2.7,Walk,Low,Chronic,Yes,None,Medium
+142,17,Female,Muzaffarabad,KPK,1.84,Weak,Low (<30k),Matric,15,66,Yes,No,Laptop,Consistent,Public,English,22.3,Van,High,Minor,No,Sports,Medium
+143,18,Female,Bannu,KPK,1.84,Weak,High (>250k),Postgraduate,38,96,Yes,No,Laptop,Frequent Outages,Semi-Government,Urdu,14.9,Car,Medium,Chronic,No,Sports,Low
+144,18,Male,Bahawalpur,KPK,1.84,Weak,Upper-Middle (120k-250k),Intermediate,26,61,No,No,None,Frequent Outages,Semi-Government,English,17.7,Bus,Low,Minor,Yes,None,High
+145,22,Male,Chiniot,KPK,1.85,Weak,Middle (60k-120k),Intermediate,24,73,Yes,No,Desktop,Frequent Outages,Private,English,29.0,Van,High,Minor,Yes,Sports,High
+146,20,Female,Abbottabad,KPK,1.85,Weak,Low (<30k),Primary,34,58,No,Yes,None,Frequent Outages,Semi-Government,English,16.7,Bike,High,None,Yes,Clubs,Low
+147,19,Male,Abbottabad,Azad Kashmir,1.85,Weak,High (>250k),Graduate,14,81,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,30.2,Van,Low,Minor,No,Clubs,Medium
+148,17,Female,Skardu,Punjab,1.85,Weak,High (>250k),Matric,14,96,Yes,Yes,Desktop,Consistent,Semi-Government,Urdu,14.0,Bus,Low,None,Yes,Clubs,Medium
+149,21,Male,Bahawalpur,KPK,1.86,Weak,Lower-Middle (30k-60k),Primary,10,60,No,No,Desktop,Consistent,Public,English,31.9,Van,High,None,Yes,Sports,Low
+150,25,Male,Dir,KPK,1.86,Weak,High (>250k),Primary,25,86,Yes,No,None,Consistent,Private,Urdu,18.0,Car,Low,None,Yes,None,High
+151,24,Female,Dir,KPK,1.86,Weak,Middle (60k-120k),Intermediate,8,88,Yes,No,None,Frequent Outages,Public,English,9.7,Van,Low,None,Yes,Clubs,High
+152,18,Male,Multan,KPK,1.86,Weak,Upper-Middle (120k-250k),Primary,30,81,No,Yes,Desktop,Consistent,Semi-Government,English,7.5,Bus,High,Chronic,No,Sports,Low
+153,21,Female,Abbottabad,KPK,1.87,Weak,Middle (60k-120k),Primary,10,56,Yes,Yes,None,Consistent,Public,English,3.3,Bike,Medium,Chronic,Yes,Clubs,Medium
+154,20,Female,Sialkot,KPK,1.87,Weak,Middle (60k-120k),Intermediate,18,73,Yes,Yes,Mobile,Frequent Outages,Private,Urdu,24.8,Bike,High,Chronic,No,None,Low
+155,23,Female,Mardan,KPK,1.87,Weak,Middle (60k-120k),Intermediate,15,82,Yes,Yes,None,Consistent,Private,Urdu,11.6,Bike,Medium,None,Yes,Sports,High
+156,24,Male,Swat,Gilgit Baltistan,1.87,Weak,High (>250k),Primary,10,88,Yes,Yes,Laptop,Frequent Outages,Public,Urdu,12.3,Car,High,None,No,None,Low
+157,18,Male,Bannu,Punjab,1.87,Weak,Middle (60k-120k),Graduate,32,94,No,Yes,Mobile,Frequent Outages,Private,English,23.1,Van,Low,Minor,Yes,Clubs,Medium
+158,17,Male,Gujranwala,Azad Kashmir,1.88,Weak,Upper-Middle (120k-250k),Intermediate,18,72,No,Yes,None,Consistent,Public,Urdu,34.5,Van,High,Minor,No,None,Medium
+159,19,Female,Hunza,Punjab,1.88,Weak,Lower-Middle (30k-60k),Postgraduate,28,97,No,No,Desktop,Consistent,Public,Urdu,15.0,Van,High,None,No,Clubs,Medium
+160,24,Male,Swat,Punjab,1.88,Weak,Upper-Middle (120k-250k),Postgraduate,31,90,Yes,No,Laptop,Frequent Outages,Public,English,11.9,Walk,High,None,No,Sports,Low
+161,17,Male,Okara,Gilgit Baltistan,1.88,Weak,Lower-Middle (30k-60k),Matric,13,97,No,No,Desktop,Frequent Outages,Public,Urdu,18.5,Bus,Medium,Chronic,Yes,None,High
+162,17,Male,Bhimber,Punjab,1.89,Weak,Upper-Middle (120k-250k),Intermediate,28,77,No,No,Laptop,Frequent Outages,Semi-Government,English,6.6,Car,High,None,Yes,Sports,Low
+163,25,Female,Okara,Azad Kashmir,1.89,Weak,Upper-Middle (120k-250k),Postgraduate,33,86,Yes,Yes,Laptop,Frequent Outages,Public,English,18.4,Van,High,None,No,Sports,Medium
+164,19,Male,Chiniot,Azad Kashmir,1.89,Weak,High (>250k),Matric,21,80,Yes,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,30.0,Bike,Low,None,No,Clubs,High
+165,17,Male,Muzaffarabad,KPK,1.89,Weak,High (>250k),Postgraduate,31,72,No,No,None,Consistent,Private,Urdu,4.2,Bus,High,Chronic,Yes,None,Low
+166,22,Male,Sargodha,Punjab,1.9,Weak,Lower-Middle (30k-60k),Graduate,30,78,No,Yes,Desktop,Frequent Outages,Private,English,7.8,Car,High,Chronic,No,Clubs,Low
+167,22,Male,Sialkot,Azad Kashmir,1.9,Weak,Lower-Middle (30k-60k),Intermediate,26,59,Yes,Yes,None,Consistent,Private,English,12.8,Van,High,None,No,Clubs,Medium
+168,17,Male,Skardu,Azad Kashmir,1.9,Weak,Upper-Middle (120k-250k),Graduate,25,62,Yes,Yes,None,Consistent,Semi-Government,English,12.3,Bus,Low,None,Yes,Sports,High
+169,17,Male,Kotli,KPK,1.9,Weak,Lower-Middle (30k-60k),Postgraduate,14,94,No,Yes,Desktop,Frequent Outages,Private,English,12.4,Bike,Medium,Chronic,Yes,Sports,High
+170,25,Male,Bahawalpur,KPK,1.91,Weak,Middle (60k-120k),Primary,19,76,Yes,Yes,Mobile,Frequent Outages,Public,Urdu,9.4,Bike,Medium,Minor,No,Clubs,Medium
+171,21,Male,Gujranwala,Gilgit Baltistan,1.91,Weak,Middle (60k-120k),Postgraduate,11,61,No,No,Laptop,Frequent Outages,Public,Urdu,32.9,Bike,High,None,Yes,None,Low
+172,22,Female,Swat,KPK,1.91,Weak,High (>250k),Intermediate,36,73,No,Yes,Laptop,Consistent,Private,English,2.9,Van,Medium,Minor,No,Clubs,Low
+173,18,Female,Sialkot,Azad Kashmir,1.91,Weak,High (>250k),Primary,29,77,No,Yes,Laptop,Consistent,Private,English,19.1,Van,High,None,Yes,None,Medium
+174,21,Male,Sialkot,Azad Kashmir,1.92,Weak,Lower-Middle (30k-60k),Primary,10,80,No,No,Mobile,Frequent Outages,Private,English,13.8,Bike,Medium,Chronic,Yes,Sports,High
+175,17,Male,Kotli,Punjab,1.92,Weak,High (>250k),Postgraduate,8,75,Yes,Yes,Mobile,Consistent,Public,Urdu,27.4,Van,Low,Minor,No,Clubs,High
+176,24,Male,Diamer,KPK,1.92,Weak,Lower-Middle (30k-60k),Postgraduate,25,88,No,No,Desktop,Frequent Outages,Public,Urdu,17.1,Bus,Medium,None,No,None,Low
+177,19,Female,Swat,Azad Kashmir,1.92,Weak,Upper-Middle (120k-250k),Postgraduate,23,63,No,No,Desktop,Consistent,Public,Urdu,23.6,Bus,Low,Chronic,Yes,Clubs,Low
+178,17,Male,Sialkot,KPK,1.93,Weak,Low (<30k),Graduate,24,56,No,No,Desktop,Consistent,Public,Urdu,25.2,Car,Medium,Minor,No,Clubs,Low
+179,20,Female,Mirpur,KPK,1.93,Weak,Upper-Middle (120k-250k),Graduate,16,91,No,Yes,Laptop,Consistent,Private,Urdu,5.6,Bus,High,Chronic,Yes,None,High
+180,25,Female,Bhimber,Gilgit Baltistan,1.93,Weak,Low (<30k),Matric,18,80,No,Yes,Desktop,Consistent,Private,Urdu,32.6,Bus,Low,Minor,Yes,Clubs,Medium
+181,20,Female,Bahawalpur,Punjab,1.93,Weak,Low (<30k),Graduate,39,72,Yes,Yes,None,Frequent Outages,Semi-Government,English,23.7,Van,Medium,None,Yes,Sports,Low
+182,24,Male,Gilgit,Gilgit Baltistan,1.93,Weak,High (>250k),Intermediate,17,55,Yes,No,Laptop,Frequent Outages,Semi-Government,Urdu,10.5,Bus,Low,None,No,Sports,Low
+183,18,Male,Mardan,Gilgit Baltistan,1.94,Weak,Middle (60k-120k),Matric,26,68,Yes,Yes,Laptop,Frequent Outages,Private,English,7.3,Bus,High,Chronic,No,Clubs,Medium
+184,17,Female,Mardan,Punjab,1.94,Weak,Lower-Middle (30k-60k),Matric,25,62,No,Yes,Desktop,Frequent Outages,Public,English,9.6,Bus,Medium,None,Yes,Sports,High
+185,18,Female,Okara,Gilgit Baltistan,1.94,Weak,High (>250k),Postgraduate,25,85,No,Yes,Laptop,Frequent Outages,Public,English,13.5,Bus,Low,None,No,Sports,Medium
+186,21,Female,Sargodha,Punjab,1.94,Weak,Upper-Middle (120k-250k),Intermediate,25,58,No,Yes,Mobile,Consistent,Semi-Government,English,32.6,Van,Medium,Minor,Yes,None,Low
+187,23,Male,Bahawalpur,Punjab,1.95,Weak,Middle (60k-120k),Matric,36,59,Yes,No,None,Consistent,Semi-Government,Urdu,10.8,Walk,High,Chronic,Yes,None,Medium
+188,18,Male,Rahim Yar Khan,Gilgit Baltistan,1.95,Weak,Middle (60k-120k),Intermediate,8,86,Yes,No,None,Consistent,Private,English,32.6,Walk,Low,None,Yes,Sports,Low
+189,17,Male,Skardu,KPK,1.95,Weak,Lower-Middle (30k-60k),Intermediate,28,55,No,Yes,Mobile,Consistent,Semi-Government,English,16.3,Car,High,Minor,Yes,Clubs,Low
+190,18,Male,Bannu,KPK,1.95,Weak,Middle (60k-120k),Postgraduate,22,67,Yes,Yes,None,Consistent,Private,Urdu,19.7,Bus,Low,Chronic,Yes,Clubs,Low
+191,17,Male,Sialkot,Punjab,1.96,Weak,Middle (60k-120k),Graduate,12,84,Yes,Yes,Mobile,Consistent,Semi-Government,English,5.8,Car,Low,Minor,No,Clubs,High
+192,18,Female,Peshawar,Gilgit Baltistan,1.96,Weak,Low (<30k),Graduate,25,63,Yes,Yes,Desktop,Consistent,Private,Urdu,33.6,Walk,Medium,None,No,None,Medium
+193,25,Male,Muzaffarabad,Punjab,1.96,Weak,Low (<30k),Postgraduate,37,72,No,No,Laptop,Frequent Outages,Semi-Government,Urdu,1.9,Walk,High,Chronic,Yes,Clubs,High
+194,21,Male,Chiniot,Gilgit Baltistan,1.96,Weak,High (>250k),Primary,23,82,No,Yes,Laptop,Consistent,Private,English,25.1,Car,High,Minor,No,None,Low
+195,18,Female,Muzaffarabad,KPK,1.97,Weak,High (>250k),Intermediate,19,65,No,No,None,Consistent,Semi-Government,Urdu,26.0,Walk,Low,Minor,Yes,Sports,High
+196,23,Male,Lahore,KPK,1.97,Weak,Upper-Middle (120k-250k),Graduate,23,71,Yes,Yes,Desktop,Frequent Outages,Private,English,6.3,Bike,Low,Chronic,No,None,Medium
+197,25,Female,Faisalabad,Punjab,1.97,Weak,Middle (60k-120k),Postgraduate,37,84,No,Yes,None,Frequent Outages,Semi-Government,Urdu,32.6,Bike,Low,None,Yes,None,Medium
+198,22,Female,Chiniot,Punjab,1.97,Weak,High (>250k),Postgraduate,17,74,No,No,Laptop,Consistent,Private,Urdu,17.1,Bike,Low,Chronic,Yes,Clubs,High
+199,19,Female,Mansehra,Gilgit Baltistan,1.98,Weak,Upper-Middle (120k-250k),Graduate,13,77,Yes,No,Laptop,Consistent,Private,English,2.2,Van,High,Minor,Yes,None,High
+200,21,Male,Kotli,Gilgit Baltistan,1.98,Weak,Middle (60k-120k),Matric,21,76,Yes,No,Desktop,Consistent,Semi-Government,Urdu,9.3,Bus,Low,Minor,Yes,Clubs,Medium
+201,24,Female,Diamer,Azad Kashmir,1.98,Weak,Low (<30k),Matric,35,95,No,No,Desktop,Frequent Outages,Public,English,34.5,Walk,Low,Minor,Yes,Sports,High
+202,21,Male,Chiniot,KPK,1.98,Weak,Low (<30k),Primary,21,82,Yes,Yes,Laptop,Consistent,Private,Urdu,6.8,Van,Medium,Minor,No,Clubs,High
+203,18,Female,Gujranwala,Punjab,1.99,Weak,Upper-Middle (120k-250k),Primary,23,77,Yes,No,Laptop,Consistent,Semi-Government,Urdu,1.3,Bike,Low,None,No,Sports,High
+204,19,Male,Swat,KPK,1.99,Weak,Low (<30k),Matric,10,57,No,No,Laptop,Frequent Outages,Private,Urdu,15.1,Walk,Medium,Chronic,No,Sports,High
+205,25,Male,Peshawar,Azad Kashmir,1.99,Weak,Low (<30k),Intermediate,37,69,Yes,Yes,Laptop,Consistent,Public,English,33.4,Van,High,Minor,Yes,Sports,Low
+206,22,Male,Lahore,Azad Kashmir,1.99,Weak,Low (<30k),Graduate,20,65,Yes,No,Mobile,Frequent Outages,Private,English,8.5,Walk,Low,None,No,Sports,High
+207,19,Female,Gujranwala,Punjab,1.99,Weak,Upper-Middle (120k-250k),Primary,27,63,No,Yes,Mobile,Frequent Outages,Private,English,34.3,Bus,Medium,Minor,Yes,None,High
+208,23,Male,Sialkot,Punjab,2.0,Weak,Low (<30k),Matric,17,97,Yes,Yes,Mobile,Frequent Outages,Private,Urdu,30.7,Bike,Low,Minor,Yes,None,High
+209,19,Female,Swat,Punjab,2.0,Weak,Lower-Middle (30k-60k),Intermediate,6,94,Yes,No,Mobile,Consistent,Public,English,30.2,Bus,Medium,Chronic,No,Clubs,Low
+210,22,Male,Faisalabad,Punjab,2.0,Weak,High (>250k),Primary,13,96,No,No,Laptop,Consistent,Private,Urdu,20.7,Walk,Medium,Chronic,Yes,None,High
+211,24,Female,Bannu,Azad Kashmir,2.0,Weak,Low (<30k),Postgraduate,26,97,No,Yes,Desktop,Consistent,Private,Urdu,10.2,Bus,High,Chronic,Yes,None,Medium
+212,24,Female,Muzaffarabad,Punjab,2.01,Weak,Lower-Middle (30k-60k),Matric,27,79,No,No,None,Consistent,Private,Urdu,21.1,Car,High,None,Yes,Sports,Low
+213,22,Male,Sargodha,Punjab,2.01,Weak,Upper-Middle (120k-250k),Primary,19,74,Yes,Yes,Desktop,Consistent,Private,Urdu,31.1,Bus,High,Minor,No,Clubs,Medium
+214,22,Female,Bhimber,Punjab,2.01,Weak,High (>250k),Graduate,14,83,No,No,Desktop,Consistent,Private,English,12.8,Car,Low,Minor,Yes,Clubs,High
+215,23,Male,Charsadda,KPK,2.01,Weak,Lower-Middle (30k-60k),Postgraduate,25,98,No,No,Desktop,Consistent,Public,English,14.4,Bike,Medium,None,No,None,Medium
+216,17,Male,Dir,KPK,2.02,Weak,High (>250k),Matric,21,74,Yes,No,Desktop,Consistent,Private,Urdu,13.2,Van,Medium,Minor,Yes,None,Low
+217,23,Female,Bhimber,KPK,2.02,Weak,Upper-Middle (120k-250k),Intermediate,23,60,Yes,No,None,Frequent Outages,Semi-Government,English,2.8,Van,Low,Chronic,Yes,Sports,Medium
+218,21,Female,Chiniot,Azad Kashmir,2.02,Weak,Low (<30k),Postgraduate,23,61,Yes,Yes,Desktop,Frequent Outages,Private,Urdu,27.3,Walk,Medium,None,No,None,Low
+219,23,Female,Diamer,Punjab,2.02,Weak,Low (<30k),Primary,29,80,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,5.9,Van,High,Minor,Yes,None,High
+220,19,Male,Sargodha,KPK,2.03,Weak,High (>250k),Postgraduate,27,62,No,Yes,None,Consistent,Private,Urdu,17.0,Car,High,Chronic,No,Sports,Medium
+221,23,Female,Okara,Azad Kashmir,2.03,Weak,Upper-Middle (120k-250k),Graduate,11,76,No,No,Laptop,Consistent,Private,Urdu,25.9,Bus,Low,Minor,Yes,None,High
+222,25,Female,Bhimber,Azad Kashmir,2.03,Weak,Middle (60k-120k),Postgraduate,6,76,No,Yes,Desktop,Consistent,Semi-Government,English,26.2,Walk,High,Minor,Yes,None,Low
+223,24,Male,Bahawalpur,KPK,2.03,Weak,Low (<30k),Graduate,18,97,No,No,Laptop,Frequent Outages,Private,Urdu,30.6,Van,High,None,Yes,Sports,Medium
+224,17,Male,Mirpur,Punjab,2.04,Weak,Upper-Middle (120k-250k),Postgraduate,9,93,Yes,Yes,Desktop,Consistent,Public,Urdu,24.2,Bus,Medium,None,Yes,Sports,High
+225,22,Female,Diamer,KPK,2.04,Weak,Upper-Middle (120k-250k),Matric,35,83,No,Yes,Mobile,Frequent Outages,Private,English,29.5,Car,Low,Chronic,No,Clubs,Medium
+226,25,Male,Multan,Punjab,2.04,Weak,Middle (60k-120k),Matric,28,89,Yes,No,Mobile,Consistent,Public,Urdu,4.7,Car,High,Minor,Yes,Sports,Medium
+227,24,Female,Lahore,Gilgit Baltistan,2.04,Weak,Lower-Middle (30k-60k),Intermediate,18,69,No,Yes,None,Consistent,Public,English,11.9,Bike,Low,Minor,Yes,Clubs,Medium
+228,24,Male,Charsadda,Punjab,2.05,Weak,High (>250k),Intermediate,20,64,No,No,Laptop,Consistent,Public,Urdu,5.4,Bike,Low,None,Yes,Clubs,High
+229,23,Male,Charsadda,Punjab,2.05,Weak,Lower-Middle (30k-60k),Postgraduate,31,94,Yes,No,None,Frequent Outages,Private,Urdu,11.2,Bus,High,None,No,Sports,Medium
+230,19,Female,Sialkot,Punjab,2.05,Weak,Low (<30k),Graduate,6,56,No,Yes,None,Consistent,Semi-Government,English,1.3,Bike,Medium,Minor,No,Sports,High
+231,22,Female,Bannu,Azad Kashmir,2.05,Weak,Upper-Middle (120k-250k),Postgraduate,16,80,Yes,Yes,None,Consistent,Private,English,11.9,Bike,High,Chronic,Yes,None,Medium
+232,23,Female,Mirpur,KPK,2.05,Weak,Upper-Middle (120k-250k),Postgraduate,14,64,No,Yes,None,Frequent Outages,Private,English,28.1,Bus,High,Chronic,Yes,None,Medium
+233,18,Male,Bahawalpur,Gilgit Baltistan,2.06,Weak,Upper-Middle (120k-250k),Graduate,9,57,Yes,No,None,Consistent,Public,Urdu,20.9,Bike,High,Minor,No,Sports,High
+234,20,Female,Bannu,KPK,2.06,Weak,High (>250k),Postgraduate,24,57,No,Yes,Mobile,Frequent Outages,Public,English,7.6,Van,Low,Minor,No,Sports,Low
+235,21,Male,Okara,KPK,2.06,Weak,Low (<30k),Matric,10,86,No,Yes,Desktop,Consistent,Public,English,22.7,Walk,Low,None,Yes,Clubs,Low
+236,17,Female,Faisalabad,Punjab,2.06,Weak,Upper-Middle (120k-250k),Intermediate,35,96,Yes,No,Laptop,Consistent,Semi-Government,English,22.8,Walk,High,None,No,Sports,Medium
+237,20,Male,Mardan,Punjab,2.07,Weak,High (>250k),Postgraduate,7,62,No,No,None,Consistent,Private,English,17.9,Bus,Medium,None,No,Clubs,High
+238,22,Male,Mirpur,Punjab,2.07,Weak,Lower-Middle (30k-60k),Intermediate,6,61,Yes,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,19.5,Van,Low,Minor,Yes,Clubs,Medium
+239,23,Male,Faisalabad,KPK,2.07,Weak,High (>250k),Matric,17,76,No,No,Desktop,Consistent,Public,English,0.9,Car,Medium,Chronic,Yes,Sports,High
+240,21,Male,Kotli,Azad Kashmir,2.07,Weak,Low (<30k),Intermediate,24,62,Yes,Yes,Laptop,Consistent,Private,Urdu,24.3,Car,High,Minor,No,Sports,Medium
+241,17,Female,Skardu,KPK,2.08,Weak,Upper-Middle (120k-250k),Primary,7,98,No,Yes,Mobile,Frequent Outages,Public,Urdu,32.0,Van,Medium,None,No,Clubs,High
+242,21,Male,Sargodha,KPK,2.08,Weak,Low (<30k),Matric,35,91,Yes,Yes,Laptop,Frequent Outages,Public,Urdu,14.2,Bus,Medium,Minor,No,Sports,High
+243,18,Male,Dir,Punjab,2.08,Weak,Lower-Middle (30k-60k),Primary,11,71,Yes,Yes,Desktop,Consistent,Semi-Government,Urdu,22.4,Bike,High,None,Yes,Clubs,High
+244,22,Female,Sargodha,Punjab,2.08,Weak,Lower-Middle (30k-60k),Postgraduate,12,69,Yes,Yes,Desktop,Consistent,Semi-Government,English,34.0,Van,High,None,Yes,None,High
+245,19,Male,Mansehra,KPK,2.09,Weak,Low (<30k),Intermediate,20,58,Yes,No,None,Frequent Outages,Private,Urdu,29.7,Bus,High,Chronic,Yes,Sports,High
+246,21,Female,Abbottabad,Gilgit Baltistan,2.09,Weak,Middle (60k-120k),Graduate,20,97,No,No,Desktop,Consistent,Private,Urdu,5.6,Van,Low,Minor,Yes,Sports,Medium
+247,25,Male,Charsadda,Gilgit Baltistan,2.09,Weak,Low (<30k),Graduate,39,89,Yes,No,Laptop,Consistent,Semi-Government,English,4.1,Van,Medium,None,No,Sports,Low
+248,24,Female,Mansehra,Punjab,2.09,Weak,High (>250k),Intermediate,17,79,No,Yes,Laptop,Consistent,Semi-Government,English,7.1,Car,Low,Chronic,No,Sports,Medium
+249,22,Male,Hunza,Punjab,2.1,Weak,Middle (60k-120k),Graduate,24,98,No,No,Laptop,Consistent,Semi-Government,English,26.2,Van,Low,None,No,Clubs,Low
+250,24,Male,Hunza,Punjab,2.1,Weak,Middle (60k-120k),Graduate,17,85,Yes,Yes,None,Consistent,Private,English,32.5,Walk,Medium,Chronic,Yes,None,Medium
+251,22,Female,Chiniot,Azad Kashmir,2.1,Weak,High (>250k),Primary,22,73,Yes,Yes,Laptop,Frequent Outages,Public,Urdu,12.5,Car,Low,Chronic,Yes,Sports,Medium
+252,20,Female,Chiniot,KPK,2.1,Weak,Middle (60k-120k),Primary,12,98,No,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,20.4,Walk,Low,Chronic,No,Sports,Medium
+253,24,Female,Hunza,Azad Kashmir,2.11,Weak,Upper-Middle (120k-250k),Graduate,23,79,Yes,No,Mobile,Frequent Outages,Private,English,15.2,Car,High,None,Yes,Clubs,Low
+254,23,Male,Bhimber,Azad Kashmir,2.11,Weak,High (>250k),Primary,13,94,Yes,No,Desktop,Frequent Outages,Semi-Government,English,33.3,Van,High,Chronic,No,None,Low
+255,19,Female,Bahawalpur,KPK,2.11,Weak,Lower-Middle (30k-60k),Graduate,14,95,Yes,No,None,Consistent,Public,English,21.5,Bike,Low,None,Yes,Sports,Low
+256,20,Male,Peshawar,Azad Kashmir,2.11,Weak,Low (<30k),Primary,20,59,Yes,No,None,Consistent,Private,English,18.0,Car,High,Chronic,No,Clubs,Medium
+257,18,Female,Gilgit,Punjab,2.12,Weak,Upper-Middle (120k-250k),Graduate,29,96,Yes,No,Laptop,Frequent Outages,Semi-Government,English,9.5,Bus,High,Chronic,Yes,None,Low
+258,18,Female,Dir,KPK,2.12,Weak,Lower-Middle (30k-60k),Postgraduate,26,88,Yes,No,None,Frequent Outages,Semi-Government,English,25.1,Bus,High,None,Yes,None,Low
+259,25,Female,Mardan,Punjab,2.12,Weak,Middle (60k-120k),Postgraduate,6,69,No,No,Mobile,Frequent Outages,Semi-Government,Urdu,24.3,Bus,High,Chronic,Yes,Clubs,High
+260,21,Female,Bannu,KPK,2.12,Weak,Upper-Middle (120k-250k),Primary,9,85,No,No,Desktop,Consistent,Public,Urdu,0.8,Bus,Medium,None,No,Sports,Low
+261,19,Male,Peshawar,Azad Kashmir,2.12,Weak,Upper-Middle (120k-250k),Primary,22,63,Yes,No,Laptop,Frequent Outages,Semi-Government,Urdu,20.7,Bus,High,Chronic,No,Clubs,Low
+262,18,Male,Bannu,Punjab,2.13,Weak,High (>250k),Intermediate,19,71,Yes,No,Mobile,Frequent Outages,Private,Urdu,29.1,Bike,High,Chronic,No,Sports,High
+263,24,Male,Multan,KPK,2.13,Weak,Lower-Middle (30k-60k),Postgraduate,9,66,Yes,No,Desktop,Frequent Outages,Public,English,27.9,Bus,Medium,Chronic,Yes,None,High
+264,17,Male,Sialkot,Punjab,2.13,Weak,Lower-Middle (30k-60k),Postgraduate,10,72,No,Yes,Laptop,Consistent,Semi-Government,Urdu,9.8,Car,Medium,None,Yes,Clubs,Medium
+265,25,Female,Abbottabad,Punjab,2.13,Weak,Upper-Middle (120k-250k),Postgraduate,34,67,Yes,No,Desktop,Consistent,Semi-Government,Urdu,34.0,Van,Medium,Chronic,Yes,Sports,Low
+266,25,Female,Bhimber,Punjab,2.14,Weak,Lower-Middle (30k-60k),Primary,30,60,No,No,Mobile,Frequent Outages,Private,Urdu,17.0,Car,Medium,Chronic,Yes,Clubs,Medium
+267,18,Female,Mansehra,KPK,2.14,Weak,Lower-Middle (30k-60k),Intermediate,27,71,Yes,No,Laptop,Consistent,Semi-Government,Urdu,24.7,Van,Low,Chronic,No,Sports,High
+268,19,Male,Kotli,Punjab,2.14,Weak,Upper-Middle (120k-250k),Matric,11,63,No,Yes,Laptop,Frequent Outages,Public,English,24.0,Walk,Low,Chronic,Yes,Clubs,Medium
+269,20,Female,Abbottabad,KPK,2.14,Weak,Upper-Middle (120k-250k),Graduate,31,71,No,Yes,Mobile,Frequent Outages,Public,English,12.6,Van,Low,Chronic,Yes,Clubs,Low
+270,17,Female,Hunza,Punjab,2.15,Weak,Upper-Middle (120k-250k),Graduate,13,87,Yes,No,Desktop,Consistent,Private,English,10.9,Walk,Low,Minor,Yes,None,High
+271,18,Female,Diamer,Gilgit Baltistan,2.15,Weak,High (>250k),Graduate,33,66,Yes,Yes,Desktop,Frequent Outages,Public,Urdu,34.0,Car,High,Minor,No,Clubs,Low
+272,18,Female,Bahawalpur,KPK,2.15,Weak,High (>250k),Primary,21,64,No,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,27.3,Van,High,Minor,Yes,Sports,Medium
+273,22,Female,Faisalabad,KPK,2.15,Weak,Lower-Middle (30k-60k),Graduate,35,55,No,No,Mobile,Consistent,Private,English,15.2,Car,Low,Chronic,Yes,Sports,Low
+274,22,Female,Mirpur,Punjab,2.16,Weak,High (>250k),Intermediate,39,57,No,Yes,None,Consistent,Public,Urdu,10.4,Van,High,Minor,No,None,Low
+275,23,Female,Bannu,KPK,2.16,Weak,High (>250k),Graduate,30,94,Yes,Yes,None,Consistent,Semi-Government,Urdu,32.3,Bike,Medium,Chronic,No,None,Low
+276,17,Female,Okara,KPK,2.16,Weak,Upper-Middle (120k-250k),Postgraduate,26,95,Yes,Yes,None,Consistent,Semi-Government,English,14.8,Van,Low,Minor,Yes,Clubs,High
+277,20,Male,Mardan,KPK,2.16,Weak,Middle (60k-120k),Intermediate,27,79,Yes,Yes,Mobile,Frequent Outages,Public,Urdu,3.0,Car,Medium,Minor,Yes,None,Medium
+278,19,Female,Faisalabad,Azad Kashmir,2.17,Weak,High (>250k),Graduate,31,59,No,No,Desktop,Frequent Outages,Public,Urdu,20.3,Bike,Medium,Chronic,Yes,Clubs,Low
+279,21,Male,Bahawalpur,Gilgit Baltistan,2.17,Weak,High (>250k),Primary,30,75,Yes,Yes,Laptop,Consistent,Semi-Government,Urdu,24.2,Bike,Medium,Chronic,No,Sports,Medium
+280,19,Male,Swat,Punjab,2.17,Weak,Middle (60k-120k),Graduate,34,71,Yes,No,Desktop,Consistent,Semi-Government,Urdu,8.1,Walk,Low,None,No,None,Low
+281,25,Female,Muzaffarabad,Azad Kashmir,2.17,Weak,Upper-Middle (120k-250k),Intermediate,6,71,No,No,None,Consistent,Semi-Government,English,2.7,Bike,Medium,None,No,Sports,High
+282,21,Male,Charsadda,Punjab,2.18,Weak,Upper-Middle (120k-250k),Graduate,18,83,Yes,No,Desktop,Frequent Outages,Private,English,2.4,Car,Medium,None,No,Clubs,Low
+283,17,Female,Peshawar,Azad Kashmir,2.18,Weak,Upper-Middle (120k-250k),Primary,7,78,Yes,Yes,Desktop,Frequent Outages,Public,English,30.6,Car,Medium,Minor,Yes,Clubs,High
+284,17,Male,Kotli,Punjab,2.18,Weak,Low (<30k),Matric,38,76,Yes,No,Laptop,Consistent,Semi-Government,Urdu,20.0,Van,Low,None,Yes,Clubs,Medium
+285,19,Female,Faisalabad,Gilgit Baltistan,2.18,Weak,Low (<30k),Intermediate,27,82,No,Yes,None,Frequent Outages,Public,Urdu,5.1,Walk,High,Chronic,Yes,None,Low
+286,23,Male,Muzaffarabad,Punjab,2.18,Weak,High (>250k),Intermediate,16,66,Yes,No,Desktop,Frequent Outages,Public,English,20.3,Van,High,Minor,Yes,Clubs,Medium
+287,20,Male,Charsadda,Gilgit Baltistan,2.19,Weak,High (>250k),Primary,35,65,Yes,No,None,Frequent Outages,Private,Urdu,22.8,Bike,High,Chronic,No,Sports,Low
+288,22,Female,Sargodha,Azad Kashmir,2.19,Weak,Middle (60k-120k),Primary,24,88,No,Yes,None,Frequent Outages,Semi-Government,Urdu,32.4,Bus,High,Minor,No,Sports,Low
+289,21,Male,Sargodha,KPK,2.19,Weak,Lower-Middle (30k-60k),Graduate,39,77,Yes,No,Mobile,Consistent,Private,English,10.0,Car,Low,Chronic,No,None,High
+290,23,Male,Skardu,Azad Kashmir,2.19,Weak,Middle (60k-120k),Intermediate,14,69,Yes,Yes,Laptop,Consistent,Public,Urdu,32.6,Bike,Medium,Chronic,Yes,Sports,High
+291,21,Female,Chiniot,KPK,2.2,Weak,Lower-Middle (30k-60k),Primary,20,93,Yes,No,Desktop,Consistent,Public,Urdu,31.5,Van,Low,Chronic,No,None,Low
+292,25,Male,Swat,Azad Kashmir,2.2,Weak,Upper-Middle (120k-250k),Intermediate,7,92,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,18.4,Bike,Medium,Chronic,No,None,High
+293,19,Male,Charsadda,Gilgit Baltistan,2.2,Weak,High (>250k),Graduate,25,80,No,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,34.3,Car,High,Chronic,Yes,Clubs,Medium
+294,21,Male,Diamer,Punjab,2.2,Weak,High (>250k),Intermediate,31,76,No,Yes,Laptop,Frequent Outages,Public,Urdu,13.7,Bus,Low,Chronic,Yes,None,Medium
+295,23,Female,Gujranwala,KPK,2.21,Weak,Upper-Middle (120k-250k),Primary,18,98,Yes,Yes,Laptop,Frequent Outages,Public,English,13.2,Bus,High,Minor,No,None,Medium
+296,22,Female,Hunza,KPK,2.21,Weak,Lower-Middle (30k-60k),Primary,18,92,No,Yes,Laptop,Consistent,Semi-Government,Urdu,16.1,Bike,Medium,Minor,No,Sports,Low
+297,20,Male,Charsadda,Punjab,2.21,Weak,Middle (60k-120k),Matric,36,98,No,No,Laptop,Frequent Outages,Public,English,21.8,Bike,High,Minor,No,None,High
+298,22,Female,Dir,Punjab,2.21,Weak,High (>250k),Primary,14,61,No,No,Laptop,Consistent,Private,English,4.9,Walk,Medium,Chronic,No,Clubs,High
+299,19,Female,Sialkot,Punjab,2.22,Weak,Middle (60k-120k),Graduate,10,84,No,No,None,Consistent,Public,English,28.9,Van,High,None,No,Sports,Low
+300,23,Male,Faisalabad,KPK,2.22,Weak,Upper-Middle (120k-250k),Primary,20,94,No,No,Mobile,Consistent,Public,Urdu,23.2,Walk,Medium,Chronic,Yes,Sports,Low
+301,21,Female,Rahim Yar Khan,Punjab,2.22,Weak,Low (<30k),Intermediate,22,80,Yes,No,Mobile,Frequent Outages,Public,English,10.4,Car,Low,None,No,Clubs,Medium
+302,20,Male,Mirpur,Punjab,2.22,Weak,Lower-Middle (30k-60k),Matric,37,93,Yes,No,None,Frequent Outages,Public,English,7.4,Walk,Medium,None,Yes,None,Medium
+303,19,Female,Gilgit,Azad Kashmir,2.23,Weak,Upper-Middle (120k-250k),Matric,26,57,No,No,Mobile,Frequent Outages,Public,Urdu,12.6,Bike,High,Chronic,No,None,Low
+304,22,Male,Diamer,Punjab,2.23,Weak,Middle (60k-120k),Postgraduate,20,62,No,Yes,Desktop,Consistent,Semi-Government,English,23.2,Van,Medium,None,Yes,Sports,Medium
+305,24,Female,Chiniot,Punjab,2.23,Weak,High (>250k),Postgraduate,35,62,Yes,No,Laptop,Consistent,Public,Urdu,26.6,Walk,Medium,Chronic,No,Sports,Medium
+306,22,Male,Mirpur,Azad Kashmir,2.23,Weak,Middle (60k-120k),Graduate,36,91,Yes,No,Mobile,Consistent,Semi-Government,Urdu,21.1,Van,High,None,Yes,None,Low
+307,25,Female,Okara,Punjab,2.24,Weak,Upper-Middle (120k-250k),Intermediate,23,98,No,No,Mobile,Frequent Outages,Private,Urdu,8.0,Van,Medium,Chronic,No,Sports,Low
+308,22,Female,Abbottabad,Punjab,2.24,Weak,Low (<30k),Primary,38,74,No,Yes,Mobile,Consistent,Semi-Government,English,21.5,Bus,Low,Minor,Yes,Sports,High
+309,19,Female,Charsadda,Gilgit Baltistan,2.24,Weak,Low (<30k),Matric,31,75,Yes,No,None,Frequent Outages,Private,English,4.5,Bike,High,Chronic,Yes,None,Low
+310,17,Female,Kotli,Punjab,2.24,Weak,High (>250k),Intermediate,36,98,No,No,Mobile,Consistent,Private,Urdu,30.0,Car,High,Chronic,No,Clubs,Low
+311,20,Female,Bhimber,Gilgit Baltistan,2.24,Weak,High (>250k),Matric,32,59,No,No,Mobile,Frequent Outages,Semi-Government,English,7.7,Van,High,Chronic,No,Sports,Medium
+312,19,Male,Mansehra,KPK,2.25,Weak,Upper-Middle (120k-250k),Matric,13,85,No,Yes,None,Frequent Outages,Private,Urdu,7.1,Bike,High,None,No,Clubs,Low
+313,19,Female,Kotli,KPK,2.25,Weak,High (>250k),Postgraduate,16,92,Yes,No,Mobile,Consistent,Semi-Government,Urdu,24.5,Walk,Low,Minor,No,Clubs,Medium
+314,21,Female,Chiniot,Gilgit Baltistan,2.25,Weak,Low (<30k),Graduate,37,75,No,Yes,None,Consistent,Semi-Government,Urdu,28.3,Bus,Medium,Chronic,No,Sports,High
+315,20,Male,Mansehra,Azad Kashmir,2.25,Weak,Upper-Middle (120k-250k),Postgraduate,15,79,Yes,No,Laptop,Frequent Outages,Private,Urdu,18.1,Car,Medium,Chronic,Yes,None,Low
+316,21,Female,Skardu,Punjab,2.26,Weak,High (>250k),Graduate,19,83,Yes,Yes,None,Frequent Outages,Semi-Government,English,28.2,Bus,High,None,Yes,Clubs,High
+317,25,Female,Muzaffarabad,KPK,2.26,Weak,Lower-Middle (30k-60k),Primary,8,63,Yes,Yes,Desktop,Frequent Outages,Private,English,4.4,Bike,High,None,Yes,Sports,Low
+318,24,Male,Charsadda,Punjab,2.26,Weak,Low (<30k),Matric,18,59,No,No,Desktop,Consistent,Semi-Government,Urdu,24.3,Bike,High,Minor,No,None,High
+319,17,Male,Bannu,Gilgit Baltistan,2.26,Weak,Lower-Middle (30k-60k),Postgraduate,27,62,No,No,None,Frequent Outages,Public,English,18.0,Bike,Medium,Chronic,No,Clubs,High
+320,19,Female,Gujranwala,KPK,2.27,Weak,Middle (60k-120k),Postgraduate,24,83,Yes,Yes,None,Frequent Outages,Private,English,33.4,Van,Low,Chronic,Yes,Sports,High
+321,24,Male,Skardu,Punjab,2.27,Weak,Middle (60k-120k),Graduate,38,79,Yes,Yes,None,Frequent Outages,Semi-Government,Urdu,11.7,Van,High,Chronic,No,None,Medium
+322,25,Male,Gilgit,Punjab,2.27,Weak,Upper-Middle (120k-250k),Primary,18,82,Yes,No,None,Frequent Outages,Public,English,23.0,Bus,Medium,Minor,Yes,Sports,Low
+323,25,Female,Lahore,KPK,2.27,Weak,Low (<30k),Postgraduate,15,67,No,No,Laptop,Frequent Outages,Semi-Government,English,21.6,Bike,High,None,No,None,Medium
+324,21,Female,Multan,Gilgit Baltistan,2.28,Weak,Upper-Middle (120k-250k),Matric,15,65,Yes,Yes,Laptop,Frequent Outages,Public,English,25.8,Bike,Medium,Chronic,No,Clubs,High
+325,17,Female,Lahore,Azad Kashmir,2.28,Weak,High (>250k),Intermediate,19,87,No,Yes,None,Consistent,Public,English,32.1,Van,Medium,Chronic,No,Clubs,Low
+326,21,Male,Rahim Yar Khan,KPK,2.28,Weak,Low (<30k),Matric,27,61,Yes,No,Mobile,Frequent Outages,Public,Urdu,2.9,Bus,Low,None,Yes,Sports,Medium
+327,18,Female,Mardan,KPK,2.28,Weak,High (>250k),Graduate,31,82,No,Yes,Laptop,Consistent,Private,English,32.0,Walk,Low,Chronic,Yes,None,High
+328,24,Male,Dir,Punjab,2.29,Weak,Middle (60k-120k),Primary,18,57,Yes,No,None,Consistent,Public,Urdu,27.7,Bus,Low,None,Yes,Sports,Low
+329,21,Male,Peshawar,Gilgit Baltistan,2.29,Weak,Lower-Middle (30k-60k),Intermediate,12,85,No,Yes,Desktop,Consistent,Public,Urdu,19.6,Walk,Low,Minor,Yes,Sports,High
+330,17,Male,Muzaffarabad,KPK,2.29,Weak,Upper-Middle (120k-250k),Primary,28,86,No,Yes,Desktop,Frequent Outages,Public,English,12.0,Van,Low,Minor,No,Sports,Low
+331,18,Male,Mirpur,KPK,2.29,Weak,Low (<30k),Intermediate,37,76,Yes,Yes,Laptop,Consistent,Semi-Government,English,9.6,Car,High,Minor,Yes,Clubs,Low
+332,17,Female,Hunza,KPK,2.3,Weak,Upper-Middle (120k-250k),Graduate,21,96,No,No,None,Consistent,Semi-Government,English,20.1,Car,High,Chronic,Yes,Clubs,Medium
+333,23,Male,Hunza,Gilgit Baltistan,2.3,Weak,Low (<30k),Primary,33,97,Yes,Yes,None,Frequent Outages,Public,Urdu,34.3,Bike,Medium,Chronic,Yes,Sports,High
+334,19,Female,Sargodha,Punjab,2.3,Weak,Low (<30k),Primary,27,58,No,No,Desktop,Consistent,Semi-Government,Urdu,1.7,Bike,High,Minor,No,None,Low
+335,17,Female,Rahim Yar Khan,KPK,2.3,Weak,High (>250k),Primary,31,73,Yes,No,Desktop,Consistent,Semi-Government,English,8.8,Bike,Medium,Chronic,No,None,Medium
+336,19,Male,Okara,Punjab,2.3,Weak,Lower-Middle (30k-60k),Primary,28,71,No,Yes,Desktop,Consistent,Semi-Government,Urdu,12.7,Bus,Low,Minor,Yes,None,Low
+337,21,Female,Mirpur,Punjab,2.31,Weak,Upper-Middle (120k-250k),Graduate,34,78,Yes,Yes,Desktop,Consistent,Semi-Government,English,27.6,Van,Medium,None,No,Clubs,High
+338,21,Male,Mardan,Punjab,2.31,Weak,Lower-Middle (30k-60k),Matric,29,66,No,No,Desktop,Frequent Outages,Public,Urdu,20.9,Van,Medium,Chronic,No,None,Low
+339,18,Female,Muzaffarabad,Gilgit Baltistan,2.31,Weak,Upper-Middle (120k-250k),Matric,11,84,Yes,No,Laptop,Frequent Outages,Public,Urdu,26.8,Car,Low,None,No,Clubs,High
+340,17,Female,Lahore,Punjab,2.31,Weak,Low (<30k),Intermediate,34,67,No,No,Mobile,Frequent Outages,Public,Urdu,6.2,Bus,Low,Minor,No,Sports,High
+341,17,Male,Gujranwala,Punjab,2.32,Weak,Lower-Middle (30k-60k),Graduate,20,77,No,Yes,Laptop,Consistent,Private,English,27.3,Van,Low,None,Yes,None,High
+342,19,Female,Mardan,Punjab,2.32,Weak,Low (<30k),Postgraduate,31,71,No,No,Desktop,Consistent,Private,English,32.8,Bike,Low,None,No,Clubs,Medium
+343,20,Female,Diamer,KPK,2.32,Weak,Upper-Middle (120k-250k),Primary,9,87,Yes,Yes,Mobile,Consistent,Semi-Government,English,12.2,Van,Medium,Chronic,No,None,Low
+344,24,Male,Lahore,Punjab,2.32,Weak,Low (<30k),Intermediate,15,81,No,No,None,Consistent,Semi-Government,Urdu,4.8,Walk,Medium,None,No,Clubs,High
+345,23,Male,Mirpur,Gilgit Baltistan,2.33,Weak,Low (<30k),Matric,35,84,Yes,No,Laptop,Consistent,Private,English,1.6,Van,Low,None,Yes,Clubs,Low
+346,20,Female,Faisalabad,Azad Kashmir,2.33,Weak,Upper-Middle (120k-250k),Graduate,30,69,Yes,Yes,Desktop,Frequent Outages,Private,English,32.2,Car,Low,Minor,No,Sports,High
+347,22,Male,Kotli,KPK,2.33,Weak,Upper-Middle (120k-250k),Postgraduate,25,65,Yes,Yes,Laptop,Consistent,Semi-Government,Urdu,4.4,Walk,Low,Chronic,No,None,Low
+348,23,Female,Bahawalpur,Punjab,2.33,Weak,Lower-Middle (30k-60k),Postgraduate,34,90,No,No,Mobile,Frequent Outages,Semi-Government,English,33.0,Bike,Low,Minor,No,None,High
+349,25,Male,Mirpur,Punjab,2.34,Weak,Low (<30k),Postgraduate,38,88,Yes,No,Desktop,Consistent,Semi-Government,Urdu,13.0,Van,High,Minor,No,Sports,Low
+350,23,Male,Bannu,KPK,2.34,Weak,High (>250k),Graduate,30,76,No,Yes,Laptop,Frequent Outages,Private,English,19.6,Bike,Medium,None,No,Clubs,High
+351,24,Male,Lahore,KPK,2.34,Weak,High (>250k),Intermediate,27,76,No,No,Laptop,Consistent,Semi-Government,Urdu,8.5,Car,Low,Minor,No,Clubs,Low
+352,20,Female,Dir,KPK,2.34,Weak,Middle (60k-120k),Intermediate,37,96,No,Yes,Mobile,Consistent,Public,Urdu,24.2,Bus,High,Minor,No,Clubs,High
+353,25,Male,Peshawar,KPK,2.35,Weak,Middle (60k-120k),Intermediate,20,75,No,No,None,Frequent Outages,Private,Urdu,26.7,Bus,Medium,Minor,Yes,Clubs,High
+354,22,Female,Bhimber,KPK,2.35,Weak,Low (<30k),Matric,7,63,Yes,No,Mobile,Frequent Outages,Public,English,25.1,Van,High,None,Yes,Sports,High
+355,23,Male,Sialkot,KPK,2.35,Weak,Middle (60k-120k),Postgraduate,18,68,No,No,None,Frequent Outages,Private,English,25.0,Walk,Low,None,Yes,None,High
+356,21,Female,Faisalabad,KPK,2.35,Weak,Lower-Middle (30k-60k),Primary,39,67,Yes,No,Mobile,Frequent Outages,Semi-Government,English,11.6,Car,High,None,No,Sports,Medium
+357,19,Male,Swat,Punjab,2.36,Weak,Low (<30k),Postgraduate,21,88,No,No,None,Consistent,Public,English,29.1,Bike,Medium,Chronic,No,None,High
+358,24,Female,Mansehra,Gilgit Baltistan,2.36,Weak,Low (<30k),Postgraduate,35,69,Yes,Yes,None,Frequent Outages,Semi-Government,Urdu,21.2,Bike,Low,Minor,No,Clubs,High
+359,23,Male,Peshawar,Gilgit Baltistan,2.36,Weak,Low (<30k),Primary,31,67,No,No,Laptop,Frequent Outages,Private,English,29.7,Bike,High,Chronic,Yes,Clubs,High
+360,25,Male,Peshawar,Gilgit Baltistan,2.36,Weak,Lower-Middle (30k-60k),Intermediate,26,76,Yes,Yes,Laptop,Consistent,Semi-Government,English,33.2,Van,Low,Chronic,No,Sports,High
+361,23,Male,Muzaffarabad,Azad Kashmir,2.36,Weak,Upper-Middle (120k-250k),Primary,15,94,No,No,Mobile,Consistent,Public,Urdu,21.9,Van,High,Chronic,No,None,Medium
+362,18,Female,Mirpur,Punjab,2.37,Weak,Middle (60k-120k),Postgraduate,32,66,Yes,Yes,Laptop,Frequent Outages,Public,English,2.5,Bus,Low,None,No,Clubs,Low
+363,17,Male,Okara,Azad Kashmir,2.37,Weak,High (>250k),Intermediate,35,80,No,No,None,Consistent,Semi-Government,English,6.3,Car,Medium,None,Yes,Clubs,High
+364,24,Male,Rahim Yar Khan,Punjab,2.37,Weak,Low (<30k),Graduate,10,86,Yes,Yes,None,Frequent Outages,Public,English,34.8,Van,High,None,Yes,Clubs,Medium
+365,23,Male,Bhimber,Gilgit Baltistan,2.37,Weak,Lower-Middle (30k-60k),Intermediate,26,90,Yes,Yes,None,Consistent,Semi-Government,Urdu,14.4,Walk,Medium,Minor,Yes,None,Medium
+366,25,Female,Skardu,Punjab,2.38,Weak,Lower-Middle (30k-60k),Matric,6,74,No,No,Mobile,Consistent,Semi-Government,Urdu,27.8,Bike,Medium,None,No,None,Low
+367,22,Male,Diamer,Punjab,2.38,Weak,Middle (60k-120k),Graduate,37,58,Yes,Yes,Laptop,Consistent,Public,English,9.8,Walk,Low,None,Yes,None,High
+368,21,Female,Abbottabad,KPK,2.38,Weak,Low (<30k),Matric,20,56,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,6.8,Bike,Low,Chronic,No,Sports,Low
+369,20,Male,Kotli,KPK,2.38,Weak,Upper-Middle (120k-250k),Intermediate,16,66,Yes,Yes,None,Frequent Outages,Public,Urdu,27.5,Car,High,Chronic,Yes,Sports,Medium
+370,17,Female,Lahore,KPK,2.39,Weak,Middle (60k-120k),Matric,30,76,Yes,Yes,Laptop,Consistent,Semi-Government,English,21.2,Walk,High,Chronic,No,Clubs,Low
+371,24,Female,Mansehra,Azad Kashmir,2.39,Weak,High (>250k),Matric,33,81,No,Yes,Mobile,Consistent,Semi-Government,English,2.3,Car,High,Minor,No,None,Medium
+372,21,Male,Faisalabad,Punjab,2.39,Weak,High (>250k),Intermediate,33,81,Yes,Yes,Desktop,Consistent,Semi-Government,Urdu,26.7,Bike,Medium,Minor,Yes,Sports,High
+373,17,Female,Sargodha,Punjab,2.39,Weak,Middle (60k-120k),Matric,16,56,Yes,Yes,None,Frequent Outages,Public,English,29.6,Bus,Medium,None,No,Clubs,Low
+374,25,Male,Hunza,Punjab,2.4,Weak,Low (<30k),Postgraduate,13,80,No,No,None,Consistent,Public,Urdu,5.8,Van,Medium,Minor,Yes,Sports,High
+375,22,Male,Bahawalpur,KPK,2.4,Weak,High (>250k),Matric,16,77,Yes,No,Desktop,Frequent Outages,Semi-Government,English,26.9,Walk,Low,Chronic,Yes,None,Medium
+376,17,Female,Lahore,KPK,2.4,Weak,Upper-Middle (120k-250k),Graduate,13,69,No,Yes,None,Frequent Outages,Private,English,20.3,Bus,Medium,Minor,No,Sports,High
+377,24,Male,Muzaffarabad,Punjab,2.4,Weak,High (>250k),Matric,13,93,Yes,Yes,Laptop,Consistent,Semi-Government,English,1.5,Walk,Medium,Minor,No,None,Medium
+378,22,Male,Peshawar,Punjab,2.41,Weak,Upper-Middle (120k-250k),Matric,26,66,No,Yes,None,Frequent Outages,Public,Urdu,18.1,Car,Low,None,Yes,Clubs,Medium
+379,18,Female,Bhimber,KPK,2.41,Weak,Upper-Middle (120k-250k),Graduate,24,73,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,14.8,Bus,High,Minor,No,Clubs,High
+380,22,Female,Sialkot,Gilgit Baltistan,2.41,Weak,Upper-Middle (120k-250k),Matric,27,79,Yes,No,Laptop,Consistent,Semi-Government,English,15.8,Car,Low,None,Yes,Clubs,Low
+381,21,Female,Swat,Punjab,2.41,Weak,Lower-Middle (30k-60k),Postgraduate,16,71,No,Yes,Laptop,Frequent Outages,Semi-Government,English,24.4,Bus,Medium,Minor,Yes,Sports,Low
+382,18,Female,Sialkot,Azad Kashmir,2.42,Weak,Lower-Middle (30k-60k),Graduate,6,79,No,Yes,None,Frequent Outages,Private,English,2.3,Van,Medium,None,Yes,Clubs,Low
+383,23,Male,Rahim Yar Khan,Punjab,2.42,Weak,Low (<30k),Primary,20,87,No,Yes,Mobile,Frequent Outages,Private,Urdu,5.4,Bus,High,None,No,Sports,Low
+384,22,Male,Sialkot,KPK,2.42,Weak,Middle (60k-120k),Matric,6,95,No,No,Mobile,Consistent,Private,English,10.6,Van,High,None,Yes,Clubs,Medium
+385,23,Male,Faisalabad,Gilgit Baltistan,2.42,Weak,Upper-Middle (120k-250k),Graduate,14,75,No,Yes,Laptop,Frequent Outages,Private,Urdu,19.2,Bus,High,Chronic,No,Sports,Low
+386,25,Female,Muzaffarabad,KPK,2.42,Weak,Low (<30k),Primary,35,97,No,Yes,Mobile,Consistent,Private,English,10.4,Bus,Medium,None,Yes,None,Low
+387,22,Female,Rahim Yar Khan,KPK,2.43,Weak,High (>250k),Postgraduate,29,56,Yes,Yes,Laptop,Consistent,Semi-Government,English,20.1,Bus,High,None,Yes,Sports,Medium
+388,21,Male,Swat,Gilgit Baltistan,2.43,Weak,Low (<30k),Graduate,27,80,Yes,Yes,Mobile,Consistent,Private,Urdu,31.9,Walk,High,None,Yes,Clubs,High
+389,23,Female,Okara,Gilgit Baltistan,2.43,Weak,Low (<30k),Graduate,8,86,Yes,No,Laptop,Consistent,Private,English,2.5,Car,Low,Chronic,No,None,Low
+390,17,Male,Dir,Azad Kashmir,2.43,Weak,Lower-Middle (30k-60k),Intermediate,34,82,Yes,Yes,None,Frequent Outages,Public,Urdu,29.9,Bike,High,Chronic,Yes,Clubs,Low
+391,23,Female,Swat,Gilgit Baltistan,2.44,Weak,Middle (60k-120k),Intermediate,34,98,Yes,No,Mobile,Frequent Outages,Private,Urdu,12.9,Walk,High,Chronic,No,Clubs,High
+392,19,Female,Swat,Gilgit Baltistan,2.44,Weak,Lower-Middle (30k-60k),Matric,24,63,Yes,Yes,Desktop,Frequent Outages,Private,English,31.7,Walk,High,Chronic,No,Sports,Medium
+393,20,Female,Gilgit,Azad Kashmir,2.44,Weak,Upper-Middle (120k-250k),Postgraduate,37,64,Yes,No,Mobile,Frequent Outages,Private,English,1.1,Car,Medium,None,No,Clubs,Low
+394,18,Female,Bhimber,KPK,2.44,Weak,Lower-Middle (30k-60k),Graduate,35,72,No,Yes,Laptop,Consistent,Public,English,12.6,Bus,Medium,Minor,No,None,Low
+395,23,Female,Abbottabad,Punjab,2.45,Weak,Lower-Middle (30k-60k),Postgraduate,24,83,No,No,Mobile,Frequent Outages,Semi-Government,English,20.2,Van,Low,Minor,No,Sports,Medium
+396,24,Male,Mardan,Azad Kashmir,2.45,Weak,Middle (60k-120k),Matric,12,63,No,No,Laptop,Frequent Outages,Private,Urdu,19.5,Car,Medium,Chronic,No,Clubs,Medium
+397,17,Female,Sargodha,Azad Kashmir,2.45,Weak,Middle (60k-120k),Graduate,13,79,Yes,No,Desktop,Consistent,Semi-Government,English,1.1,Walk,High,Chronic,No,Sports,High
+398,17,Male,Bahawalpur,KPK,2.45,Weak,Upper-Middle (120k-250k),Postgraduate,30,62,No,No,Mobile,Consistent,Private,Urdu,1.3,Walk,Low,Chronic,Yes,Clubs,Medium
+399,21,Female,Lahore,Punjab,2.46,Weak,Lower-Middle (30k-60k),Intermediate,17,67,No,Yes,None,Frequent Outages,Public,English,7.3,Bike,Low,Minor,Yes,Clubs,Low
+400,24,Female,Abbottabad,Azad Kashmir,2.46,Weak,Upper-Middle (120k-250k),Graduate,25,94,No,No,None,Frequent Outages,Private,Urdu,20.8,Bike,Low,Chronic,Yes,None,Low
+401,17,Male,Gilgit,KPK,2.46,Weak,High (>250k),Matric,7,89,No,No,Laptop,Consistent,Semi-Government,Urdu,29.2,Bus,Medium,Chronic,Yes,None,Medium
+402,19,Male,Lahore,KPK,2.46,Weak,Lower-Middle (30k-60k),Postgraduate,39,99,Yes,Yes,Desktop,Consistent,Semi-Government,English,8.1,Van,Low,Minor,No,None,High
+403,23,Male,Chiniot,Punjab,2.47,Weak,Upper-Middle (120k-250k),Postgraduate,22,88,No,No,None,Consistent,Semi-Government,English,28.8,Walk,High,Minor,Yes,Sports,High
+404,18,Female,Gilgit,KPK,2.47,Weak,Low (<30k),Intermediate,28,69,No,No,Desktop,Consistent,Private,English,29.1,Bus,Low,Chronic,Yes,Sports,Low
+405,19,Male,Peshawar,Punjab,2.47,Weak,Middle (60k-120k),Graduate,10,71,Yes,No,None,Consistent,Public,Urdu,31.6,Bike,High,None,No,Clubs,High
+406,19,Male,Bhimber,Punjab,2.47,Weak,Lower-Middle (30k-60k),Postgraduate,16,85,No,No,Laptop,Consistent,Public,English,13.6,Bus,Medium,Chronic,Yes,Sports,Medium
+407,25,Male,Diamer,Punjab,2.48,Weak,Middle (60k-120k),Graduate,32,70,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,3.8,Walk,High,Chronic,Yes,Sports,Medium
+408,24,Male,Chiniot,Azad Kashmir,2.48,Weak,Middle (60k-120k),Intermediate,10,95,Yes,Yes,Laptop,Consistent,Semi-Government,English,29.2,Bike,Medium,Minor,Yes,None,High
+409,19,Male,Peshawar,KPK,2.48,Weak,Lower-Middle (30k-60k),Graduate,33,89,Yes,No,Laptop,Frequent Outages,Public,English,3.3,Bus,Medium,Chronic,Yes,Sports,Low
+410,21,Male,Bannu,Punjab,2.48,Weak,Middle (60k-120k),Primary,13,97,No,Yes,Mobile,Consistent,Private,Urdu,21.9,Bus,Low,None,No,Sports,High
+411,24,Female,Swat,KPK,2.48,Weak,Middle (60k-120k),Primary,21,58,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,20.7,Walk,High,Minor,Yes,None,Low
+412,24,Female,Abbottabad,Azad Kashmir,2.49,Weak,High (>250k),Primary,32,77,No,Yes,None,Frequent Outages,Semi-Government,Urdu,25.4,Van,Medium,None,No,Clubs,Low
+413,18,Female,Abbottabad,KPK,2.49,Weak,Lower-Middle (30k-60k),Intermediate,27,80,No,No,Desktop,Frequent Outages,Public,Urdu,31.6,Bus,Low,Chronic,No,Sports,High
+414,17,Male,Abbottabad,Punjab,2.49,Weak,Upper-Middle (120k-250k),Primary,20,74,Yes,No,None,Frequent Outages,Semi-Government,Urdu,27.3,Walk,Low,Chronic,No,Clubs,High
+415,18,Male,Bannu,KPK,2.49,Weak,High (>250k),Graduate,17,86,Yes,No,Mobile,Consistent,Semi-Government,English,15.3,Car,High,Minor,Yes,Clubs,Medium
+416,25,Male,Sialkot,KPK,2.5,Average,Middle (60k-120k),Graduate,10,89,No,No,Mobile,Consistent,Public,Urdu,17.4,Van,Medium,Chronic,Yes,Clubs,Medium
+417,24,Female,Chiniot,Punjab,2.5,Average,Low (<30k),Graduate,38,75,No,Yes,Mobile,Consistent,Semi-Government,English,3.3,Walk,High,Chronic,No,Clubs,Medium
+418,21,Female,Gujranwala,KPK,2.5,Average,Middle (60k-120k),Primary,35,63,Yes,Yes,Mobile,Consistent,Public,English,9.8,Bike,Medium,Chronic,No,None,High
+419,23,Female,Gujranwala,KPK,2.5,Average,Lower-Middle (30k-60k),Postgraduate,20,90,Yes,No,None,Frequent Outages,Public,Urdu,19.3,Walk,High,None,No,Sports,Medium
+420,18,Male,Abbottabad,Azad Kashmir,2.51,Average,Middle (60k-120k),Graduate,31,76,No,Yes,Laptop,Frequent Outages,Public,English,28.6,Van,High,None,Yes,Sports,Medium
+421,21,Female,Lahore,KPK,2.51,Average,Lower-Middle (30k-60k),Primary,34,86,No,Yes,Laptop,Consistent,Semi-Government,Urdu,2.8,Van,Low,Chronic,No,None,Low
+422,25,Male,Hunza,Punjab,2.51,Average,Low (<30k),Graduate,12,91,Yes,Yes,Mobile,Frequent Outages,Private,Urdu,24.0,Walk,Medium,Minor,Yes,Sports,High
+423,24,Male,Bhimber,KPK,2.51,Average,High (>250k),Matric,25,76,No,No,Mobile,Consistent,Public,English,24.2,Van,Medium,Chronic,No,Sports,High
+424,20,Female,Abbottabad,Gilgit Baltistan,2.52,Average,Lower-Middle (30k-60k),Postgraduate,7,92,No,Yes,Laptop,Consistent,Private,Urdu,10.3,Car,Low,None,No,Sports,Low
+425,20,Male,Okara,KPK,2.52,Average,High (>250k),Graduate,32,60,Yes,No,None,Consistent,Private,English,7.0,Van,High,Minor,Yes,Clubs,Low
+426,23,Female,Sargodha,Punjab,2.52,Average,Middle (60k-120k),Intermediate,24,57,No,No,None,Consistent,Semi-Government,English,10.6,Bus,Medium,Chronic,No,Sports,High
+427,21,Female,Bannu,Azad Kashmir,2.52,Average,Middle (60k-120k),Postgraduate,11,88,Yes,No,Laptop,Frequent Outages,Public,English,24.7,Van,Medium,Minor,No,None,Medium
+428,22,Female,Peshawar,Punjab,2.53,Average,High (>250k),Intermediate,14,65,Yes,Yes,None,Consistent,Public,English,27.7,Bike,Low,None,Yes,None,High
+429,24,Female,Chiniot,KPK,2.53,Average,Lower-Middle (30k-60k),Intermediate,31,63,No,No,Desktop,Frequent Outages,Private,Urdu,14.4,Car,High,Chronic,No,None,Medium
+430,24,Male,Bahawalpur,KPK,2.53,Average,High (>250k),Intermediate,31,83,No,Yes,None,Frequent Outages,Public,English,18.6,Car,High,Chronic,Yes,Clubs,Medium
+431,23,Female,Mansehra,Gilgit Baltistan,2.53,Average,High (>250k),Matric,31,80,No,Yes,Mobile,Consistent,Public,Urdu,23.2,Van,High,Minor,No,Sports,Medium
+432,25,Female,Diamer,Gilgit Baltistan,2.54,Average,High (>250k),Graduate,20,99,Yes,Yes,None,Frequent Outages,Semi-Government,English,21.0,Walk,Low,Minor,Yes,Clubs,High
+433,25,Male,Skardu,Punjab,2.54,Average,Low (<30k),Matric,27,66,No,No,None,Frequent Outages,Private,Urdu,10.8,Car,Medium,None,Yes,None,Medium
+434,23,Female,Diamer,Punjab,2.54,Average,High (>250k),Intermediate,23,74,No,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,11.8,Bus,Medium,None,No,Sports,High
+435,19,Male,Rahim Yar Khan,Azad Kashmir,2.54,Average,Upper-Middle (120k-250k),Postgraduate,12,63,No,Yes,Mobile,Consistent,Private,English,6.0,Bus,High,Chronic,No,Clubs,Low
+436,19,Female,Rahim Yar Khan,KPK,2.55,Average,Upper-Middle (120k-250k),Primary,6,86,Yes,No,Laptop,Consistent,Semi-Government,Urdu,1.3,Bike,Low,Chronic,Yes,Clubs,High
+437,19,Female,Hunza,Punjab,2.55,Average,Lower-Middle (30k-60k),Primary,10,92,No,No,Desktop,Frequent Outages,Private,English,28.7,Bike,High,Chronic,Yes,Sports,Medium
+438,22,Male,Hunza,Punjab,2.55,Average,High (>250k),Postgraduate,23,95,No,Yes,Desktop,Frequent Outages,Public,English,7.3,Van,High,Chronic,No,Clubs,Low
+439,18,Female,Peshawar,Azad Kashmir,2.55,Average,Upper-Middle (120k-250k),Primary,22,76,Yes,Yes,Laptop,Consistent,Private,Urdu,21.4,Walk,Medium,Minor,No,Sports,High
+440,21,Female,Bannu,Punjab,2.55,Average,High (>250k),Postgraduate,34,76,No,Yes,None,Frequent Outages,Public,English,20.3,Walk,High,Chronic,No,Sports,Medium
+441,18,Female,Bannu,KPK,2.56,Average,Middle (60k-120k),Graduate,37,84,No,No,Desktop,Consistent,Public,Urdu,6.2,Bike,High,None,No,Clubs,High
+442,21,Female,Charsadda,KPK,2.56,Average,Middle (60k-120k),Graduate,36,86,Yes,No,Laptop,Consistent,Public,Urdu,9.7,Walk,Medium,None,Yes,Sports,Medium
+443,22,Male,Swat,KPK,2.56,Average,Lower-Middle (30k-60k),Matric,33,81,No,Yes,Mobile,Frequent Outages,Private,English,17.3,Walk,Medium,Chronic,Yes,None,High
+444,20,Female,Faisalabad,Gilgit Baltistan,2.56,Average,Lower-Middle (30k-60k),Graduate,22,80,Yes,Yes,None,Consistent,Semi-Government,English,1.7,Van,Medium,None,No,Clubs,Low
+445,22,Female,Abbottabad,Punjab,2.57,Average,Middle (60k-120k),Postgraduate,28,72,Yes,Yes,None,Consistent,Public,English,22.7,Walk,Medium,Minor,Yes,None,Low
+446,25,Female,Gilgit,Punjab,2.57,Average,Lower-Middle (30k-60k),Matric,29,69,No,Yes,None,Frequent Outages,Semi-Government,English,1.4,Van,Low,Minor,Yes,None,High
+447,24,Female,Rahim Yar Khan,Azad Kashmir,2.57,Average,High (>250k),Matric,15,85,Yes,Yes,Desktop,Consistent,Public,Urdu,14.0,Bike,High,Chronic,Yes,None,Low
+448,17,Female,Lahore,KPK,2.57,Average,Upper-Middle (120k-250k),Primary,19,80,Yes,No,None,Frequent Outages,Semi-Government,Urdu,18.6,Car,Medium,Minor,No,None,Low
+449,25,Male,Gilgit,KPK,2.58,Average,High (>250k),Matric,25,72,No,Yes,Mobile,Consistent,Public,Urdu,14.4,Van,Medium,Minor,No,Sports,Medium
+450,22,Female,Abbottabad,KPK,2.58,Average,Low (<30k),Matric,31,86,No,Yes,Desktop,Consistent,Public,English,0.6,Bike,Medium,Chronic,Yes,None,High
+451,21,Male,Faisalabad,Punjab,2.58,Average,Middle (60k-120k),Intermediate,20,67,Yes,No,Laptop,Consistent,Public,English,30.2,Bike,Medium,Chronic,Yes,None,High
+452,17,Female,Swat,Gilgit Baltistan,2.58,Average,High (>250k),Matric,28,61,Yes,Yes,Laptop,Consistent,Private,English,22.2,Walk,High,Chronic,Yes,None,Low
+453,21,Male,Faisalabad,KPK,2.59,Average,Middle (60k-120k),Graduate,12,68,No,Yes,Desktop,Consistent,Private,English,34.8,Van,Low,Chronic,Yes,Sports,Medium
+454,24,Female,Charsadda,Azad Kashmir,2.59,Average,Middle (60k-120k),Matric,35,95,No,Yes,Laptop,Consistent,Semi-Government,Urdu,30.2,Van,Low,None,No,Sports,Medium
+455,17,Male,Chiniot,Azad Kashmir,2.59,Average,Low (<30k),Graduate,32,72,No,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,29.1,Van,Medium,Chronic,Yes,Sports,High
+456,23,Female,Swat,KPK,2.59,Average,Upper-Middle (120k-250k),Postgraduate,22,96,No,Yes,None,Frequent Outages,Public,Urdu,17.0,Van,High,None,Yes,Clubs,Medium
+457,18,Male,Charsadda,Punjab,2.6,Average,Lower-Middle (30k-60k),Graduate,23,92,Yes,Yes,None,Frequent Outages,Semi-Government,English,24.9,Car,High,Chronic,No,Sports,Medium
+458,17,Male,Sargodha,KPK,2.6,Average,Middle (60k-120k),Intermediate,22,68,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,19.8,Walk,High,Minor,Yes,Clubs,Low
+459,24,Male,Kotli,KPK,2.6,Average,Middle (60k-120k),Primary,35,74,Yes,No,None,Consistent,Private,English,31.7,Van,Medium,None,Yes,Sports,Medium
+460,23,Male,Swat,KPK,2.6,Average,Upper-Middle (120k-250k),Postgraduate,24,67,Yes,No,Mobile,Frequent Outages,Semi-Government,English,34.6,Van,Medium,Minor,Yes,Sports,Low
+461,17,Female,Rahim Yar Khan,Gilgit Baltistan,2.61,Average,Lower-Middle (30k-60k),Primary,35,86,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,33.8,Van,High,None,Yes,Sports,Low
+462,20,Male,Mansehra,KPK,2.61,Average,Upper-Middle (120k-250k),Primary,14,89,Yes,Yes,Mobile,Consistent,Semi-Government,English,28.4,Walk,Medium,Minor,Yes,Clubs,Medium
+463,23,Female,Dir,KPK,2.61,Average,Middle (60k-120k),Intermediate,27,75,Yes,Yes,Mobile,Consistent,Public,English,28.8,Bike,Low,None,Yes,Clubs,Low
+464,24,Male,Rahim Yar Khan,Gilgit Baltistan,2.61,Average,High (>250k),Primary,21,64,Yes,Yes,Laptop,Consistent,Public,English,10.0,Bike,High,Minor,No,Clubs,Medium
+465,21,Male,Rahim Yar Khan,KPK,2.61,Average,Middle (60k-120k),Matric,6,92,Yes,No,Mobile,Consistent,Semi-Government,English,1.6,Bike,High,None,Yes,Sports,High
+466,25,Male,Faisalabad,KPK,2.62,Average,Low (<30k),Graduate,22,65,Yes,No,None,Frequent Outages,Private,Urdu,26.4,Van,Medium,None,Yes,Clubs,Low
+467,24,Male,Diamer,KPK,2.62,Average,High (>250k),Matric,12,68,Yes,No,Laptop,Consistent,Public,Urdu,13.2,Car,Low,None,No,Sports,High
+468,23,Male,Abbottabad,Azad Kashmir,2.62,Average,High (>250k),Graduate,25,55,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,31.9,Bike,Low,Minor,No,Sports,Low
+469,20,Male,Lahore,Azad Kashmir,2.62,Average,High (>250k),Matric,23,80,No,No,Laptop,Frequent Outages,Public,Urdu,26.9,Bike,Low,None,No,None,High
+470,19,Male,Mirpur,KPK,2.63,Average,Upper-Middle (120k-250k),Postgraduate,10,58,Yes,Yes,None,Consistent,Public,Urdu,7.5,Bike,Medium,Chronic,No,None,Low
+471,22,Male,Gujranwala,Punjab,2.63,Average,Middle (60k-120k),Postgraduate,13,61,No,No,Desktop,Consistent,Semi-Government,Urdu,31.3,Car,High,None,No,Sports,Medium
+472,21,Male,Rahim Yar Khan,Punjab,2.63,Average,Middle (60k-120k),Intermediate,7,69,No,Yes,Desktop,Consistent,Private,English,34.7,Walk,Medium,None,Yes,None,Low
+473,18,Female,Hunza,Punjab,2.63,Average,Low (<30k),Primary,34,78,Yes,Yes,Mobile,Consistent,Semi-Government,Urdu,25.4,Bike,Medium,Minor,No,Sports,Low
+474,18,Female,Okara,Azad Kashmir,2.64,Average,High (>250k),Intermediate,22,79,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,8.7,Van,Low,None,No,Clubs,High
+475,22,Female,Gilgit,Punjab,2.64,Average,High (>250k),Postgraduate,33,86,Yes,Yes,None,Consistent,Private,Urdu,25.8,Bike,Medium,None,Yes,None,Medium
+476,18,Female,Charsadda,Azad Kashmir,2.64,Average,Low (<30k),Graduate,32,68,Yes,No,Desktop,Consistent,Public,English,21.8,Car,Low,Minor,Yes,None,High
+477,19,Female,Mardan,KPK,2.64,Average,Upper-Middle (120k-250k),Matric,16,71,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,23.0,Walk,Medium,None,Yes,None,High
+478,18,Male,Okara,Punjab,2.65,Average,High (>250k),Graduate,9,66,Yes,No,None,Frequent Outages,Private,English,34.7,Bike,High,Minor,Yes,None,Low
+479,24,Female,Bhimber,KPK,2.65,Average,Middle (60k-120k),Primary,34,78,No,No,Mobile,Frequent Outages,Semi-Government,Urdu,1.6,Bike,Medium,Minor,No,None,Medium
+480,18,Male,Peshawar,Azad Kashmir,2.65,Average,High (>250k),Graduate,19,79,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,15.5,Van,Low,Chronic,No,Clubs,Low
+481,19,Male,Mansehra,Punjab,2.65,Average,High (>250k),Intermediate,32,58,Yes,No,Laptop,Consistent,Semi-Government,English,31.6,Bus,High,Minor,Yes,Clubs,Low
+482,25,Female,Swat,KPK,2.66,Average,Low (<30k),Graduate,11,59,No,Yes,None,Frequent Outages,Public,English,0.7,Walk,Medium,None,No,Sports,High
+483,23,Female,Mirpur,Azad Kashmir,2.66,Average,High (>250k),Graduate,17,97,No,Yes,Laptop,Consistent,Semi-Government,Urdu,29.9,Car,High,Minor,Yes,Clubs,Low
+484,22,Male,Faisalabad,KPK,2.66,Average,High (>250k),Primary,20,77,No,Yes,None,Consistent,Semi-Government,Urdu,8.6,Van,Medium,Minor,No,None,Medium
+485,23,Female,Bannu,Gilgit Baltistan,2.66,Average,Low (<30k),Matric,24,56,No,No,Laptop,Consistent,Private,English,10.5,Bike,Medium,Minor,Yes,None,Low
+486,25,Female,Skardu,Gilgit Baltistan,2.67,Average,Upper-Middle (120k-250k),Primary,24,65,No,Yes,Desktop,Consistent,Public,English,29.2,Bike,Medium,Chronic,No,Sports,Medium
+487,20,Female,Sialkot,KPK,2.67,Average,High (>250k),Intermediate,22,91,No,Yes,None,Frequent Outages,Private,English,18.5,Bus,Medium,Minor,No,Sports,High
+488,19,Female,Sialkot,Punjab,2.67,Average,Middle (60k-120k),Postgraduate,36,62,No,No,None,Frequent Outages,Public,Urdu,16.6,Bus,High,Minor,Yes,Sports,Low
+489,18,Female,Diamer,Punjab,2.67,Average,Low (<30k),Matric,23,97,No,No,None,Frequent Outages,Semi-Government,English,26.6,Walk,Low,Minor,Yes,Clubs,Low
+490,22,Female,Okara,Azad Kashmir,2.67,Average,Middle (60k-120k),Matric,28,63,No,Yes,Laptop,Consistent,Semi-Government,Urdu,8.9,Bike,High,Minor,Yes,None,Medium
+491,17,Female,Sargodha,Azad Kashmir,2.68,Average,High (>250k),Intermediate,23,74,No,No,Desktop,Frequent Outages,Public,Urdu,14.8,Walk,Low,Chronic,Yes,Sports,Medium
+492,21,Male,Mardan,Gilgit Baltistan,2.68,Average,Low (<30k),Intermediate,16,64,No,No,None,Consistent,Public,Urdu,11.1,Van,Low,None,No,None,Low
+493,20,Male,Muzaffarabad,Gilgit Baltistan,2.68,Average,Low (<30k),Intermediate,34,95,Yes,No,Laptop,Frequent Outages,Semi-Government,English,3.2,Car,Medium,None,No,Sports,High
+494,24,Female,Lahore,Punjab,2.68,Average,High (>250k),Graduate,22,57,Yes,Yes,Desktop,Consistent,Semi-Government,Urdu,15.2,Walk,Low,None,No,Clubs,Low
+495,21,Male,Chiniot,Azad Kashmir,2.69,Average,Lower-Middle (30k-60k),Intermediate,38,58,No,Yes,Desktop,Consistent,Private,English,28.4,Bike,Medium,None,Yes,Clubs,Low
+496,21,Female,Lahore,Punjab,2.69,Average,High (>250k),Matric,33,92,Yes,No,Desktop,Frequent Outages,Private,Urdu,23.7,Walk,High,Minor,No,Sports,Medium
+497,17,Male,Bhimber,KPK,2.69,Average,Low (<30k),Primary,37,64,Yes,Yes,None,Frequent Outages,Public,Urdu,28.4,Bus,High,Chronic,Yes,Clubs,High
+498,22,Female,Lahore,KPK,2.69,Average,Upper-Middle (120k-250k),Postgraduate,32,92,No,Yes,None,Consistent,Public,English,28.0,Car,Medium,Minor,No,Clubs,High
+499,19,Female,Peshawar,Punjab,2.7,Average,Lower-Middle (30k-60k),Matric,37,91,No,No,Laptop,Frequent Outages,Private,Urdu,16.1,Bike,High,Chronic,Yes,Clubs,Low
+500,22,Male,Dir,KPK,2.7,Average,High (>250k),Primary,20,62,No,No,Mobile,Consistent,Public,English,25.6,Walk,Medium,None,No,Clubs,High
+501,23,Male,Mansehra,KPK,2.7,Average,Upper-Middle (120k-250k),Primary,26,89,Yes,No,Desktop,Consistent,Private,Urdu,22.9,Car,High,None,Yes,None,Medium
+502,23,Male,Muzaffarabad,Punjab,2.7,Average,High (>250k),Intermediate,29,75,Yes,No,None,Consistent,Semi-Government,Urdu,23.1,Walk,High,None,Yes,None,Medium
+503,24,Male,Swat,Gilgit Baltistan,2.71,Average,Lower-Middle (30k-60k),Postgraduate,20,91,Yes,No,Mobile,Consistent,Semi-Government,Urdu,9.7,Bike,High,Chronic,Yes,None,High
+504,22,Female,Swat,Punjab,2.71,Average,Lower-Middle (30k-60k),Primary,25,75,Yes,Yes,Desktop,Frequent Outages,Public,English,12.0,Bike,Medium,None,Yes,Sports,Low
+505,24,Female,Rahim Yar Khan,Azad Kashmir,2.71,Average,Middle (60k-120k),Intermediate,32,86,Yes,No,Desktop,Consistent,Private,English,25.6,Walk,Medium,Chronic,Yes,Clubs,High
+506,21,Male,Chiniot,Azad Kashmir,2.71,Average,High (>250k),Intermediate,33,99,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,27.2,Walk,Medium,Chronic,No,None,Low
+507,25,Female,Mansehra,Azad Kashmir,2.72,Average,High (>250k),Intermediate,32,67,Yes,No,None,Consistent,Private,Urdu,20.9,Walk,Medium,None,No,Sports,High
+508,24,Male,Kotli,Punjab,2.72,Average,Lower-Middle (30k-60k),Graduate,23,60,Yes,No,Desktop,Frequent Outages,Semi-Government,English,11.5,Van,Low,Minor,Yes,None,High
+509,24,Female,Bhimber,Azad Kashmir,2.72,Average,High (>250k),Graduate,30,75,No,Yes,None,Consistent,Semi-Government,English,26.3,Walk,High,Minor,Yes,None,Medium
+510,25,Male,Rahim Yar Khan,KPK,2.72,Average,Upper-Middle (120k-250k),Postgraduate,33,72,No,No,Laptop,Consistent,Public,English,3.7,Van,Low,Chronic,No,Sports,High
+511,20,Female,Okara,KPK,2.73,Average,Lower-Middle (30k-60k),Intermediate,37,73,No,Yes,Laptop,Consistent,Private,Urdu,11.2,Car,High,None,Yes,None,Medium
+512,20,Male,Abbottabad,KPK,2.73,Average,Middle (60k-120k),Intermediate,7,81,No,Yes,Laptop,Consistent,Private,English,17.5,Van,Medium,Minor,No,Sports,High
+513,24,Male,Sargodha,Gilgit Baltistan,2.73,Average,High (>250k),Matric,13,55,No,Yes,Mobile,Frequent Outages,Semi-Government,English,8.1,Bus,Low,Minor,No,None,Medium
+514,17,Female,Multan,KPK,2.73,Average,Middle (60k-120k),Primary,6,95,No,No,None,Frequent Outages,Public,Urdu,31.4,Walk,High,Minor,No,Clubs,High
+515,17,Male,Peshawar,Punjab,2.73,Average,High (>250k),Primary,21,55,Yes,Yes,Desktop,Frequent Outages,Private,English,1.8,Walk,High,Minor,Yes,None,Medium
+516,23,Female,Gilgit,KPK,2.74,Average,Upper-Middle (120k-250k),Graduate,6,59,Yes,No,Mobile,Frequent Outages,Public,English,26.3,Van,High,Chronic,No,Sports,Low
+517,24,Male,Muzaffarabad,Punjab,2.74,Average,High (>250k),Primary,8,98,No,No,Mobile,Frequent Outages,Private,Urdu,32.1,Walk,Low,None,Yes,Sports,High
+518,17,Male,Lahore,KPK,2.74,Average,High (>250k),Graduate,22,69,Yes,Yes,Laptop,Consistent,Private,English,12.6,Van,Medium,Chronic,No,Clubs,Low
+519,19,Female,Swat,Azad Kashmir,2.74,Average,Lower-Middle (30k-60k),Primary,26,58,Yes,Yes,Mobile,Consistent,Private,English,15.9,Car,High,Chronic,No,Sports,High
+520,24,Male,Bannu,Punjab,2.75,Average,Lower-Middle (30k-60k),Intermediate,27,61,Yes,No,None,Consistent,Private,English,26.0,Walk,High,Minor,Yes,Clubs,Low
+521,21,Female,Diamer,Punjab,2.75,Average,Lower-Middle (30k-60k),Primary,33,67,No,No,Laptop,Consistent,Public,Urdu,8.7,Car,Medium,Chronic,Yes,Sports,Low
+522,19,Male,Multan,KPK,2.75,Average,Lower-Middle (30k-60k),Intermediate,36,75,Yes,No,None,Consistent,Private,Urdu,16.6,Bus,Medium,Chronic,Yes,Clubs,Medium
+523,22,Male,Mirpur,Azad Kashmir,2.75,Average,Low (<30k),Primary,14,76,Yes,No,Mobile,Consistent,Private,Urdu,30.3,Walk,Low,Chronic,Yes,Clubs,Medium
+524,25,Male,Peshawar,Gilgit Baltistan,2.76,Average,Low (<30k),Postgraduate,17,86,No,No,Desktop,Consistent,Semi-Government,English,3.1,Bus,Low,None,Yes,None,Medium
+525,17,Male,Mirpur,Punjab,2.76,Average,Upper-Middle (120k-250k),Intermediate,27,85,No,Yes,Desktop,Consistent,Semi-Government,English,16.8,Walk,High,Chronic,No,Clubs,Low
+526,22,Male,Charsadda,Punjab,2.76,Average,Lower-Middle (30k-60k),Primary,24,88,No,Yes,None,Frequent Outages,Semi-Government,English,3.5,Car,Medium,Chronic,No,Clubs,Low
+527,20,Male,Skardu,Punjab,2.76,Average,High (>250k),Intermediate,16,97,No,Yes,Mobile,Consistent,Private,Urdu,22.7,Bike,Low,Chronic,No,Sports,High
+528,21,Female,Chiniot,KPK,2.77,Average,Upper-Middle (120k-250k),Postgraduate,14,95,No,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,21.1,Bike,Low,None,Yes,None,Low
+529,22,Female,Charsadda,KPK,2.77,Average,Lower-Middle (30k-60k),Postgraduate,36,86,No,Yes,Desktop,Consistent,Semi-Government,English,18.7,Walk,Medium,None,Yes,None,Medium
+530,25,Female,Bahawalpur,KPK,2.77,Average,Low (<30k),Postgraduate,23,56,No,Yes,Mobile,Consistent,Public,English,22.1,Bus,High,Chronic,No,None,High
+531,17,Male,Skardu,KPK,2.77,Average,Low (<30k),Intermediate,21,98,Yes,Yes,Laptop,Frequent Outages,Private,English,16.1,Bus,High,Minor,Yes,None,Medium
+532,22,Male,Multan,KPK,2.78,Average,Upper-Middle (120k-250k),Graduate,25,74,No,No,Laptop,Consistent,Private,Urdu,3.5,Car,High,Chronic,Yes,None,Medium
+533,20,Male,Bhimber,KPK,2.78,Average,Middle (60k-120k),Matric,39,66,No,Yes,None,Consistent,Private,English,25.5,Car,Medium,Minor,No,None,Low
+534,22,Male,Skardu,KPK,2.78,Average,Lower-Middle (30k-60k),Intermediate,28,84,No,No,Laptop,Consistent,Public,English,26.9,Bus,High,Minor,No,Clubs,Low
+535,17,Male,Kotli,Gilgit Baltistan,2.78,Average,Upper-Middle (120k-250k),Primary,7,85,Yes,No,None,Consistent,Private,Urdu,28.6,Walk,Low,Minor,No,Clubs,High
+536,18,Male,Sialkot,KPK,2.79,Average,Middle (60k-120k),Postgraduate,9,57,Yes,Yes,None,Consistent,Private,Urdu,5.8,Walk,Low,None,Yes,None,Medium
+537,24,Male,Bannu,KPK,2.79,Average,Low (<30k),Postgraduate,32,61,No,No,Desktop,Frequent Outages,Public,English,18.1,Bus,Low,None,Yes,Clubs,Medium
+538,24,Male,Bhimber,KPK,2.79,Average,Low (<30k),Intermediate,7,68,No,No,None,Consistent,Private,English,27.7,Walk,Low,None,No,Clubs,Medium
+539,24,Male,Hunza,Azad Kashmir,2.79,Average,High (>250k),Intermediate,32,89,Yes,No,Mobile,Consistent,Public,Urdu,20.1,Van,Low,None,Yes,None,High
+540,19,Female,Sialkot,Azad Kashmir,2.79,Average,Lower-Middle (30k-60k),Postgraduate,23,86,Yes,No,Laptop,Consistent,Semi-Government,English,15.2,Walk,Low,Minor,No,Clubs,Low
+541,20,Male,Muzaffarabad,Gilgit Baltistan,2.8,Average,High (>250k),Postgraduate,30,93,No,No,Desktop,Consistent,Private,English,28.7,Van,Low,Minor,No,Sports,High
+542,23,Male,Bahawalpur,Azad Kashmir,2.8,Average,Middle (60k-120k),Graduate,36,82,No,No,Laptop,Consistent,Semi-Government,English,24.5,Van,High,None,No,Sports,High
+543,21,Male,Kotli,Punjab,2.8,Average,Middle (60k-120k),Graduate,12,66,Yes,No,None,Consistent,Public,English,16.8,Bus,Low,Minor,Yes,Sports,Medium
+544,25,Female,Chiniot,KPK,2.8,Average,High (>250k),Graduate,32,62,No,No,Laptop,Frequent Outages,Private,English,1.0,Bus,Low,None,Yes,None,Low
+545,19,Female,Hunza,Punjab,2.81,Average,Lower-Middle (30k-60k),Matric,25,81,No,No,None,Frequent Outages,Semi-Government,English,31.1,Bike,Medium,None,Yes,Clubs,High
+546,24,Female,Gujranwala,Gilgit Baltistan,2.81,Average,Low (<30k),Primary,33,59,No,Yes,Mobile,Consistent,Semi-Government,English,3.1,Walk,High,None,No,Clubs,Medium
+547,22,Male,Sialkot,KPK,2.81,Average,High (>250k),Intermediate,19,75,Yes,Yes,Desktop,Consistent,Private,Urdu,31.0,Bus,Medium,None,Yes,None,Medium
+548,24,Male,Charsadda,KPK,2.81,Average,Upper-Middle (120k-250k),Intermediate,17,83,Yes,No,Desktop,Consistent,Public,Urdu,16.2,Car,Medium,Minor,No,Clubs,Low
+549,19,Male,Diamer,KPK,2.82,Average,Lower-Middle (30k-60k),Postgraduate,33,58,Yes,Yes,Mobile,Consistent,Private,English,13.9,Car,Medium,Minor,No,Clubs,Low
+550,20,Male,Dir,Punjab,2.82,Average,Middle (60k-120k),Primary,6,60,No,No,None,Frequent Outages,Private,English,3.2,Bike,Medium,Chronic,No,Clubs,Low
+551,17,Female,Skardu,Punjab,2.82,Average,Low (<30k),Postgraduate,16,64,No,No,Laptop,Frequent Outages,Semi-Government,English,24.9,Walk,Low,Chronic,No,Sports,Low
+552,19,Female,Mardan,Azad Kashmir,2.82,Average,High (>250k),Postgraduate,9,58,Yes,No,Desktop,Consistent,Private,Urdu,25.9,Walk,Low,Chronic,No,Sports,Low
+553,21,Female,Gujranwala,Punjab,2.83,Average,High (>250k),Primary,22,71,No,No,None,Consistent,Private,Urdu,32.7,Van,Low,None,No,Sports,High
+554,20,Female,Mardan,Punjab,2.83,Average,Middle (60k-120k),Matric,14,91,Yes,No,Desktop,Consistent,Public,Urdu,9.8,Walk,Low,None,No,Clubs,High
+555,22,Female,Diamer,Azad Kashmir,2.83,Average,Low (<30k),Primary,26,63,No,No,Mobile,Frequent Outages,Semi-Government,English,9.0,Bike,High,Chronic,No,None,High
+556,23,Male,Chiniot,KPK,2.83,Average,High (>250k),Intermediate,36,59,Yes,Yes,Mobile,Consistent,Semi-Government,Urdu,13.6,Walk,Low,None,No,Sports,Medium
+557,20,Female,Sargodha,KPK,2.84,Average,High (>250k),Primary,18,60,Yes,No,Laptop,Frequent Outages,Public,Urdu,11.5,Bus,Low,Chronic,Yes,Clubs,Low
+558,25,Female,Mansehra,Azad Kashmir,2.84,Average,High (>250k),Graduate,23,78,No,No,None,Frequent Outages,Private,English,21.3,Van,Low,None,No,Sports,High
+559,21,Male,Rahim Yar Khan,Gilgit Baltistan,2.84,Average,Middle (60k-120k),Primary,21,92,No,Yes,Laptop,Consistent,Semi-Government,Urdu,2.7,Bike,High,None,Yes,Sports,High
+560,25,Female,Peshawar,Punjab,2.84,Average,Low (<30k),Graduate,28,86,Yes,No,Desktop,Consistent,Semi-Government,English,1.2,Van,Low,Chronic,No,Clubs,Medium
+561,18,Female,Mansehra,Azad Kashmir,2.85,Average,Middle (60k-120k),Graduate,25,77,No,No,Laptop,Frequent Outages,Semi-Government,English,20.5,Bike,High,None,No,None,High
+562,21,Female,Rahim Yar Khan,Punjab,2.85,Average,Low (<30k),Intermediate,37,57,No,No,Desktop,Frequent Outages,Public,Urdu,6.1,Bike,Medium,Minor,Yes,Clubs,Low
+563,19,Male,Gujranwala,Punjab,2.85,Average,Lower-Middle (30k-60k),Graduate,31,74,No,Yes,Mobile,Consistent,Semi-Government,English,17.6,Van,Low,Chronic,Yes,Clubs,High
+564,25,Male,Gujranwala,KPK,2.85,Average,Low (<30k),Intermediate,20,63,Yes,Yes,None,Consistent,Private,English,27.7,Bus,Medium,Minor,Yes,Sports,Medium
+565,22,Male,Lahore,Punjab,2.85,Average,Low (<30k),Matric,22,70,Yes,Yes,Mobile,Frequent Outages,Semi-Government,English,18.8,Bike,Medium,Chronic,Yes,Clubs,Low
+566,17,Male,Hunza,Punjab,2.86,Average,Middle (60k-120k),Intermediate,15,63,Yes,Yes,None,Frequent Outages,Semi-Government,English,32.5,Car,Low,Minor,No,Clubs,Medium
+567,25,Male,Lahore,Punjab,2.86,Average,Low (<30k),Matric,35,61,No,Yes,None,Consistent,Semi-Government,English,8.8,Van,High,Minor,Yes,Clubs,Low
+568,18,Male,Peshawar,KPK,2.86,Average,Low (<30k),Matric,28,95,No,No,Desktop,Frequent Outages,Private,English,24.7,Van,Medium,Chronic,No,Clubs,Medium
+569,18,Male,Abbottabad,KPK,2.86,Average,Upper-Middle (120k-250k),Graduate,24,67,No,No,Desktop,Frequent Outages,Semi-Government,English,7.4,Walk,High,Minor,No,None,Medium
+570,21,Female,Mardan,Gilgit Baltistan,2.87,Average,High (>250k),Intermediate,22,56,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,4.7,Bus,Medium,None,Yes,Sports,Low
+571,18,Male,Mirpur,KPK,2.87,Average,Upper-Middle (120k-250k),Intermediate,35,89,No,Yes,Laptop,Frequent Outages,Semi-Government,English,15.9,Bike,High,Chronic,Yes,Clubs,Low
+572,19,Male,Peshawar,Punjab,2.87,Average,Middle (60k-120k),Matric,15,91,No,No,Desktop,Consistent,Private,English,12.2,Van,Medium,Minor,Yes,Clubs,High
+573,23,Male,Dir,Punjab,2.87,Average,Middle (60k-120k),Primary,33,60,Yes,Yes,None,Frequent Outages,Semi-Government,English,16.9,Car,High,Minor,Yes,Sports,High
+574,18,Male,Charsadda,KPK,2.88,Average,Low (<30k),Primary,33,96,Yes,Yes,Mobile,Consistent,Public,Urdu,28.6,Bus,High,None,Yes,Sports,Medium
+575,19,Female,Kotli,KPK,2.88,Average,Middle (60k-120k),Postgraduate,27,85,No,Yes,Laptop,Consistent,Public,Urdu,25.3,Walk,Low,Minor,No,None,Low
+576,18,Male,Peshawar,Gilgit Baltistan,2.88,Average,Upper-Middle (120k-250k),Graduate,17,76,No,Yes,None,Consistent,Semi-Government,English,14.3,Bike,Low,None,No,Clubs,Low
+577,22,Female,Multan,Punjab,2.88,Average,Middle (60k-120k),Intermediate,36,80,No,No,Mobile,Consistent,Private,English,9.6,Car,High,Chronic,Yes,None,Low
+578,23,Male,Lahore,Punjab,2.89,Average,Middle (60k-120k),Matric,7,77,No,Yes,Mobile,Frequent Outages,Public,Urdu,12.4,Bus,High,Minor,No,None,Low
+579,19,Male,Swat,KPK,2.89,Average,Low (<30k),Intermediate,22,75,No,Yes,Desktop,Frequent Outages,Semi-Government,English,5.9,Walk,Low,Minor,No,Sports,Medium
+580,23,Female,Bahawalpur,Gilgit Baltistan,2.89,Average,Low (<30k),Matric,22,71,Yes,Yes,None,Frequent Outages,Private,English,29.5,Bike,Medium,Minor,No,Clubs,High
+581,25,Female,Bhimber,KPK,2.89,Average,Middle (60k-120k),Primary,21,63,Yes,No,Mobile,Consistent,Semi-Government,Urdu,23.3,Walk,Medium,None,No,None,High
+582,18,Male,Faisalabad,Punjab,2.9,Average,Low (<30k),Graduate,14,68,Yes,Yes,None,Consistent,Semi-Government,English,9.2,Bike,Low,None,No,None,High
+583,23,Female,Bahawalpur,Punjab,2.9,Average,Low (<30k),Intermediate,33,93,Yes,No,Desktop,Consistent,Public,English,27.7,Car,Low,Minor,No,Sports,High
+584,17,Female,Dir,Punjab,2.9,Average,High (>250k),Graduate,18,56,Yes,No,Desktop,Consistent,Public,Urdu,16.2,Car,High,None,Yes,Sports,Low
+585,17,Female,Dir,Punjab,2.9,Average,Lower-Middle (30k-60k),Graduate,30,66,No,No,Laptop,Consistent,Semi-Government,Urdu,24.8,Bike,Medium,None,Yes,Sports,Low
+586,22,Female,Kotli,Punjab,2.91,Average,Low (<30k),Matric,31,96,Yes,Yes,None,Frequent Outages,Public,Urdu,3.6,Bike,Medium,Chronic,No,None,High
+587,18,Male,Rahim Yar Khan,KPK,2.91,Average,Lower-Middle (30k-60k),Graduate,8,98,No,Yes,None,Frequent Outages,Private,Urdu,9.0,Car,Medium,Chronic,Yes,None,Low
+588,24,Male,Mirpur,Gilgit Baltistan,2.91,Average,Low (<30k),Matric,34,98,No,No,Desktop,Consistent,Semi-Government,Urdu,12.1,Bus,High,None,No,Clubs,Low
+589,21,Male,Mansehra,KPK,2.91,Average,High (>250k),Matric,8,63,No,No,Mobile,Consistent,Private,English,7.5,Bus,High,None,Yes,Clubs,High
+590,19,Male,Dir,Punjab,2.92,Average,Upper-Middle (120k-250k),Matric,29,56,Yes,Yes,Laptop,Frequent Outages,Public,English,17.2,Van,Medium,None,No,Sports,Medium
+591,23,Female,Sialkot,Azad Kashmir,2.92,Average,Low (<30k),Matric,6,98,Yes,Yes,None,Frequent Outages,Semi-Government,English,12.1,Walk,High,None,Yes,Clubs,Medium
+592,21,Female,Gilgit,Gilgit Baltistan,2.92,Average,Lower-Middle (30k-60k),Intermediate,36,72,No,Yes,Mobile,Consistent,Public,English,24.8,Bike,High,Minor,Yes,Clubs,Medium
+593,18,Female,Hunza,KPK,2.92,Average,Low (<30k),Intermediate,31,57,Yes,No,None,Consistent,Private,Urdu,25.5,Bike,High,Chronic,Yes,Sports,High
+594,24,Male,Abbottabad,Azad Kashmir,2.92,Average,Lower-Middle (30k-60k),Postgraduate,24,87,Yes,Yes,None,Consistent,Public,Urdu,30.5,Bus,Medium,Minor,Yes,Clubs,Low
+595,20,Female,Bahawalpur,Punjab,2.93,Average,Upper-Middle (120k-250k),Matric,11,60,No,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,2.1,Van,High,None,Yes,None,Medium
+596,17,Female,Okara,KPK,2.93,Average,Upper-Middle (120k-250k),Primary,30,91,Yes,Yes,None,Consistent,Semi-Government,English,5.1,Car,High,Chronic,Yes,Sports,Medium
+597,25,Female,Bannu,Azad Kashmir,2.93,Average,Low (<30k),Graduate,37,90,No,Yes,Mobile,Frequent Outages,Public,Urdu,33.4,Bike,Medium,None,Yes,Clubs,Medium
+598,18,Female,Abbottabad,Gilgit Baltistan,2.93,Average,High (>250k),Primary,35,91,No,No,Desktop,Frequent Outages,Private,English,33.5,Walk,Medium,Chronic,Yes,None,High
+599,23,Female,Mirpur,Punjab,2.94,Average,High (>250k),Postgraduate,24,90,No,Yes,Mobile,Frequent Outages,Public,English,1.1,Car,Medium,Minor,Yes,Sports,High
+600,17,Male,Diamer,Azad Kashmir,2.94,Average,Upper-Middle (120k-250k),Postgraduate,20,56,No,Yes,Desktop,Consistent,Private,Urdu,34.5,Van,Medium,Minor,Yes,None,Low
+601,17,Female,Skardu,Punjab,2.94,Average,Lower-Middle (30k-60k),Matric,20,95,Yes,No,Laptop,Frequent Outages,Public,English,22.2,Van,High,Minor,No,None,Low
+602,24,Male,Multan,Gilgit Baltistan,2.94,Average,Middle (60k-120k),Postgraduate,23,56,No,Yes,None,Consistent,Private,Urdu,8.2,Walk,High,Minor,Yes,Sports,High
+603,20,Female,Peshawar,Punjab,2.95,Average,Low (<30k),Graduate,13,98,Yes,No,Mobile,Frequent Outages,Private,Urdu,17.7,Van,Medium,None,No,Clubs,Medium
+604,20,Female,Okara,KPK,2.95,Average,High (>250k),Intermediate,29,93,Yes,No,Desktop,Consistent,Private,English,26.1,Walk,Medium,None,Yes,None,Low
+605,19,Male,Gilgit,Punjab,2.95,Average,Low (<30k),Postgraduate,7,99,Yes,Yes,Laptop,Frequent Outages,Public,English,22.5,Bike,Medium,Chronic,No,Clubs,Low
+606,19,Male,Muzaffarabad,KPK,2.95,Average,Low (<30k),Matric,23,80,No,No,Desktop,Consistent,Private,English,14.8,Car,High,None,Yes,Sports,High
+607,17,Female,Diamer,KPK,2.96,Average,Lower-Middle (30k-60k),Graduate,28,78,Yes,Yes,None,Consistent,Semi-Government,Urdu,31.3,Bus,Medium,Minor,Yes,Sports,High
+608,22,Female,Bannu,Gilgit Baltistan,2.96,Average,Upper-Middle (120k-250k),Primary,17,60,No,Yes,Desktop,Frequent Outages,Private,Urdu,23.4,Bus,High,None,Yes,Clubs,High
+609,17,Male,Dir,Punjab,2.96,Average,Lower-Middle (30k-60k),Intermediate,38,91,No,No,Mobile,Consistent,Public,Urdu,0.9,Walk,Medium,None,Yes,Sports,Low
+610,19,Male,Mirpur,KPK,2.96,Average,Middle (60k-120k),Postgraduate,25,96,No,Yes,Laptop,Frequent Outages,Private,Urdu,1.2,Bike,Medium,Minor,No,Clubs,Low
+611,20,Male,Charsadda,Punjab,2.97,Average,Low (<30k),Postgraduate,15,75,Yes,Yes,Laptop,Consistent,Private,English,7.2,Van,Medium,Chronic,Yes,None,High
+612,22,Female,Bhimber,KPK,2.97,Average,Low (<30k),Primary,27,73,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,23.7,Walk,Low,None,No,Clubs,Low
+613,17,Male,Lahore,KPK,2.97,Average,Low (<30k),Postgraduate,14,89,No,No,Mobile,Frequent Outages,Public,Urdu,23.2,Bike,Low,None,Yes,Clubs,Medium
+614,25,Male,Sialkot,KPK,2.97,Average,High (>250k),Matric,37,90,No,No,Mobile,Consistent,Private,English,11.8,Walk,High,Chronic,No,Clubs,High
+615,17,Female,Mansehra,Punjab,2.98,Average,High (>250k),Primary,22,70,No,No,Laptop,Frequent Outages,Semi-Government,English,23.7,Walk,Medium,Minor,Yes,Clubs,Medium
+616,24,Male,Peshawar,KPK,2.98,Average,High (>250k),Intermediate,33,81,No,No,Desktop,Frequent Outages,Semi-Government,English,2.3,Bus,Low,Minor,Yes,Clubs,Medium
+617,17,Male,Gujranwala,Punjab,2.98,Average,Upper-Middle (120k-250k),Matric,17,85,Yes,Yes,Mobile,Consistent,Semi-Government,English,9.6,Walk,Medium,Chronic,Yes,None,Medium
+618,22,Female,Dir,KPK,2.98,Average,High (>250k),Intermediate,10,76,No,Yes,Laptop,Frequent Outages,Public,Urdu,5.5,Bike,Low,Minor,No,None,Low
+619,24,Female,Lahore,KPK,2.98,Average,Lower-Middle (30k-60k),Matric,32,69,Yes,Yes,Laptop,Consistent,Public,English,21.9,Car,High,None,Yes,Sports,Medium
+620,20,Male,Skardu,Punjab,2.99,Average,Low (<30k),Intermediate,25,89,No,Yes,None,Consistent,Private,English,19.4,Van,Medium,Chronic,No,None,Medium
+621,18,Male,Diamer,Punjab,2.99,Average,Lower-Middle (30k-60k),Primary,37,56,No,No,Laptop,Frequent Outages,Semi-Government,English,21.3,Bike,Medium,Minor,Yes,Sports,Medium
+622,17,Female,Diamer,Punjab,2.99,Average,Upper-Middle (120k-250k),Postgraduate,21,58,No,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,1.8,Bus,Low,None,No,None,High
+623,19,Female,Okara,KPK,2.99,Average,High (>250k),Graduate,12,75,Yes,Yes,None,Consistent,Semi-Government,Urdu,16.8,Bus,High,Minor,Yes,Sports,Low
+624,23,Male,Chiniot,Gilgit Baltistan,3.0,Average,Upper-Middle (120k-250k),Matric,19,95,No,Yes,Laptop,Consistent,Private,Urdu,27.8,Car,Low,None,Yes,Sports,Medium
+625,18,Female,Sargodha,KPK,3.0,Average,Low (<30k),Graduate,10,55,No,No,Mobile,Consistent,Private,English,19.9,Van,High,None,No,None,Low
+626,25,Female,Dir,KPK,3.0,Average,Middle (60k-120k),Matric,18,67,No,Yes,Desktop,Consistent,Semi-Government,Urdu,25.3,Car,High,Minor,No,Clubs,Medium
+627,18,Male,Bahawalpur,Punjab,3.0,Average,High (>250k),Intermediate,6,75,No,Yes,Mobile,Frequent Outages,Public,Urdu,10.6,Bus,Low,Minor,No,Clubs,Low
+628,19,Male,Sialkot,Gilgit Baltistan,3.01,Average,Middle (60k-120k),Primary,6,67,No,No,Laptop,Consistent,Public,English,28.3,Car,High,None,No,Sports,Medium
+629,19,Female,Rahim Yar Khan,Azad Kashmir,3.01,Average,Low (<30k),Graduate,11,94,Yes,No,Mobile,Frequent Outages,Private,English,18.1,Walk,High,Chronic,No,None,High
+630,24,Male,Sialkot,KPK,3.01,Average,Upper-Middle (120k-250k),Primary,35,72,No,No,Mobile,Consistent,Public,English,14.8,Bus,High,None,No,Sports,Medium
+631,17,Male,Bhimber,Azad Kashmir,3.01,Average,Upper-Middle (120k-250k),Intermediate,36,95,No,Yes,Mobile,Consistent,Private,English,22.2,Walk,Low,Minor,No,Clubs,Medium
+632,21,Female,Chiniot,Punjab,3.02,Average,Lower-Middle (30k-60k),Primary,10,80,Yes,Yes,Desktop,Consistent,Private,Urdu,9.4,Walk,Medium,Minor,Yes,None,Medium
+633,21,Female,Sargodha,KPK,3.02,Average,Lower-Middle (30k-60k),Matric,39,96,Yes,No,Laptop,Frequent Outages,Semi-Government,English,9.1,Walk,Low,None,Yes,Clubs,Low
+634,17,Male,Mansehra,Azad Kashmir,3.02,Average,Lower-Middle (30k-60k),Primary,12,62,Yes,Yes,Mobile,Consistent,Private,English,5.4,Bike,High,Minor,Yes,Clubs,Medium
+635,22,Female,Muzaffarabad,Punjab,3.02,Average,Low (<30k),Intermediate,26,61,Yes,No,None,Consistent,Semi-Government,English,22.1,Bus,High,Chronic,Yes,Clubs,Medium
+636,21,Male,Gilgit,Punjab,3.03,Average,Upper-Middle (120k-250k),Postgraduate,14,73,No,Yes,Desktop,Consistent,Private,Urdu,9.4,Walk,Low,Minor,Yes,Sports,High
+637,24,Male,Gilgit,KPK,3.03,Average,Middle (60k-120k),Primary,27,67,Yes,No,Laptop,Consistent,Public,Urdu,21.4,Bike,Medium,Minor,Yes,Sports,Medium
+638,18,Female,Multan,KPK,3.03,Average,High (>250k),Postgraduate,15,92,Yes,No,Laptop,Consistent,Private,Urdu,9.6,Van,Low,None,No,Sports,Low
+639,17,Male,Bahawalpur,Punjab,3.03,Average,Low (<30k),Postgraduate,22,98,Yes,No,None,Frequent Outages,Private,Urdu,29.1,Bike,Medium,None,No,Sports,Low
+640,24,Male,Faisalabad,Gilgit Baltistan,3.04,Average,Upper-Middle (120k-250k),Intermediate,19,86,No,Yes,Laptop,Consistent,Private,English,3.4,Bus,Low,Chronic,No,Sports,High
+641,18,Female,Mansehra,KPK,3.04,Average,Low (<30k),Graduate,16,78,No,No,Laptop,Consistent,Public,Urdu,6.9,Bus,High,Minor,No,None,Medium
+642,22,Female,Sargodha,KPK,3.04,Average,Low (<30k),Graduate,16,86,Yes,Yes,Mobile,Consistent,Private,Urdu,32.2,Walk,High,Chronic,No,Clubs,Medium
+643,23,Female,Kotli,Azad Kashmir,3.04,Average,Lower-Middle (30k-60k),Postgraduate,25,81,Yes,No,None,Frequent Outages,Private,Urdu,24.7,Bike,Medium,Chronic,Yes,Clubs,Low
+644,25,Female,Gilgit,KPK,3.04,Average,Upper-Middle (120k-250k),Postgraduate,8,90,Yes,No,None,Consistent,Public,Urdu,31.6,Van,High,Chronic,No,Clubs,High
+645,21,Male,Mardan,Gilgit Baltistan,3.05,Average,High (>250k),Postgraduate,26,81,No,Yes,Laptop,Consistent,Public,Urdu,4.3,Bike,Low,None,No,Sports,Low
+646,17,Female,Hunza,Punjab,3.05,Average,Middle (60k-120k),Postgraduate,39,99,No,Yes,Laptop,Consistent,Public,Urdu,3.0,Van,Low,Chronic,Yes,Sports,High
+647,23,Female,Bhimber,Punjab,3.05,Average,Upper-Middle (120k-250k),Postgraduate,26,91,No,No,Desktop,Consistent,Public,English,4.0,Bike,Medium,None,No,Clubs,Medium
+648,20,Female,Muzaffarabad,KPK,3.05,Average,Upper-Middle (120k-250k),Matric,15,72,Yes,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,29.6,Bike,Low,Minor,Yes,Clubs,Medium
+649,19,Female,Skardu,Punjab,3.06,Average,Lower-Middle (30k-60k),Matric,37,88,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,33.6,Bike,Low,None,Yes,Sports,Medium
+650,17,Female,Chiniot,KPK,3.06,Average,High (>250k),Intermediate,7,90,No,No,None,Frequent Outages,Public,English,11.0,Bus,Low,Chronic,Yes,Clubs,High
+651,18,Male,Mansehra,Punjab,3.06,Average,Upper-Middle (120k-250k),Graduate,18,68,Yes,Yes,Mobile,Consistent,Public,Urdu,18.9,Van,Medium,Chronic,No,Sports,Medium
+652,17,Male,Diamer,Punjab,3.06,Average,Middle (60k-120k),Matric,35,89,No,No,None,Consistent,Private,Urdu,26.7,Walk,Low,Chronic,No,Clubs,Low
+653,25,Male,Faisalabad,KPK,3.07,Average,Low (<30k),Intermediate,38,61,Yes,No,Mobile,Consistent,Public,Urdu,1.5,Van,Medium,Chronic,Yes,Sports,High
+654,19,Female,Rahim Yar Khan,Gilgit Baltistan,3.07,Average,High (>250k),Intermediate,22,88,Yes,Yes,Laptop,Consistent,Private,English,7.4,Car,Low,Minor,Yes,Sports,Medium
+655,24,Male,Lahore,Punjab,3.07,Average,High (>250k),Postgraduate,8,73,Yes,No,Mobile,Consistent,Public,English,9.2,Van,Medium,Minor,Yes,Clubs,High
+656,18,Male,Mirpur,Azad Kashmir,3.07,Average,Lower-Middle (30k-60k),Intermediate,26,75,No,No,Desktop,Frequent Outages,Public,Urdu,23.9,Car,Medium,None,No,Sports,Medium
+657,23,Male,Rahim Yar Khan,Punjab,3.08,Average,Upper-Middle (120k-250k),Intermediate,38,91,Yes,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,25.5,Walk,High,None,Yes,None,Medium
+658,21,Female,Multan,KPK,3.08,Average,Lower-Middle (30k-60k),Matric,31,91,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,15.1,Walk,Low,Minor,No,Clubs,Medium
+659,23,Male,Mansehra,KPK,3.08,Average,Upper-Middle (120k-250k),Graduate,30,83,No,Yes,Laptop,Consistent,Public,Urdu,23.3,Bike,Medium,None,Yes,Clubs,Medium
+660,25,Female,Peshawar,Azad Kashmir,3.08,Average,High (>250k),Graduate,30,74,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,23.1,Bus,Medium,None,No,Clubs,Medium
+661,18,Male,Bhimber,KPK,3.09,Average,High (>250k),Matric,9,55,No,No,None,Consistent,Semi-Government,English,4.1,Bus,High,None,Yes,Clubs,Low
+662,24,Female,Okara,Azad Kashmir,3.09,Average,High (>250k),Postgraduate,32,66,No,Yes,Mobile,Consistent,Private,English,20.5,Van,Low,Minor,Yes,Sports,Low
+663,22,Male,Hunza,KPK,3.09,Average,Low (<30k),Postgraduate,35,94,Yes,Yes,Mobile,Frequent Outages,Private,English,27.2,Bus,Medium,Chronic,Yes,None,Medium
+664,25,Female,Chiniot,Azad Kashmir,3.09,Average,High (>250k),Primary,38,78,Yes,No,Mobile,Frequent Outages,Private,Urdu,5.0,Walk,Low,None,Yes,Clubs,High
+665,23,Female,Mirpur,Azad Kashmir,3.1,Average,Lower-Middle (30k-60k),Graduate,35,93,No,Yes,Mobile,Frequent Outages,Public,English,30.5,Bike,High,Chronic,Yes,Sports,Low
+666,18,Female,Lahore,Punjab,3.1,Average,Lower-Middle (30k-60k),Postgraduate,19,69,No,Yes,Desktop,Consistent,Private,English,23.2,Bike,Medium,Minor,No,Clubs,Medium
+667,17,Male,Mirpur,KPK,3.1,Average,High (>250k),Matric,8,97,No,Yes,None,Frequent Outages,Public,English,9.0,Walk,Medium,None,Yes,None,Medium
+668,24,Male,Muzaffarabad,Azad Kashmir,3.1,Average,Lower-Middle (30k-60k),Postgraduate,24,72,Yes,No,None,Consistent,Public,Urdu,22.9,Bike,Low,Minor,Yes,Clubs,Medium
+669,17,Female,Dir,KPK,3.1,Average,Lower-Middle (30k-60k),Postgraduate,39,93,No,No,None,Consistent,Semi-Government,Urdu,23.3,Bike,Low,Minor,No,None,Low
+670,24,Female,Peshawar,KPK,3.11,Average,Upper-Middle (120k-250k),Matric,31,91,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,10.7,Bike,Medium,Chronic,No,None,Low
+671,17,Male,Peshawar,Punjab,3.11,Average,High (>250k),Postgraduate,18,91,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,26.2,Bus,High,Minor,No,Clubs,Low
+672,20,Female,Sialkot,Gilgit Baltistan,3.11,Average,High (>250k),Graduate,31,72,Yes,Yes,None,Consistent,Private,Urdu,26.4,Car,High,None,No,Sports,Low
+673,17,Male,Diamer,KPK,3.11,Average,High (>250k),Graduate,32,66,Yes,No,Desktop,Frequent Outages,Private,English,33.3,Bus,Low,Minor,No,None,Medium
+674,21,Female,Bahawalpur,Gilgit Baltistan,3.12,Average,Low (<30k),Primary,10,93,Yes,Yes,Desktop,Consistent,Semi-Government,English,26.9,Walk,Medium,None,Yes,Sports,Low
+675,17,Female,Bahawalpur,Gilgit Baltistan,3.12,Average,Upper-Middle (120k-250k),Primary,38,56,Yes,Yes,Desktop,Frequent Outages,Public,Urdu,18.7,Bus,High,None,No,None,High
+676,25,Male,Okara,Gilgit Baltistan,3.12,Average,High (>250k),Intermediate,22,75,Yes,No,Laptop,Consistent,Private,English,17.4,Van,Medium,None,Yes,Clubs,Low
+677,23,Female,Rahim Yar Khan,Gilgit Baltistan,3.12,Average,Low (<30k),Postgraduate,30,57,No,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,9.0,Van,High,None,No,Sports,Low
+678,19,Female,Mansehra,Punjab,3.13,Average,Low (<30k),Primary,38,97,Yes,Yes,Laptop,Consistent,Semi-Government,English,23.8,Walk,Low,None,Yes,Sports,High
+679,23,Female,Diamer,Punjab,3.13,Average,High (>250k),Postgraduate,24,77,Yes,No,Desktop,Consistent,Private,English,6.2,Bike,Medium,Chronic,Yes,Clubs,Medium
+680,19,Male,Lahore,Gilgit Baltistan,3.13,Average,Lower-Middle (30k-60k),Matric,32,65,No,No,None,Frequent Outages,Semi-Government,English,12.5,Bike,Low,Chronic,No,None,Medium
+681,17,Male,Sialkot,KPK,3.13,Average,Upper-Middle (120k-250k),Matric,7,65,Yes,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,5.8,Bus,Low,Minor,Yes,Clubs,Medium
+682,18,Female,Sialkot,Punjab,3.14,Average,Middle (60k-120k),Matric,19,94,No,Yes,None,Frequent Outages,Private,Urdu,21.1,Bike,Low,Minor,Yes,Clubs,High
+683,23,Male,Swat,KPK,3.14,Average,Low (<30k),Intermediate,6,71,No,Yes,Mobile,Frequent Outages,Semi-Government,English,5.5,Van,High,Minor,Yes,Clubs,Medium
+684,21,Male,Mirpur,Punjab,3.14,Average,Middle (60k-120k),Postgraduate,6,62,Yes,No,Desktop,Frequent Outages,Public,Urdu,28.7,Bus,Low,Minor,Yes,None,High
+685,21,Male,Bhimber,KPK,3.14,Average,Low (<30k),Intermediate,26,57,Yes,Yes,Mobile,Consistent,Semi-Government,Urdu,29.4,Van,Low,None,Yes,None,Low
+686,18,Male,Swat,Punjab,3.15,Average,Low (<30k),Postgraduate,11,81,No,Yes,None,Frequent Outages,Semi-Government,Urdu,30.3,Van,Low,Minor,Yes,Clubs,High
+687,24,Male,Charsadda,Gilgit Baltistan,3.15,Average,Lower-Middle (30k-60k),Intermediate,18,63,Yes,No,Mobile,Consistent,Semi-Government,Urdu,29.1,Van,Low,None,Yes,None,High
+688,23,Male,Sargodha,Gilgit Baltistan,3.15,Average,Upper-Middle (120k-250k),Postgraduate,30,58,Yes,Yes,Laptop,Frequent Outages,Private,English,11.2,Bike,Low,Chronic,Yes,Clubs,High
+689,19,Male,Bhimber,Gilgit Baltistan,3.15,Average,Low (<30k),Postgraduate,38,89,No,Yes,Mobile,Frequent Outages,Public,Urdu,31.6,Walk,High,Minor,Yes,Sports,High
+690,24,Female,Mirpur,Punjab,3.16,Average,Lower-Middle (30k-60k),Primary,25,94,No,Yes,Desktop,Consistent,Private,Urdu,26.3,Bus,Low,Minor,Yes,None,Medium
+691,17,Male,Kotli,Gilgit Baltistan,3.16,Average,High (>250k),Postgraduate,27,80,No,No,Desktop,Consistent,Public,English,25.7,Walk,Low,Chronic,Yes,Sports,Low
+692,18,Male,Chiniot,Punjab,3.16,Average,Low (<30k),Matric,7,94,Yes,Yes,Laptop,Consistent,Semi-Government,English,23.5,Car,High,Minor,Yes,Sports,High
+693,24,Female,Gujranwala,Punjab,3.16,Average,High (>250k),Primary,35,99,No,No,Laptop,Consistent,Public,English,7.6,Van,Low,None,Yes,None,High
+694,24,Female,Abbottabad,Azad Kashmir,3.16,Average,Lower-Middle (30k-60k),Matric,36,56,No,Yes,None,Frequent Outages,Public,Urdu,14.8,Walk,Low,Chronic,No,Clubs,Low
+695,19,Female,Faisalabad,Punjab,3.17,Average,Low (<30k),Graduate,19,59,Yes,No,None,Frequent Outages,Private,Urdu,13.6,Bus,Low,Chronic,No,Clubs,High
+696,20,Female,Swat,Azad Kashmir,3.17,Average,High (>250k),Primary,37,58,Yes,Yes,None,Frequent Outages,Private,Urdu,11.1,Walk,Low,Chronic,No,None,Medium
+697,17,Male,Gujranwala,Azad Kashmir,3.17,Average,Low (<30k),Primary,29,97,No,Yes,Desktop,Frequent Outages,Private,English,33.3,Walk,Medium,Chronic,Yes,Clubs,Medium
+698,17,Male,Gujranwala,KPK,3.17,Average,Low (<30k),Primary,39,62,No,Yes,Desktop,Consistent,Semi-Government,English,14.2,Bus,High,None,No,Sports,Medium
+699,22,Male,Dir,Punjab,3.18,Average,Upper-Middle (120k-250k),Primary,27,55,Yes,No,Laptop,Frequent Outages,Public,Urdu,26.4,Bike,Low,None,Yes,Sports,High
+700,25,Female,Lahore,Punjab,3.18,Average,Middle (60k-120k),Intermediate,29,75,No,No,None,Frequent Outages,Semi-Government,English,10.6,Car,High,Minor,No,Sports,Low
+701,17,Female,Peshawar,Azad Kashmir,3.18,Average,Upper-Middle (120k-250k),Primary,26,64,No,No,Laptop,Frequent Outages,Public,English,23.5,Walk,Low,None,Yes,Clubs,Low
+702,18,Male,Gilgit,Punjab,3.18,Average,High (>250k),Graduate,12,86,Yes,Yes,Laptop,Consistent,Public,English,13.9,Van,High,Chronic,Yes,None,High
+703,21,Male,Sialkot,Punjab,3.19,Average,Lower-Middle (30k-60k),Matric,10,64,Yes,Yes,Laptop,Consistent,Private,English,24.8,Car,Low,Minor,Yes,Sports,Medium
+704,17,Female,Gilgit,KPK,3.19,Average,Low (<30k),Matric,24,93,No,Yes,Mobile,Consistent,Semi-Government,Urdu,3.5,Bus,High,None,No,None,High
+705,20,Female,Faisalabad,Azad Kashmir,3.19,Average,Lower-Middle (30k-60k),Matric,22,62,No,No,None,Consistent,Semi-Government,Urdu,13.8,Van,Low,None,No,Sports,Medium
+706,19,Female,Mansehra,KPK,3.19,Average,Low (<30k),Graduate,29,77,Yes,Yes,None,Consistent,Semi-Government,English,9.8,Car,Medium,None,Yes,Clubs,Low
+707,20,Male,Rahim Yar Khan,Azad Kashmir,3.2,Good,High (>250k),Matric,19,96,Yes,No,Laptop,Consistent,Private,Urdu,4.8,Walk,Low,Chronic,No,Sports,Medium
+708,22,Male,Diamer,KPK,3.2,Good,Low (<30k),Matric,19,64,Yes,Yes,None,Consistent,Private,English,22.6,Walk,High,None,No,None,High
+709,19,Male,Bannu,KPK,3.2,Good,High (>250k),Matric,9,96,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,14.5,Bike,Low,None,No,Sports,High
+710,17,Male,Lahore,KPK,3.2,Good,High (>250k),Matric,34,96,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,22.6,Walk,High,None,Yes,Sports,High
+711,25,Female,Bhimber,Punjab,3.21,Good,Middle (60k-120k),Matric,37,72,No,No,None,Frequent Outages,Public,Urdu,32.1,Walk,High,Minor,Yes,Clubs,Low
+712,23,Female,Skardu,KPK,3.21,Good,Low (<30k),Primary,24,78,No,Yes,None,Consistent,Semi-Government,English,27.1,Car,Medium,Chronic,No,None,Medium
+713,23,Female,Bannu,Azad Kashmir,3.21,Good,Low (<30k),Matric,15,73,Yes,Yes,None,Frequent Outages,Semi-Government,Urdu,6.2,Car,Low,Minor,No,Sports,Medium
+714,17,Male,Lahore,Punjab,3.21,Good,High (>250k),Postgraduate,14,99,Yes,Yes,None,Frequent Outages,Semi-Government,English,27.0,Bike,Medium,Chronic,Yes,Clubs,Medium
+715,22,Female,Multan,KPK,3.22,Good,High (>250k),Primary,12,93,No,Yes,Desktop,Frequent Outages,Public,English,31.4,Car,Medium,Chronic,No,None,Medium
+716,18,Female,Gilgit,Punjab,3.22,Good,Middle (60k-120k),Intermediate,14,93,Yes,No,None,Consistent,Semi-Government,English,29.7,Bus,High,None,No,Clubs,Medium
+717,19,Male,Mardan,Gilgit Baltistan,3.22,Good,Middle (60k-120k),Intermediate,33,89,No,No,None,Frequent Outages,Private,English,30.3,Walk,Medium,Minor,Yes,Sports,Medium
+718,24,Male,Skardu,Punjab,3.22,Good,Upper-Middle (120k-250k),Intermediate,18,88,Yes,No,None,Frequent Outages,Private,Urdu,32.8,Bus,Low,Chronic,No,Clubs,Low
+719,20,Male,Multan,Azad Kashmir,3.22,Good,Low (<30k),Postgraduate,35,79,Yes,No,Desktop,Frequent Outages,Semi-Government,English,4.0,Bike,Low,Chronic,No,None,High
+720,19,Male,Dir,Punjab,3.23,Good,Upper-Middle (120k-250k),Primary,37,93,No,Yes,None,Frequent Outages,Private,English,25.4,Bike,Medium,Minor,Yes,None,Low
+721,18,Male,Bannu,Punjab,3.23,Good,Middle (60k-120k),Intermediate,33,87,Yes,No,Laptop,Frequent Outages,Public,English,7.1,Bus,High,Minor,No,Clubs,Low
+722,23,Male,Gilgit,KPK,3.23,Good,Low (<30k),Graduate,11,89,No,No,None,Consistent,Public,English,22.5,Van,High,None,Yes,Clubs,Low
+723,22,Male,Bhimber,Punjab,3.23,Good,High (>250k),Graduate,11,76,No,Yes,Desktop,Consistent,Semi-Government,English,30.2,Walk,Low,Minor,Yes,Sports,Medium
+724,24,Male,Bannu,Punjab,3.24,Good,Middle (60k-120k),Intermediate,13,97,No,Yes,Laptop,Consistent,Private,Urdu,2.5,Van,Medium,Chronic,Yes,Sports,High
+725,25,Female,Skardu,Azad Kashmir,3.24,Good,Low (<30k),Intermediate,34,55,Yes,No,Laptop,Consistent,Public,English,25.7,Bike,Low,None,No,Clubs,Medium
+726,25,Female,Charsadda,Punjab,3.24,Good,Upper-Middle (120k-250k),Postgraduate,32,77,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,16.8,Bike,Medium,None,Yes,Sports,High
+727,25,Female,Dir,Punjab,3.24,Good,Low (<30k),Primary,16,57,No,Yes,Desktop,Consistent,Private,Urdu,9.9,Bike,Low,Minor,Yes,Clubs,High
+728,25,Female,Gujranwala,Gilgit Baltistan,3.25,Good,Upper-Middle (120k-250k),Postgraduate,11,84,No,No,Desktop,Consistent,Semi-Government,Urdu,34.0,Car,Low,None,Yes,Sports,Low
+729,25,Female,Kotli,Punjab,3.25,Good,Middle (60k-120k),Primary,37,59,Yes,No,Mobile,Consistent,Public,English,11.3,Car,Medium,Minor,Yes,Clubs,Low
+730,20,Male,Peshawar,Punjab,3.25,Good,Middle (60k-120k),Matric,22,68,Yes,No,Desktop,Frequent Outages,Public,English,10.1,Walk,High,Minor,No,None,Low
+731,18,Female,Charsadda,Gilgit Baltistan,3.25,Good,High (>250k),Primary,24,68,No,No,Mobile,Consistent,Semi-Government,English,27.1,Van,Medium,Chronic,No,Sports,Low
+732,17,Female,Peshawar,Azad Kashmir,3.26,Good,Middle (60k-120k),Matric,8,73,No,Yes,Desktop,Frequent Outages,Semi-Government,English,13.8,Walk,High,Minor,No,None,Medium
+733,18,Female,Bahawalpur,KPK,3.26,Good,High (>250k),Intermediate,33,57,No,Yes,None,Frequent Outages,Public,Urdu,27.4,Car,High,Minor,Yes,Clubs,Medium
+734,25,Male,Faisalabad,KPK,3.26,Good,High (>250k),Graduate,19,59,Yes,No,None,Consistent,Semi-Government,Urdu,17.1,Car,High,Minor,Yes,None,Low
+735,17,Male,Mansehra,Gilgit Baltistan,3.26,Good,Low (<30k),Intermediate,6,60,No,No,Laptop,Consistent,Private,Urdu,12.8,Bus,High,None,No,Sports,Medium
+736,25,Female,Bannu,Azad Kashmir,3.27,Good,Middle (60k-120k),Matric,6,67,Yes,Yes,Mobile,Consistent,Semi-Government,English,2.1,Walk,Medium,None,No,None,Low
+737,24,Male,Mirpur,KPK,3.27,Good,Low (<30k),Matric,14,91,No,No,Mobile,Consistent,Private,English,15.7,Bus,Medium,Minor,No,None,High
+738,21,Male,Hunza,Azad Kashmir,3.27,Good,Upper-Middle (120k-250k),Primary,31,74,Yes,Yes,None,Consistent,Public,English,5.3,Van,Medium,None,Yes,None,High
+739,21,Male,Gilgit,Azad Kashmir,3.27,Good,Lower-Middle (30k-60k),Primary,26,80,Yes,Yes,None,Consistent,Private,English,27.5,Van,Low,Minor,No,Sports,Low
+740,17,Female,Skardu,Punjab,3.28,Good,Middle (60k-120k),Postgraduate,25,67,No,No,None,Consistent,Private,Urdu,31.0,Car,Medium,None,No,Sports,Medium
+741,22,Male,Abbottabad,Gilgit Baltistan,3.28,Good,High (>250k),Intermediate,12,86,Yes,Yes,Desktop,Frequent Outages,Semi-Government,English,25.7,Walk,Medium,Chronic,Yes,Sports,High
+742,20,Female,Kotli,KPK,3.28,Good,Low (<30k),Graduate,8,84,No,No,Laptop,Frequent Outages,Private,English,2.4,Bus,High,Minor,No,Sports,Low
+743,20,Female,Gujranwala,KPK,3.28,Good,High (>250k),Primary,9,78,No,No,Mobile,Consistent,Public,Urdu,17.7,Van,Low,None,No,Sports,Low
+744,23,Female,Bahawalpur,Punjab,3.28,Good,Upper-Middle (120k-250k),Primary,20,66,Yes,Yes,Mobile,Frequent Outages,Private,English,16.4,Bus,High,None,Yes,Sports,High
+745,18,Female,Dir,Punjab,3.29,Good,Middle (60k-120k),Postgraduate,23,81,Yes,No,Laptop,Consistent,Private,Urdu,5.5,Bike,Medium,None,Yes,None,Low
+746,18,Male,Mirpur,Punjab,3.29,Good,Middle (60k-120k),Matric,15,79,Yes,No,Desktop,Consistent,Public,English,24.4,Bus,Low,Chronic,No,Sports,Low
+747,22,Male,Sargodha,Punjab,3.29,Good,Middle (60k-120k),Intermediate,38,84,Yes,No,Desktop,Frequent Outages,Public,English,33.2,Van,High,Minor,No,None,High
+748,19,Female,Swat,Gilgit Baltistan,3.29,Good,Lower-Middle (30k-60k),Postgraduate,11,72,No,No,Laptop,Frequent Outages,Private,English,11.0,Van,Low,Minor,No,Clubs,Low
+749,17,Male,Dir,KPK,3.3,Good,High (>250k),Postgraduate,25,84,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,20.2,Walk,Medium,Minor,Yes,Clubs,High
+750,22,Male,Swat,Gilgit Baltistan,3.3,Good,Upper-Middle (120k-250k),Intermediate,10,79,No,Yes,Laptop,Consistent,Semi-Government,Urdu,1.8,Bike,Medium,Chronic,No,None,Low
+751,17,Male,Sialkot,KPK,3.3,Good,High (>250k),Postgraduate,15,87,No,No,Desktop,Frequent Outages,Private,Urdu,2.6,Car,Low,Minor,Yes,Clubs,High
+752,20,Male,Mardan,Azad Kashmir,3.3,Good,Upper-Middle (120k-250k),Postgraduate,20,84,No,No,Laptop,Consistent,Private,English,1.8,Walk,Medium,Chronic,Yes,None,Medium
+753,21,Female,Charsadda,Punjab,3.31,Good,Middle (60k-120k),Postgraduate,28,68,Yes,Yes,Laptop,Consistent,Public,English,32.6,Bike,Low,None,No,Sports,Medium
+754,18,Male,Mardan,KPK,3.31,Good,High (>250k),Primary,8,79,No,Yes,None,Frequent Outages,Semi-Government,English,15.5,Van,High,Chronic,Yes,Sports,High
+755,20,Female,Kotli,KPK,3.31,Good,Middle (60k-120k),Primary,18,77,No,Yes,Mobile,Consistent,Private,English,11.8,Van,Low,Chronic,No,Clubs,High
+756,25,Male,Bannu,Punjab,3.31,Good,Upper-Middle (120k-250k),Matric,9,59,No,Yes,Laptop,Consistent,Semi-Government,Urdu,10.2,Car,High,None,No,None,Medium
+757,22,Female,Rahim Yar Khan,Azad Kashmir,3.32,Good,Upper-Middle (120k-250k),Postgraduate,36,90,No,No,Mobile,Consistent,Semi-Government,Urdu,6.6,Bus,High,None,Yes,None,Low
+758,21,Male,Diamer,KPK,3.32,Good,Upper-Middle (120k-250k),Intermediate,30,64,Yes,No,None,Consistent,Private,English,4.8,Car,Medium,Minor,No,None,Low
+759,19,Female,Bannu,Punjab,3.32,Good,Middle (60k-120k),Intermediate,24,78,Yes,No,Mobile,Frequent Outages,Semi-Government,English,18.7,Van,Medium,None,No,None,Medium
+760,18,Female,Mardan,Punjab,3.32,Good,High (>250k),Postgraduate,23,66,No,Yes,Laptop,Frequent Outages,Private,English,6.4,Bike,High,Chronic,No,None,High
+761,20,Male,Charsadda,KPK,3.33,Good,High (>250k),Matric,10,82,No,No,Mobile,Consistent,Private,English,16.2,Bus,High,None,Yes,Clubs,High
+762,20,Male,Bannu,Azad Kashmir,3.33,Good,High (>250k),Matric,30,99,Yes,No,None,Consistent,Private,English,1.4,Bus,Medium,None,Yes,Sports,Medium
+763,18,Male,Muzaffarabad,Punjab,3.33,Good,Middle (60k-120k),Postgraduate,32,65,Yes,No,Mobile,Consistent,Semi-Government,Urdu,32.8,Van,Low,None,No,Sports,High
+764,23,Female,Chiniot,Azad Kashmir,3.33,Good,Upper-Middle (120k-250k),Matric,34,82,Yes,Yes,Mobile,Consistent,Semi-Government,English,26.6,Car,Medium,Minor,No,Clubs,High
+765,23,Female,Peshawar,Gilgit Baltistan,3.34,Good,Middle (60k-120k),Postgraduate,29,68,No,Yes,Desktop,Consistent,Public,English,20.5,Van,Low,None,Yes,None,Low
+766,24,Female,Peshawar,Gilgit Baltistan,3.34,Good,Middle (60k-120k),Matric,9,64,No,No,Laptop,Consistent,Public,English,22.1,Bike,Low,Minor,No,None,Low
+767,23,Male,Gilgit,Gilgit Baltistan,3.34,Good,Low (<30k),Postgraduate,20,58,Yes,No,Mobile,Consistent,Private,Urdu,34.2,Van,Medium,Chronic,No,None,Medium
+768,24,Male,Swat,Punjab,3.34,Good,Low (<30k),Primary,24,79,Yes,Yes,Desktop,Consistent,Semi-Government,English,17.2,Bus,High,Minor,Yes,Clubs,High
+769,18,Female,Mirpur,KPK,3.35,Good,Lower-Middle (30k-60k),Primary,11,93,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,25.7,Van,High,Minor,Yes,None,Low
+770,22,Male,Sialkot,Gilgit Baltistan,3.35,Good,Lower-Middle (30k-60k),Matric,16,75,No,No,None,Consistent,Public,English,32.1,Car,Medium,None,No,Sports,High
+771,20,Male,Bannu,KPK,3.35,Good,Low (<30k),Intermediate,27,90,No,Yes,None,Frequent Outages,Private,English,3.7,Van,High,Minor,Yes,None,High
+772,23,Female,Bannu,Punjab,3.35,Good,Middle (60k-120k),Matric,6,63,No,Yes,Laptop,Frequent Outages,Public,Urdu,16.1,Walk,Low,Minor,No,Sports,High
+773,21,Male,Faisalabad,Punjab,3.35,Good,Upper-Middle (120k-250k),Matric,11,93,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,33.0,Van,Medium,Chronic,No,Sports,Medium
+774,17,Male,Rahim Yar Khan,Punjab,3.36,Good,Lower-Middle (30k-60k),Intermediate,12,98,Yes,Yes,Mobile,Frequent Outages,Semi-Government,English,27.3,Van,High,Chronic,Yes,Sports,Medium
+775,21,Female,Bhimber,KPK,3.36,Good,Upper-Middle (120k-250k),Matric,16,83,Yes,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,18.9,Bike,Medium,None,Yes,Sports,High
+776,20,Male,Multan,KPK,3.36,Good,High (>250k),Postgraduate,29,71,Yes,Yes,Mobile,Consistent,Semi-Government,English,17.2,Car,Medium,Chronic,No,Sports,Medium
+777,25,Female,Lahore,Punjab,3.36,Good,High (>250k),Matric,22,79,No,Yes,Mobile,Consistent,Public,Urdu,17.3,Bus,High,Minor,No,Sports,Medium
+778,19,Female,Mirpur,KPK,3.37,Good,Middle (60k-120k),Primary,17,64,No,No,Laptop,Consistent,Public,English,12.7,Bus,Low,Minor,No,None,Medium
+779,25,Female,Peshawar,KPK,3.37,Good,Low (<30k),Intermediate,37,86,No,Yes,Laptop,Frequent Outages,Public,Urdu,24.8,Walk,High,None,No,Clubs,Medium
+780,20,Male,Muzaffarabad,Azad Kashmir,3.37,Good,Lower-Middle (30k-60k),Primary,16,93,Yes,No,Desktop,Consistent,Semi-Government,English,13.0,Walk,Medium,None,Yes,Clubs,High
+781,19,Male,Bannu,KPK,3.37,Good,Middle (60k-120k),Matric,31,88,No,No,Laptop,Frequent Outages,Public,Urdu,26.9,Bus,Medium,Minor,Yes,Clubs,Low
+782,18,Female,Okara,KPK,3.38,Good,Upper-Middle (120k-250k),Matric,37,64,No,Yes,Laptop,Consistent,Private,Urdu,19.6,Bus,Low,None,Yes,Clubs,High
+783,23,Male,Bhimber,KPK,3.38,Good,Low (<30k),Primary,32,80,No,Yes,Mobile,Consistent,Public,Urdu,2.5,Van,Low,Minor,No,Clubs,Medium
+784,21,Female,Lahore,Gilgit Baltistan,3.38,Good,Low (<30k),Graduate,26,65,Yes,Yes,None,Frequent Outages,Semi-Government,Urdu,26.0,Bus,Medium,Minor,Yes,None,High
+785,23,Male,Skardu,Gilgit Baltistan,3.38,Good,High (>250k),Intermediate,21,55,No,No,Mobile,Consistent,Private,English,8.2,Bus,High,Chronic,No,Clubs,Medium
+786,24,Female,Lahore,Azad Kashmir,3.39,Good,High (>250k),Graduate,12,59,Yes,Yes,None,Frequent Outages,Private,Urdu,33.0,Bus,Medium,Minor,No,Sports,Medium
+787,25,Male,Gilgit,Azad Kashmir,3.39,Good,Upper-Middle (120k-250k),Intermediate,28,56,Yes,Yes,Mobile,Consistent,Private,English,18.8,Walk,Medium,None,Yes,Clubs,Medium
+788,23,Male,Diamer,Punjab,3.39,Good,Low (<30k),Graduate,24,55,Yes,No,None,Frequent Outages,Private,Urdu,12.4,Walk,Low,Minor,Yes,Sports,Low
+789,21,Female,Muzaffarabad,Punjab,3.39,Good,Upper-Middle (120k-250k),Intermediate,30,70,No,Yes,Desktop,Frequent Outages,Public,Urdu,14.7,Van,High,None,Yes,Sports,High
+790,23,Male,Mardan,Punjab,3.4,Good,Middle (60k-120k),Postgraduate,34,74,No,No,Laptop,Frequent Outages,Semi-Government,Urdu,1.9,Bike,Low,None,Yes,None,High
+791,21,Male,Mirpur,Punjab,3.4,Good,High (>250k),Postgraduate,39,79,No,No,Mobile,Consistent,Public,English,10.5,Bike,High,None,Yes,Clubs,Medium
+792,22,Female,Diamer,KPK,3.4,Good,Upper-Middle (120k-250k),Primary,12,97,No,No,Mobile,Consistent,Semi-Government,Urdu,2.9,Walk,High,None,No,Clubs,Low
+793,24,Female,Lahore,Azad Kashmir,3.4,Good,Lower-Middle (30k-60k),Intermediate,19,67,No,Yes,Desktop,Consistent,Public,English,13.7,Van,Medium,Minor,Yes,Sports,Low
+794,21,Female,Peshawar,Punjab,3.41,Good,Upper-Middle (120k-250k),Postgraduate,11,84,Yes,Yes,Mobile,Consistent,Private,English,20.9,Walk,Medium,None,No,None,Medium
+795,17,Male,Dir,Punjab,3.41,Good,Lower-Middle (30k-60k),Primary,24,95,No,No,None,Consistent,Public,Urdu,11.4,Van,Low,None,Yes,Clubs,Low
+796,22,Female,Lahore,KPK,3.41,Good,Upper-Middle (120k-250k),Matric,29,89,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,13.7,Van,High,Chronic,No,Clubs,Low
+797,19,Female,Bahawalpur,Punjab,3.41,Good,Lower-Middle (30k-60k),Primary,24,98,No,No,None,Consistent,Private,English,34.9,Bus,Low,None,No,Sports,Low
+798,22,Female,Bhimber,Azad Kashmir,3.41,Good,Upper-Middle (120k-250k),Matric,20,85,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,15.5,Bike,High,Minor,Yes,Clubs,High
+799,21,Female,Bhimber,KPK,3.42,Good,Low (<30k),Postgraduate,11,55,Yes,No,None,Consistent,Private,Urdu,27.1,Walk,Medium,Chronic,Yes,None,High
+800,22,Male,Gilgit,Punjab,3.42,Good,Low (<30k),Postgraduate,37,91,Yes,Yes,Mobile,Frequent Outages,Public,Urdu,19.5,Walk,High,None,Yes,Sports,High
+801,18,Male,Hunza,KPK,3.42,Good,Low (<30k),Postgraduate,9,99,Yes,Yes,Laptop,Consistent,Private,Urdu,19.7,Walk,Low,None,No,Sports,Medium
+802,24,Male,Gilgit,Punjab,3.42,Good,Low (<30k),Graduate,33,79,Yes,No,Mobile,Frequent Outages,Public,Urdu,12.3,Car,Medium,Minor,Yes,None,High
+803,21,Female,Charsadda,Azad Kashmir,3.43,Good,High (>250k),Primary,35,93,No,No,None,Consistent,Semi-Government,English,0.9,Car,High,Chronic,No,Clubs,Low
+804,21,Female,Skardu,KPK,3.43,Good,High (>250k),Graduate,39,57,No,No,Mobile,Frequent Outages,Semi-Government,English,11.7,Van,High,None,Yes,Sports,Low
+805,21,Male,Kotli,Punjab,3.43,Good,Lower-Middle (30k-60k),Intermediate,17,75,Yes,No,None,Consistent,Private,English,32.4,Car,Medium,Chronic,Yes,Sports,Medium
+806,19,Male,Peshawar,Azad Kashmir,3.43,Good,Lower-Middle (30k-60k),Postgraduate,33,79,No,Yes,Desktop,Consistent,Private,English,16.4,Van,Low,Chronic,No,Sports,Medium
+807,25,Male,Skardu,Punjab,3.44,Good,Low (<30k),Intermediate,34,90,No,No,Mobile,Consistent,Private,English,20.1,Bus,Medium,Chronic,No,Sports,Low
+808,24,Female,Sialkot,Punjab,3.44,Good,Middle (60k-120k),Postgraduate,20,79,No,Yes,None,Frequent Outages,Public,Urdu,3.8,Bus,Medium,Minor,No,Clubs,Medium
+809,23,Female,Mansehra,KPK,3.44,Good,Low (<30k),Postgraduate,37,71,Yes,No,Mobile,Frequent Outages,Public,Urdu,28.5,Van,Low,Chronic,No,Sports,High
+810,23,Male,Sargodha,Azad Kashmir,3.44,Good,Middle (60k-120k),Primary,22,56,No,No,None,Consistent,Semi-Government,Urdu,21.4,Walk,High,Chronic,No,Clubs,Medium
+811,25,Male,Muzaffarabad,KPK,3.45,Good,Lower-Middle (30k-60k),Primary,6,85,No,Yes,None,Frequent Outages,Public,Urdu,24.8,Bus,Medium,Minor,No,None,Low
+812,17,Female,Bhimber,KPK,3.45,Good,Upper-Middle (120k-250k),Intermediate,33,56,No,No,Mobile,Consistent,Public,Urdu,29.0,Walk,Low,Minor,Yes,Sports,High
+813,23,Female,Gujranwala,Gilgit Baltistan,3.45,Good,Low (<30k),Primary,7,76,Yes,No,Mobile,Frequent Outages,Private,English,7.4,Car,Medium,Minor,Yes,None,Medium
+814,19,Female,Okara,Punjab,3.45,Good,Upper-Middle (120k-250k),Primary,30,84,Yes,No,Mobile,Consistent,Public,Urdu,8.5,Car,Low,Minor,No,Sports,Low
+815,23,Female,Sargodha,Punjab,3.46,Good,High (>250k),Primary,18,86,No,No,Mobile,Frequent Outages,Public,English,31.8,Car,Low,Minor,Yes,Clubs,Medium
+816,25,Male,Rahim Yar Khan,Azad Kashmir,3.46,Good,Lower-Middle (30k-60k),Primary,9,98,Yes,Yes,Mobile,Frequent Outages,Private,English,13.3,Bus,Medium,Minor,Yes,None,Low
+817,21,Male,Lahore,Azad Kashmir,3.46,Good,Lower-Middle (30k-60k),Graduate,23,56,No,No,Mobile,Frequent Outages,Private,English,16.7,Van,High,Minor,Yes,None,High
+818,24,Female,Gilgit,KPK,3.46,Good,Low (<30k),Intermediate,33,67,Yes,No,Mobile,Frequent Outages,Private,Urdu,2.9,Car,High,None,Yes,Clubs,High
+819,25,Female,Diamer,KPK,3.47,Good,Lower-Middle (30k-60k),Intermediate,8,93,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,2.2,Van,High,Chronic,Yes,None,Low
+820,20,Female,Gilgit,KPK,3.47,Good,Lower-Middle (30k-60k),Postgraduate,25,82,Yes,No,Mobile,Frequent Outages,Semi-Government,English,9.2,Walk,Medium,None,Yes,Sports,Medium
+821,20,Male,Dir,Punjab,3.47,Good,High (>250k),Primary,13,80,No,Yes,Desktop,Frequent Outages,Private,English,7.1,Van,Medium,None,No,Clubs,Medium
+822,21,Male,Dir,Punjab,3.47,Good,Low (<30k),Postgraduate,15,56,Yes,No,None,Consistent,Public,English,10.0,Bus,High,Chronic,No,None,High
+823,17,Male,Peshawar,KPK,3.47,Good,Middle (60k-120k),Primary,36,74,No,No,Laptop,Consistent,Semi-Government,Urdu,30.1,Bus,Medium,Minor,No,None,High
+824,19,Male,Bhimber,KPK,3.48,Good,Lower-Middle (30k-60k),Intermediate,20,66,No,No,Desktop,Consistent,Private,Urdu,18.7,Van,Low,Minor,Yes,None,Low
+825,25,Female,Diamer,Gilgit Baltistan,3.48,Good,Upper-Middle (120k-250k),Graduate,7,58,Yes,No,Mobile,Consistent,Public,Urdu,10.8,Bike,Low,Minor,Yes,None,Medium
+826,25,Female,Bahawalpur,KPK,3.48,Good,Upper-Middle (120k-250k),Postgraduate,17,59,No,No,Laptop,Frequent Outages,Public,English,3.8,Walk,High,None,No,None,High
+827,19,Female,Mansehra,Punjab,3.48,Good,High (>250k),Graduate,35,79,Yes,No,Desktop,Frequent Outages,Public,Urdu,13.9,Van,High,None,No,Sports,Low
+828,22,Male,Mardan,Azad Kashmir,3.49,Good,Low (<30k),Graduate,15,88,No,Yes,Desktop,Consistent,Private,English,8.7,Walk,High,Chronic,No,Clubs,Low
+829,23,Female,Skardu,Punjab,3.49,Good,Lower-Middle (30k-60k),Intermediate,35,71,No,No,Laptop,Consistent,Public,Urdu,31.8,Car,High,None,Yes,None,Medium
+830,25,Female,Mardan,Punjab,3.49,Good,Lower-Middle (30k-60k),Matric,37,76,Yes,No,Desktop,Consistent,Semi-Government,English,15.0,Walk,Low,Minor,No,None,High
+831,17,Female,Bhimber,KPK,3.49,Good,Low (<30k),Primary,36,67,No,Yes,Laptop,Consistent,Semi-Government,Urdu,34.0,Bike,Medium,Minor,Yes,None,Medium
+832,24,Female,Okara,Azad Kashmir,3.5,Good,Middle (60k-120k),Matric,13,62,No,No,Laptop,Consistent,Semi-Government,Urdu,34.7,Bus,Medium,Minor,Yes,None,High
+833,20,Female,Sargodha,Punjab,3.5,Good,Lower-Middle (30k-60k),Matric,39,96,Yes,No,None,Frequent Outages,Private,English,24.2,Bike,High,Minor,No,Clubs,Low
+834,24,Male,Bahawalpur,KPK,3.5,Good,High (>250k),Graduate,38,89,Yes,No,None,Frequent Outages,Public,English,32.1,Walk,Low,Chronic,No,Clubs,Medium
+835,25,Male,Chiniot,KPK,3.5,Good,Lower-Middle (30k-60k),Matric,22,90,No,No,Laptop,Consistent,Semi-Government,Urdu,29.0,Bus,Medium,Chronic,Yes,Clubs,High
+836,22,Male,Abbottabad,KPK,3.51,Good,Middle (60k-120k),Matric,24,90,Yes,Yes,Laptop,Consistent,Private,Urdu,29.5,Walk,Medium,Chronic,Yes,Sports,Low
+837,22,Male,Abbottabad,Gilgit Baltistan,3.51,Good,Lower-Middle (30k-60k),Matric,24,93,Yes,Yes,None,Frequent Outages,Semi-Government,Urdu,10.2,Car,High,None,No,None,Low
+838,17,Male,Gilgit,Azad Kashmir,3.51,Good,High (>250k),Primary,7,70,No,No,None,Frequent Outages,Private,English,0.8,Bus,Low,Minor,Yes,Clubs,Medium
+839,23,Female,Mansehra,Gilgit Baltistan,3.51,Good,Lower-Middle (30k-60k),Postgraduate,8,78,Yes,Yes,Desktop,Consistent,Semi-Government,English,28.2,Van,Low,Minor,Yes,Clubs,High
+840,21,Male,Okara,Punjab,3.52,Good,High (>250k),Postgraduate,36,82,No,No,Mobile,Frequent Outages,Public,Urdu,34.8,Bike,Medium,Minor,Yes,Clubs,Medium
+841,18,Male,Rahim Yar Khan,Gilgit Baltistan,3.52,Good,Lower-Middle (30k-60k),Matric,15,69,Yes,No,Desktop,Frequent Outages,Private,English,29.3,Bike,High,Minor,Yes,None,Low
+842,25,Female,Charsadda,Azad Kashmir,3.52,Good,Lower-Middle (30k-60k),Matric,34,65,Yes,Yes,Desktop,Frequent Outages,Semi-Government,English,1.1,Bus,Medium,None,No,Clubs,Medium
+843,20,Female,Gilgit,Punjab,3.52,Good,Middle (60k-120k),Postgraduate,29,67,Yes,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,30.4,Bus,High,Minor,No,None,High
+844,22,Female,Okara,Punjab,3.53,Good,Lower-Middle (30k-60k),Postgraduate,25,93,No,No,Desktop,Frequent Outages,Semi-Government,Urdu,28.4,Car,Low,Minor,Yes,Clubs,Low
+845,21,Male,Bhimber,Punjab,3.53,Good,Middle (60k-120k),Graduate,39,74,No,Yes,Laptop,Frequent Outages,Public,Urdu,17.7,Car,Low,Chronic,No,Clubs,High
+846,24,Female,Mansehra,Punjab,3.53,Good,Upper-Middle (120k-250k),Intermediate,31,73,Yes,No,None,Frequent Outages,Semi-Government,English,23.2,Van,Low,Chronic,No,None,Low
+847,20,Female,Rahim Yar Khan,KPK,3.53,Good,Middle (60k-120k),Primary,16,90,No,Yes,Laptop,Consistent,Semi-Government,Urdu,31.0,Van,Low,Minor,Yes,Sports,High
+848,23,Female,Swat,Azad Kashmir,3.53,Good,High (>250k),Intermediate,19,61,Yes,No,Desktop,Frequent Outages,Public,English,12.3,Bike,High,Minor,Yes,Clubs,High
+849,23,Female,Charsadda,Gilgit Baltistan,3.54,Good,Upper-Middle (120k-250k),Matric,27,59,Yes,Yes,Desktop,Frequent Outages,Public,Urdu,22.0,Car,Low,None,Yes,Sports,Medium
+850,22,Male,Abbottabad,Punjab,3.54,Good,High (>250k),Matric,21,66,Yes,No,Laptop,Frequent Outages,Private,English,13.5,Bike,Medium,Chronic,No,None,High
+851,19,Female,Chiniot,KPK,3.54,Good,Upper-Middle (120k-250k),Graduate,22,76,Yes,Yes,Mobile,Consistent,Private,English,13.9,Van,High,None,No,None,High
+852,24,Male,Peshawar,Azad Kashmir,3.54,Good,Upper-Middle (120k-250k),Postgraduate,26,87,Yes,Yes,Desktop,Frequent Outages,Public,English,29.1,Walk,High,Chronic,No,Sports,Medium
+853,24,Male,Dir,Punjab,3.55,Good,High (>250k),Matric,25,61,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,15.2,Walk,Low,None,Yes,Clubs,Medium
+854,23,Male,Diamer,Azad Kashmir,3.55,Good,Upper-Middle (120k-250k),Intermediate,11,94,No,Yes,Mobile,Consistent,Private,English,16.9,Walk,Low,Chronic,Yes,Clubs,Medium
+855,20,Female,Gujranwala,Punjab,3.55,Good,Upper-Middle (120k-250k),Intermediate,35,66,No,Yes,Mobile,Consistent,Private,English,2.5,Van,Medium,Chronic,Yes,Sports,Low
+856,19,Female,Multan,Punjab,3.55,Good,Middle (60k-120k),Graduate,10,96,No,No,Laptop,Frequent Outages,Semi-Government,Urdu,32.3,Car,Medium,None,No,Clubs,Low
+857,17,Male,Abbottabad,KPK,3.56,Good,Lower-Middle (30k-60k),Primary,32,57,No,Yes,Mobile,Frequent Outages,Public,English,12.6,Van,Low,None,Yes,Sports,Medium
+858,21,Female,Gujranwala,Punjab,3.56,Good,High (>250k),Primary,33,79,No,Yes,Mobile,Consistent,Public,Urdu,7.7,Van,Medium,None,No,None,Low
+859,20,Male,Mardan,Azad Kashmir,3.56,Good,Middle (60k-120k),Graduate,15,55,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,11.2,Walk,High,Chronic,Yes,Sports,Medium
+860,17,Female,Mansehra,Azad Kashmir,3.56,Good,Middle (60k-120k),Matric,28,88,No,No,Desktop,Frequent Outages,Public,English,31.1,Car,Low,Minor,Yes,Sports,Low
+861,18,Male,Mardan,Punjab,3.57,Good,Lower-Middle (30k-60k),Graduate,33,69,Yes,No,Laptop,Consistent,Semi-Government,English,19.6,Car,Low,None,Yes,Sports,High
+862,17,Male,Mirpur,Gilgit Baltistan,3.57,Good,Middle (60k-120k),Matric,29,88,No,Yes,None,Consistent,Public,Urdu,13.9,Van,Low,None,No,Sports,Medium
+863,20,Female,Hunza,KPK,3.57,Good,Lower-Middle (30k-60k),Primary,9,63,Yes,No,Mobile,Frequent Outages,Semi-Government,English,8.7,Van,Medium,Chronic,No,None,Low
+864,19,Female,Muzaffarabad,Punjab,3.57,Good,Upper-Middle (120k-250k),Matric,20,56,Yes,No,Laptop,Consistent,Private,Urdu,2.9,Bike,Low,None,Yes,None,Medium
+865,17,Male,Mardan,Gilgit Baltistan,3.58,Good,Low (<30k),Graduate,32,87,Yes,Yes,Desktop,Frequent Outages,Semi-Government,Urdu,0.8,Car,Low,Chronic,No,None,Low
+866,22,Female,Bahawalpur,Gilgit Baltistan,3.58,Good,Middle (60k-120k),Matric,24,89,Yes,Yes,None,Frequent Outages,Private,English,1.5,Walk,Medium,None,Yes,Clubs,High
+867,25,Female,Kotli,KPK,3.58,Good,High (>250k),Matric,24,94,Yes,No,Mobile,Frequent Outages,Public,English,25.0,Bike,High,Minor,Yes,Clubs,Low
+868,20,Female,Multan,Azad Kashmir,3.58,Good,Low (<30k),Intermediate,37,85,No,No,None,Consistent,Private,Urdu,12.7,Bike,Low,Chronic,Yes,Clubs,Low
+869,19,Male,Bannu,Punjab,3.59,Good,Upper-Middle (120k-250k),Primary,21,77,Yes,Yes,None,Frequent Outages,Public,Urdu,3.9,Van,Low,Minor,No,Clubs,Medium
+870,21,Male,Skardu,KPK,3.59,Good,Middle (60k-120k),Primary,29,66,Yes,No,Mobile,Consistent,Semi-Government,English,31.2,Bus,High,None,No,Sports,Medium
+871,22,Male,Bannu,KPK,3.59,Good,High (>250k),Graduate,30,95,No,Yes,Mobile,Consistent,Semi-Government,English,20.5,Bus,Medium,None,Yes,Sports,Low
+872,18,Female,Hunza,Gilgit Baltistan,3.59,Good,Middle (60k-120k),Matric,19,91,Yes,Yes,Desktop,Frequent Outages,Public,English,9.6,Bus,Medium,None,Yes,None,Low
+873,24,Male,Diamer,KPK,3.59,Good,Upper-Middle (120k-250k),Intermediate,29,67,Yes,No,Mobile,Consistent,Private,Urdu,1.1,Bike,Medium,Minor,No,Sports,Medium
+874,23,Female,Peshawar,KPK,3.6,Good,Upper-Middle (120k-250k),Postgraduate,39,72,Yes,No,Mobile,Frequent Outages,Public,Urdu,3.8,Bike,High,Minor,No,None,High
+875,23,Female,Mansehra,Punjab,3.6,Good,Low (<30k),Postgraduate,17,61,No,No,Mobile,Frequent Outages,Public,Urdu,17.1,Bus,Medium,None,Yes,None,High
+876,20,Male,Okara,Punjab,3.6,Good,Low (<30k),Intermediate,8,95,Yes,Yes,None,Consistent,Semi-Government,Urdu,5.3,Van,Low,None,Yes,Clubs,Low
+877,25,Female,Okara,Punjab,3.6,Good,Upper-Middle (120k-250k),Intermediate,20,59,No,No,Desktop,Consistent,Semi-Government,Urdu,5.3,Van,High,Chronic,No,Sports,Medium
+878,25,Female,Bahawalpur,Punjab,3.61,Good,Lower-Middle (30k-60k),Matric,11,84,Yes,No,Laptop,Frequent Outages,Private,English,20.5,Bus,Low,Minor,Yes,None,High
+879,23,Male,Abbottabad,KPK,3.61,Good,Low (<30k),Matric,38,79,Yes,Yes,Desktop,Frequent Outages,Semi-Government,English,4.6,Van,Medium,None,Yes,None,Low
+880,21,Male,Multan,Punjab,3.61,Good,High (>250k),Primary,35,85,No,No,Laptop,Consistent,Public,English,8.6,Walk,Medium,None,No,None,High
+881,24,Male,Rahim Yar Khan,Punjab,3.61,Good,Middle (60k-120k),Postgraduate,33,64,No,Yes,None,Frequent Outages,Private,English,21.2,Bike,High,Minor,Yes,None,Medium
+882,21,Female,Muzaffarabad,Punjab,3.62,Good,Low (<30k),Intermediate,15,90,No,Yes,Mobile,Consistent,Private,Urdu,1.8,Walk,Medium,Chronic,No,Sports,Medium
+883,25,Male,Mirpur,Gilgit Baltistan,3.62,Good,Low (<30k),Matric,24,65,Yes,No,Mobile,Frequent Outages,Public,English,16.3,Car,High,Minor,No,None,Medium
+884,17,Male,Sargodha,Punjab,3.62,Good,Middle (60k-120k),Graduate,24,91,Yes,Yes,None,Frequent Outages,Public,English,8.6,Van,Low,None,No,None,Low
+885,17,Male,Swat,KPK,3.62,Good,High (>250k),Postgraduate,34,68,No,Yes,Desktop,Consistent,Private,English,21.9,Van,High,Chronic,No,Sports,Low
+886,20,Male,Faisalabad,Punjab,3.63,Good,High (>250k),Postgraduate,37,86,No,Yes,Laptop,Consistent,Private,Urdu,26.0,Van,Medium,Minor,Yes,Sports,Low
+887,22,Male,Kotli,KPK,3.63,Good,High (>250k),Graduate,23,73,Yes,No,Laptop,Consistent,Public,English,6.5,Bus,Low,None,No,Clubs,High
+888,22,Male,Bannu,Gilgit Baltistan,3.63,Good,Upper-Middle (120k-250k),Graduate,6,79,Yes,No,None,Frequent Outages,Private,English,30.3,Van,Low,Chronic,Yes,None,Low
+889,24,Female,Rahim Yar Khan,Azad Kashmir,3.63,Good,Middle (60k-120k),Graduate,8,91,No,Yes,Mobile,Consistent,Public,English,31.7,Bike,Low,Minor,Yes,Clubs,Low
+890,18,Female,Skardu,KPK,3.64,Good,Middle (60k-120k),Postgraduate,13,72,Yes,Yes,None,Consistent,Public,Urdu,31.7,Bus,High,Chronic,Yes,Sports,Medium
+891,25,Male,Bahawalpur,KPK,3.64,Good,High (>250k),Intermediate,24,67,No,No,Laptop,Frequent Outages,Private,English,13.5,Bus,High,Minor,No,Clubs,Low
+892,25,Male,Hunza,KPK,3.64,Good,Low (<30k),Graduate,14,63,Yes,No,None,Consistent,Semi-Government,Urdu,30.0,Bike,Medium,None,No,Sports,Medium
+893,17,Female,Okara,KPK,3.64,Good,Upper-Middle (120k-250k),Matric,31,97,Yes,Yes,Desktop,Consistent,Semi-Government,English,12.1,Walk,Low,Minor,Yes,None,Low
+894,24,Female,Gujranwala,Punjab,3.65,Good,Lower-Middle (30k-60k),Primary,8,90,Yes,Yes,None,Consistent,Semi-Government,Urdu,14.3,Bus,Medium,Minor,Yes,Sports,High
+895,17,Female,Mirpur,KPK,3.65,Good,Lower-Middle (30k-60k),Postgraduate,27,64,Yes,Yes,None,Frequent Outages,Public,English,11.6,Walk,Medium,Chronic,Yes,None,Medium
+896,23,Male,Sargodha,Punjab,3.65,Good,High (>250k),Matric,26,56,Yes,Yes,Desktop,Consistent,Private,English,27.9,Car,High,Chronic,No,None,Medium
+897,18,Female,Bannu,Azad Kashmir,3.65,Good,Low (<30k),Intermediate,16,82,No,No,Mobile,Frequent Outages,Semi-Government,English,23.9,Car,High,None,Yes,None,Medium
+898,25,Female,Mansehra,Punjab,3.65,Good,Low (<30k),Graduate,34,57,No,Yes,None,Consistent,Public,English,19.8,Walk,Low,Minor,Yes,None,Low
+899,25,Female,Muzaffarabad,Punjab,3.66,Good,Upper-Middle (120k-250k),Primary,14,55,Yes,No,Mobile,Frequent Outages,Private,Urdu,26.9,Van,Low,None,No,Sports,High
+900,18,Male,Swat,Punjab,3.66,Good,Upper-Middle (120k-250k),Matric,16,71,Yes,Yes,None,Frequent Outages,Private,English,10.8,Van,Medium,Chronic,No,None,Medium
+901,22,Female,Mirpur,KPK,3.66,Good,Upper-Middle (120k-250k),Postgraduate,13,84,Yes,No,Mobile,Consistent,Private,Urdu,30.8,Walk,Medium,Chronic,No,Clubs,Medium
+902,18,Male,Rahim Yar Khan,Gilgit Baltistan,3.66,Good,High (>250k),Primary,25,92,No,Yes,Laptop,Consistent,Public,English,15.4,Bus,Medium,None,No,Clubs,Low
+903,18,Female,Sialkot,Punjab,3.67,Good,Lower-Middle (30k-60k),Graduate,29,88,Yes,No,None,Frequent Outages,Private,Urdu,20.5,Walk,High,Chronic,No,Clubs,Medium
+904,23,Female,Sialkot,Punjab,3.67,Good,Middle (60k-120k),Matric,9,90,No,No,None,Frequent Outages,Public,English,14.4,Van,Low,None,Yes,Clubs,Medium
+905,20,Male,Mirpur,KPK,3.67,Good,High (>250k),Intermediate,24,79,Yes,No,None,Frequent Outages,Semi-Government,Urdu,8.2,Van,Medium,Chronic,Yes,None,High
+906,23,Male,Skardu,KPK,3.67,Good,Low (<30k),Matric,16,65,Yes,Yes,None,Frequent Outages,Private,Urdu,16.9,Bus,Medium,None,No,None,Medium
+907,20,Female,Skardu,KPK,3.68,Good,High (>250k),Graduate,34,66,Yes,No,Desktop,Frequent Outages,Public,Urdu,17.7,Bus,Low,Chronic,No,Clubs,High
+908,23,Male,Muzaffarabad,Gilgit Baltistan,3.68,Good,Lower-Middle (30k-60k),Matric,35,73,Yes,No,None,Frequent Outages,Private,Urdu,18.9,Van,Low,Minor,No,Sports,High
+909,18,Female,Charsadda,Azad Kashmir,3.68,Good,Upper-Middle (120k-250k),Matric,9,57,Yes,No,Mobile,Frequent Outages,Public,Urdu,28.0,Walk,Medium,Minor,Yes,Clubs,High
+910,17,Female,Lahore,Punjab,3.68,Good,Low (<30k),Primary,11,65,No,Yes,None,Consistent,Public,Urdu,10.2,Car,Low,Minor,No,Clubs,High
+911,23,Male,Lahore,Punjab,3.69,Good,Upper-Middle (120k-250k),Matric,11,77,No,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,19.3,Bus,Low,Chronic,No,Sports,Low
+912,23,Female,Bhimber,Azad Kashmir,3.69,Good,Middle (60k-120k),Intermediate,22,96,Yes,No,Mobile,Frequent Outages,Semi-Government,Urdu,27.3,Bus,Medium,Minor,No,Clubs,High
+913,17,Male,Hunza,Gilgit Baltistan,3.69,Good,Upper-Middle (120k-250k),Matric,16,72,No,No,None,Consistent,Private,English,32.0,Car,Medium,Chronic,No,Clubs,Medium
+914,23,Female,Muzaffarabad,Gilgit Baltistan,3.69,Good,Upper-Middle (120k-250k),Matric,30,88,No,Yes,Desktop,Consistent,Public,Urdu,27.6,Car,Medium,None,Yes,None,Medium
+915,17,Male,Kotli,Punjab,3.7,Good,Lower-Middle (30k-60k),Intermediate,24,60,Yes,No,Laptop,Frequent Outages,Private,English,8.9,Van,Medium,None,Yes,Clubs,Low
+916,25,Male,Muzaffarabad,Punjab,3.7,Good,Upper-Middle (120k-250k),Matric,33,99,Yes,No,Mobile,Consistent,Private,English,27.1,Bike,Medium,Chronic,Yes,None,Medium
+917,18,Female,Bahawalpur,Punjab,3.7,Good,Middle (60k-120k),Primary,26,63,No,Yes,Mobile,Consistent,Semi-Government,Urdu,4.8,Walk,Medium,None,Yes,Clubs,High
+918,18,Female,Sargodha,Punjab,3.7,Good,Lower-Middle (30k-60k),Graduate,6,63,No,No,Laptop,Frequent Outages,Private,Urdu,5.5,Bus,High,None,No,None,Medium
+919,19,Male,Skardu,Punjab,3.71,Good,Middle (60k-120k),Graduate,7,58,Yes,Yes,Mobile,Frequent Outages,Semi-Government,Urdu,23.1,Car,Medium,Chronic,No,Clubs,High
+920,18,Male,Sargodha,KPK,3.71,Good,Low (<30k),Matric,39,62,No,No,Mobile,Consistent,Public,English,16.3,Walk,Medium,Minor,Yes,Sports,Low
+921,20,Female,Rahim Yar Khan,Punjab,3.71,Good,Middle (60k-120k),Matric,34,61,Yes,Yes,Mobile,Frequent Outages,Public,Urdu,25.0,Bike,Low,Chronic,No,Sports,Low
+922,17,Male,Bhimber,Punjab,3.71,Good,Low (<30k),Intermediate,32,97,No,Yes,Desktop,Frequent Outages,Private,Urdu,23.4,Van,High,None,Yes,Clubs,Medium
+923,20,Female,Okara,Punjab,3.72,Good,High (>250k),Primary,25,87,No,No,Mobile,Frequent Outages,Public,Urdu,1.8,Van,High,None,Yes,Clubs,Low
+924,22,Male,Bhimber,KPK,3.72,Good,Lower-Middle (30k-60k),Matric,21,80,No,No,Mobile,Frequent Outages,Private,Urdu,32.0,Bus,Medium,None,No,Sports,Medium
+925,21,Female,Muzaffarabad,Punjab,3.72,Good,High (>250k),Postgraduate,9,94,No,Yes,None,Frequent Outages,Private,English,3.6,Van,Low,None,Yes,None,Medium
+926,20,Male,Gujranwala,Gilgit Baltistan,3.72,Good,High (>250k),Matric,26,58,No,No,Mobile,Consistent,Semi-Government,English,28.4,Van,High,Minor,Yes,None,Medium
+927,25,Female,Abbottabad,Gilgit Baltistan,3.72,Good,Middle (60k-120k),Matric,38,97,No,Yes,Desktop,Consistent,Semi-Government,Urdu,34.2,Van,Low,None,No,Sports,Medium
+928,18,Male,Mirpur,Punjab,3.73,Good,Low (<30k),Intermediate,11,79,Yes,No,Mobile,Frequent Outages,Private,Urdu,18.1,Bike,Medium,Chronic,Yes,Sports,High
+929,22,Female,Bhimber,KPK,3.73,Good,Upper-Middle (120k-250k),Primary,11,57,Yes,No,Laptop,Frequent Outages,Semi-Government,English,19.7,Van,Medium,Minor,Yes,None,Medium
+930,18,Male,Hunza,Punjab,3.73,Good,High (>250k),Matric,32,88,Yes,Yes,Laptop,Consistent,Public,English,11.1,Walk,Medium,Chronic,Yes,None,Medium
+931,18,Female,Bannu,Gilgit Baltistan,3.73,Good,Lower-Middle (30k-60k),Matric,7,69,Yes,Yes,Laptop,Frequent Outages,Private,Urdu,4.3,Van,Low,Chronic,No,Clubs,Low
+932,19,Male,Okara,KPK,3.74,Good,Low (<30k),Graduate,28,68,No,No,Laptop,Consistent,Semi-Government,English,33.2,Van,Medium,None,No,None,High
+933,23,Male,Swat,KPK,3.74,Good,High (>250k),Intermediate,25,89,Yes,No,Mobile,Frequent Outages,Public,English,33.3,Van,High,None,No,None,Low
+934,17,Male,Charsadda,Gilgit Baltistan,3.74,Good,Upper-Middle (120k-250k),Graduate,14,94,Yes,Yes,Mobile,Consistent,Public,Urdu,25.6,Walk,Medium,Chronic,Yes,Sports,High
+935,17,Male,Dir,KPK,3.74,Good,Lower-Middle (30k-60k),Matric,12,98,Yes,No,Laptop,Frequent Outages,Public,English,5.8,Walk,High,None,Yes,None,Medium
+936,25,Female,Swat,Punjab,3.75,Good,Lower-Middle (30k-60k),Primary,20,55,No,Yes,Laptop,Frequent Outages,Semi-Government,English,22.3,Van,High,None,No,None,High
+937,23,Female,Multan,Punjab,3.75,Good,Upper-Middle (120k-250k),Graduate,20,62,Yes,Yes,None,Frequent Outages,Public,Urdu,1.8,Van,Low,Chronic,No,Sports,Low
+938,17,Male,Rahim Yar Khan,Azad Kashmir,3.75,Good,Low (<30k),Postgraduate,32,83,Yes,Yes,Laptop,Frequent Outages,Public,Urdu,25.0,Van,Low,Chronic,No,Clubs,Medium
+939,17,Female,Kotli,KPK,3.75,Good,High (>250k),Postgraduate,9,89,Yes,No,Desktop,Frequent Outages,Public,Urdu,27.4,Bike,Medium,Minor,No,Clubs,Low
+940,18,Male,Chiniot,Gilgit Baltistan,3.76,Good,Upper-Middle (120k-250k),Primary,26,77,No,Yes,Mobile,Frequent Outages,Private,Urdu,11.4,Bike,Low,None,Yes,Sports,Low
+941,22,Female,Mansehra,KPK,3.76,Good,Lower-Middle (30k-60k),Intermediate,34,62,No,Yes,Laptop,Frequent Outages,Public,Urdu,12.6,Bike,Low,Chronic,Yes,Clubs,High
+942,18,Female,Mardan,Azad Kashmir,3.76,Good,Middle (60k-120k),Matric,14,79,No,Yes,Desktop,Consistent,Private,English,23.5,Walk,High,Minor,No,Clubs,Medium
+943,24,Female,Gujranwala,Punjab,3.76,Good,Upper-Middle (120k-250k),Graduate,14,66,No,Yes,Laptop,Frequent Outages,Public,English,29.9,Van,Low,Minor,Yes,Clubs,High
+944,21,Female,Bahawalpur,Punjab,3.77,Good,Upper-Middle (120k-250k),Intermediate,31,75,No,Yes,None,Consistent,Semi-Government,Urdu,27.9,Bus,Medium,Chronic,Yes,None,Medium
+945,22,Female,Bannu,Punjab,3.77,Good,Low (<30k),Intermediate,12,87,No,No,Desktop,Frequent Outages,Public,English,10.4,Bike,High,None,Yes,Clubs,Medium
+946,22,Female,Gilgit,Gilgit Baltistan,3.77,Good,Middle (60k-120k),Postgraduate,39,60,Yes,Yes,Laptop,Consistent,Public,English,7.3,Bus,Low,Minor,No,None,Medium
+947,18,Male,Chiniot,KPK,3.77,Good,Upper-Middle (120k-250k),Primary,14,58,Yes,Yes,None,Frequent Outages,Public,Urdu,13.2,Bus,Medium,Minor,No,Sports,Medium
+948,21,Male,Abbottabad,Punjab,3.78,Good,Upper-Middle (120k-250k),Graduate,13,73,No,Yes,Mobile,Consistent,Private,English,33.5,Bus,Low,Minor,No,Sports,High
+949,18,Male,Dir,Azad Kashmir,3.78,Good,High (>250k),Intermediate,25,56,Yes,No,Mobile,Frequent Outages,Semi-Government,English,14.5,Car,Low,None,Yes,Clubs,High
+950,22,Female,Okara,KPK,3.78,Good,High (>250k),Postgraduate,35,90,No,Yes,Mobile,Consistent,Semi-Government,Urdu,1.7,Bus,Low,Chronic,No,None,High
+951,25,Male,Dir,KPK,3.78,Good,Lower-Middle (30k-60k),Intermediate,35,73,No,Yes,Mobile,Consistent,Private,Urdu,24.1,Walk,High,Minor,No,Clubs,Low
+952,17,Male,Diamer,KPK,3.78,Good,Middle (60k-120k),Primary,6,93,No,No,Laptop,Consistent,Private,Urdu,10.8,Bus,High,None,Yes,Clubs,Medium
+953,24,Female,Gujranwala,KPK,3.79,Good,Low (<30k),Graduate,14,68,Yes,Yes,Laptop,Consistent,Public,Urdu,30.7,Walk,Low,Chronic,No,Sports,Low
+954,17,Female,Sialkot,KPK,3.79,Good,Middle (60k-120k),Intermediate,36,86,Yes,Yes,None,Consistent,Private,Urdu,4.0,Bus,Medium,Chronic,No,Clubs,High
+955,17,Male,Gilgit,Gilgit Baltistan,3.79,Good,High (>250k),Matric,14,81,Yes,Yes,Laptop,Consistent,Public,English,22.1,Bike,Low,None,Yes,Sports,Low
+956,25,Male,Skardu,Gilgit Baltistan,3.79,Good,Upper-Middle (120k-250k),Intermediate,17,63,No,Yes,Mobile,Consistent,Public,Urdu,34.4,Car,High,None,Yes,Clubs,Medium
+957,23,Male,Diamer,KPK,3.8,Good,Middle (60k-120k),Graduate,31,62,No,Yes,Mobile,Frequent Outages,Public,English,30.8,Bike,Medium,Minor,No,None,Medium
+958,20,Male,Skardu,Gilgit Baltistan,3.8,Good,Lower-Middle (30k-60k),Intermediate,19,73,Yes,No,None,Frequent Outages,Public,Urdu,21.8,Bus,High,None,Yes,Clubs,Low
+959,21,Female,Mansehra,Punjab,3.8,Good,Low (<30k),Intermediate,20,69,Yes,Yes,Desktop,Consistent,Semi-Government,English,5.8,Bus,High,None,Yes,Sports,High
+960,21,Female,Gujranwala,Azad Kashmir,3.8,Good,Upper-Middle (120k-250k),Intermediate,24,66,No,No,None,Consistent,Private,Urdu,31.3,Walk,Medium,Chronic,No,Clubs,High
+961,23,Male,Peshawar,Gilgit Baltistan,3.81,Good,High (>250k),Graduate,31,77,No,Yes,Laptop,Consistent,Private,English,6.6,Bike,Low,None,Yes,Clubs,High
+962,22,Female,Abbottabad,Azad Kashmir,3.81,Good,Middle (60k-120k),Postgraduate,21,74,Yes,Yes,None,Consistent,Public,Urdu,2.8,Bike,Low,Chronic,No,None,Low
+963,21,Female,Skardu,Punjab,3.81,Good,Low (<30k),Postgraduate,8,98,No,No,Laptop,Frequent Outages,Public,Urdu,9.9,Van,Medium,Chronic,Yes,Clubs,Medium
+964,23,Male,Faisalabad,Punjab,3.81,Good,Middle (60k-120k),Matric,33,66,Yes,No,Mobile,Frequent Outages,Public,English,8.4,Walk,High,Minor,No,Clubs,High
+965,24,Female,Mardan,Punjab,3.82,Good,Lower-Middle (30k-60k),Matric,14,62,No,Yes,Desktop,Consistent,Public,Urdu,25.1,Bus,High,None,No,None,High
+966,23,Male,Faisalabad,Azad Kashmir,3.82,Good,High (>250k),Postgraduate,9,63,Yes,No,None,Frequent Outages,Semi-Government,Urdu,27.4,Van,Medium,Chronic,No,Sports,Medium
+967,22,Male,Hunza,Punjab,3.82,Good,Middle (60k-120k),Matric,20,60,Yes,Yes,Laptop,Consistent,Semi-Government,English,15.3,Van,Low,Minor,No,Sports,High
+968,21,Male,Rahim Yar Khan,KPK,3.82,Good,Lower-Middle (30k-60k),Primary,6,84,Yes,Yes,Laptop,Consistent,Semi-Government,Urdu,25.0,Bike,High,Chronic,Yes,Clubs,Medium
+969,18,Female,Diamer,Gilgit Baltistan,3.83,Good,Low (<30k),Primary,19,77,No,No,None,Frequent Outages,Semi-Government,Urdu,17.0,Walk,High,None,No,Sports,Medium
+970,25,Female,Gilgit,Punjab,3.83,Good,High (>250k),Postgraduate,13,94,No,No,Mobile,Consistent,Public,Urdu,20.2,Bike,Medium,Chronic,Yes,None,Low
+971,17,Male,Sialkot,Punjab,3.83,Good,Low (<30k),Intermediate,11,55,Yes,No,Laptop,Frequent Outages,Private,Urdu,29.8,Bike,Low,Minor,No,None,Medium
+972,22,Male,Sialkot,Punjab,3.83,Good,Lower-Middle (30k-60k),Matric,19,78,Yes,No,Laptop,Frequent Outages,Semi-Government,English,4.4,Van,Low,Chronic,No,None,Medium
+973,18,Male,Kotli,KPK,3.84,Good,High (>250k),Intermediate,7,89,No,Yes,Desktop,Consistent,Public,Urdu,28.2,Bus,Low,None,No,Clubs,Medium
+974,24,Female,Bannu,Azad Kashmir,3.84,Good,Middle (60k-120k),Primary,7,92,Yes,No,Laptop,Consistent,Semi-Government,English,24.5,Walk,Medium,None,Yes,None,Medium
+975,18,Female,Faisalabad,Punjab,3.84,Good,High (>250k),Primary,29,60,No,No,Laptop,Frequent Outages,Public,Urdu,9.9,Walk,Low,Minor,No,Clubs,Medium
+976,21,Female,Bahawalpur,KPK,3.84,Good,Low (<30k),Graduate,32,88,Yes,No,Mobile,Frequent Outages,Private,Urdu,30.3,Van,High,None,Yes,None,High
+977,20,Female,Muzaffarabad,KPK,3.84,Good,Low (<30k),Primary,34,65,Yes,Yes,None,Frequent Outages,Public,Urdu,17.9,Car,High,Chronic,No,Clubs,Medium
+978,17,Female,Lahore,Punjab,3.85,Good,Lower-Middle (30k-60k),Postgraduate,21,86,No,Yes,Mobile,Consistent,Semi-Government,Urdu,30.1,Van,High,Chronic,Yes,None,Low
+979,23,Female,Dir,KPK,3.85,Good,Middle (60k-120k),Primary,9,85,No,No,None,Consistent,Private,Urdu,6.5,Van,Low,Chronic,Yes,None,High
+980,25,Female,Bhimber,Punjab,3.85,Good,Low (<30k),Graduate,7,85,Yes,Yes,Desktop,Consistent,Public,Urdu,30.5,Walk,High,Chronic,Yes,None,Low
+981,17,Female,Hunza,KPK,3.85,Good,High (>250k),Postgraduate,31,84,Yes,Yes,Laptop,Frequent Outages,Public,Urdu,30.8,Bike,Low,Minor,No,None,High
+982,22,Female,Faisalabad,Gilgit Baltistan,3.86,Good,High (>250k),Primary,27,81,Yes,Yes,None,Frequent Outages,Semi-Government,English,17.2,Bike,Low,Minor,Yes,Clubs,High
+983,24,Female,Multan,KPK,3.86,Good,High (>250k),Graduate,25,83,Yes,Yes,Mobile,Consistent,Public,English,24.8,Walk,High,Minor,Yes,None,Low
+984,17,Female,Dir,KPK,3.86,Good,Upper-Middle (120k-250k),Matric,18,88,No,Yes,Desktop,Frequent Outages,Semi-Government,English,19.4,Bus,Medium,None,Yes,Sports,Low
+985,22,Male,Gujranwala,Gilgit Baltistan,3.86,Good,Middle (60k-120k),Primary,29,80,Yes,No,Desktop,Frequent Outages,Semi-Government,Urdu,25.7,Bus,High,Minor,No,Clubs,High
+986,24,Female,Rahim Yar Khan,KPK,3.87,Good,Lower-Middle (30k-60k),Intermediate,23,91,Yes,No,Laptop,Consistent,Private,English,7.0,Walk,Low,Chronic,Yes,Clubs,High
+987,17,Male,Bannu,Punjab,3.87,Good,Lower-Middle (30k-60k),Intermediate,36,99,Yes,Yes,Laptop,Frequent Outages,Private,English,15.8,Van,Medium,Chronic,Yes,Sports,Low
+988,17,Female,Lahore,Azad Kashmir,3.87,Good,High (>250k),Postgraduate,19,95,No,No,None,Frequent Outages,Private,Urdu,33.1,Bike,Medium,None,No,Sports,Medium
+989,19,Male,Gujranwala,Punjab,3.87,Good,Lower-Middle (30k-60k),Primary,8,96,Yes,Yes,None,Frequent Outages,Private,Urdu,26.8,Bike,High,Chronic,No,None,Medium
+990,19,Male,Skardu,Gilgit Baltistan,3.88,Good,High (>250k),Postgraduate,30,57,Yes,No,None,Consistent,Private,Urdu,2.0,Van,High,Minor,Yes,Sports,Medium
+991,18,Male,Peshawar,KPK,3.88,Good,Upper-Middle (120k-250k),Primary,39,98,No,Yes,Laptop,Frequent Outages,Semi-Government,Urdu,5.7,Van,High,None,Yes,None,Low
+992,21,Female,Diamer,Gilgit Baltistan,3.88,Good,High (>250k),Matric,9,81,No,Yes,None,Consistent,Public,Urdu,17.1,Van,High,Chronic,Yes,Clubs,High
+993,19,Male,Charsadda,Punjab,3.88,Good,Middle (60k-120k),Primary,21,61,Yes,No,Mobile,Consistent,Private,Urdu,26.9,Car,Medium,None,Yes,Clubs,Low
+994,25,Male,Sargodha,Punjab,3.89,Good,Low (<30k),Primary,7,84,Yes,Yes,Laptop,Frequent Outages,Semi-Government,English,6.5,Van,Medium,None,Yes,Clubs,High
+995,22,Female,Gujranwala,Punjab,3.89,Good,Middle (60k-120k),Primary,27,84,Yes,Yes,None,Consistent,Public,Urdu,2.7,Bike,High,None,No,Sports,High
+996,19,Female,Mirpur,KPK,3.89,Good,Upper-Middle (120k-250k),Intermediate,6,62,No,No,Desktop,Frequent Outages,Private,Urdu,3.1,Van,Medium,None,No,Clubs,Medium
+997,18,Male,Skardu,Punjab,3.89,Good,Middle (60k-120k),Postgraduate,19,91,No,Yes,Mobile,Consistent,Public,Urdu,7.9,Bike,High,Chronic,Yes,None,High
+998,25,Male,Lahore,Punjab,3.9,Good,Middle (60k-120k),Primary,23,91,Yes,No,None,Consistent,Semi-Government,Urdu,30.8,Bus,High,None,No,None,Medium
+999,19,Male,Multan,Punjab,3.9,Good,High (>250k),Graduate,9,66,Yes,Yes,Desktop,Frequent Outages,Public,Urdu,25.6,Van,High,Minor,No,Sports,Medium
+1000,25,Male,Bhimber,Punjab,3.9,Good,High (>250k),Intermediate,8,98,Yes,No,None,Frequent Outages,Semi-Government,English,15.3,Bike,Low,None,No,None,Medium

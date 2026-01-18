@@ -1,16 +1,17 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
-import pickle
+import joblib
 import os
-try:
-    from backend.schemas import StudentProfile, PredictionResult
-    from backend.cleaning_pipeline import CleaningPipeline
-except ImportError:
-    from schemas import StudentProfile, PredictionResult
-    from cleaning_pipeline import CleaningPipeline
+import uvicorn
 
-app = FastAPI(title="Student Analytics API")
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from schemas import StudentProfile, PredictionResult
+from cleaning_pipeline import CleaningPipeline, AdvisingAgent
+
+app = FastAPI(title="Smart Advisory Portal")
 
 app.add_middleware(
     CORSMiddleware,
@@ -19,185 +20,135 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Configuration
+BASE_DIR = "d:/AI Project"
+SVM_MODEL_PATH = os.path.join(BASE_DIR, "student_performance_svm_model.pkl")
+ASSISTANCE_MODEL_PATH = os.path.join(BASE_DIR, "student_assistance_model.pkl")
+DATASET_PATH = os.path.join(BASE_DIR, "dataset.csv")
+
 # Load Models
-MODEL_DIR = "d:/AI Project/models"
 try:
-    with open(f"{MODEL_DIR}/risk_model_lr.pkl", "rb") as f:
-        risk_model = pickle.load(f)
-    with open(f"{MODEL_DIR}/advising_model_rf.pkl", "rb") as f:
-        advising_model = pickle.load(f)
-    print("Models loaded successfully.")
+    performance_model = joblib.load(SVM_MODEL_PATH)
+    print("Performance SVM model loaded successfully.")
 except Exception as e:
     print(f"Error loading models: {e}")
-    risk_model = None
-    advising_model = None
+    performance_model = None
 
 pipeline = CleaningPipeline()
+advising_agent = AdvisingAgent(api_key="AIzaSyD4TD_rjCzMjDQIQSn8Kt7OEUWzYf2oqeg")
 
-# Define feature lists (must match advanced_ai_training.py)
-categorical_features_list = [
-    'Gender', 'District', 'Schooling_Type', 'Internet_Access',
-    'Parental_Education_Level', 'Scholarship_Status',
-    'Extracurricular_Participation', 'Residence_Type',
-    'School_Medium', 'Education_System', 'Transport_Mode'
-]
-numerical_features_list = [
-    'Attendance_Percentage', 'Study_Hours_per_Week',
-    'Assignment_Average', 'Quiz_Average', 'Mid_Marks',
-    'Engagement_Score', 'Resource_Index', 'Academic_Stability'
-]
-
-@app.post("/token")
-async def login(password: str):
-    if password == "admin123":  # Simple auth for prototype
-        return {"access_token": "fake-jwt-token", "token_type": "bearer"}
-    raise HTTPException(status_code=401, detail="Invalid credentials")
+@app.get("/")
+async def root():
+    return {"message": "EduVision API is running", "models_loaded": performance_model is not None}
 
 @app.post("/predict/student", response_model=PredictionResult)
 async def predict_student(student: StudentProfile):
-    if not risk_model or not advising_model:
-        raise HTTPException(status_code=500, detail="Models not loaded")
+    if not performance_model:
+        raise HTTPException(status_code=500, detail="Core performance model not loaded.")
     
-    # 1. Engineer features via diagnostic pipeline
     input_dict = student.dict()
-    df_engineered = pipeline.preprocess_single_student(input_dict)
+    df_input = pipeline.preprocess_single_student(input_dict)
     
-    # 2. Extract internal scores for response
-    engagement_score = float(df_engineered['Engagement_Score'].iloc[0])
+    # 1. Predict Performance (SVM)
+    perf_pred = performance_model.predict(df_input)[0]
+    perf_map = {0: 'Average', 1: 'Good', 2: 'Weak'}
+    perf_label = perf_map.get(perf_pred, "Unknown")
     
-    # 3. Predict Performance Trend (Improving/Declining) using Trend Dynamics Model (LR)
-    # The models expect the same features training used (numerical + categorical)
-    # The SKlearn pipeline (preprocessor) handles the transformation.
-    # We need to ensure we pass ONLY the columns used in training.
+    # 2. Logic-based Advice Induction (Engagement Score)
+    engagement_score = advising_agent.calculate_metrics(input_dict)
+    advice_label = "Needs Advice" if (perf_label == "Weak" or engagement_score < 6) else "No Immediate Advice Required"
     
-    # In advanced_ai_training.py:
-    # numerical_features = ['Attendance_Percentage', 'Study_Hours_per_Week', 'Assignment_Average', 'Quiz_Average', 'Mid_Marks', 'Engagement_Score', 'Resource_Index', 'Academic_Stability']
-    # categorical_features = ['Gender', 'District', 'Schooling_Type', 'Internet_Access', 'Parental_Education_Level', 'Scholarship_Status', 'Extracurricular_Participation', 'Residence_Type', 'School_Medium', 'Education_System', 'Transport_Mode']
-    
-    features = df_engineered[numerical_features_list + categorical_features_list]
-    
-    trend_pred = risk_model.predict(features)[0] # 1=Improving, 0=Declining
-    trend_label = "Improving" if trend_pred == 1 else "Declining"
-    
-    # 4. Predict Holistic Risk (Pass/Fail) using Advising Model (RF)
-    risk_pred = advising_model.predict(features)[0] # 1=Pass, 0=Fail
-    risk_status_label = "Pass" if risk_pred == 1 else "Fail"
-    
-    # 5. Generate Advanced Teacher Advice
-    advice = pipeline.agent(input_dict, trend_label=trend_label)
+    # 3. Generate Analytical AI Advice
+    advice = advising_agent.generate_advice(input_dict, perf_label)
     
     return {
-        "Risk_Status": risk_status_label,
-        "Performance_Trend": trend_label,
-        "Engagement_Score": engagement_score,
+        "Performance_Class": perf_label,
+        "Needs_Advice": advice_label,
         "Advice": advice
     }
 
 @app.get("/analytics/summary")
-async def get_analytics():
-    # In a real app, this would query the database.
-    # Here we read the static CSV for the dashboard demo.
-    df = pd.read_csv("d:/AI Project/Extra_Expanded_Consistent_Student_Demographics.csv")
+async def get_analytics(province: str = None, gender: str = None, performance: str = None, income: str = None):
+    if not os.path.exists(DATASET_PATH):
+        raise HTTPException(status_code=404, detail="Dataset not found")
+        
+    df = pd.read_csv(DATASET_PATH)
     
-    # Engineer features for the whole dataframe to enable advanced analytics
-    df = pipeline.engineer_features(df)
+    # Apply filters
+    if province and province != "all": df = df[df['Province'] == province]
+    if gender and gender != "all": df = df[df['Gender'] == gender]
+    if performance and performance != "all": df = df[df['Performance_Class'] == performance]
+    if income and income != "all": df = df[df['Family_Income_PKR'] == income]
     
-    # Advanced Insight Data Preparation
-    # 1. Engagement vs Stability (Scatter)
-    eng_stab = df[['Engagement_Score', 'Academic_Stability', 'Final_Exam_Status']].to_dict(orient='records')
+    # Deterministic calculation for analytics
+    def calc_needs_advice(row):
+        engagement = advising_agent.calculate_metrics(row.to_dict())
+        return "Needs Advice" if (row['Performance_Class'] == "Weak" or engagement < 6) else "No Advice"
     
-    # 2. Attendance Impact (Attendance vs Final Marks)
-    att_impact = df[['Attendance_Percentage', 'Final_Marks', 'Gender']].to_dict(orient='records')
+    if not df.empty:
+        df['Advice_Need'] = df.apply(calc_needs_advice, axis=1)
     
-    # 3. Study Hours Impact
-    study_impact = df[['Study_Hours_per_Week', 'Mid_Marks', 'Final_Marks']].to_dict(orient='records')
-    
-    # 4. Parental Education vs Pass Rate
-    parent_pass_rate = df.groupby('Parental_Education_Level')['Final_Exam_Status'].apply(
-        lambda x: (x == 'Pass').mean() * 100
-    ).round(2).to_dict()
-    
-    # 5. Performance Trend Distribution (Predictive Insight)
-    if risk_model:
-        # Align features
-        feat_df = df[numerical_features_list + categorical_features_list]
-        trends = risk_model.predict(feat_df)
-        trend_counts = pd.Series(trends).map({1: 'Improving', 0: 'Declining'}).value_counts().to_dict()
-    else:
-        trend_counts = {"Unknown": len(df)}
-
     summary = {
         "total_students": len(df),
-        "pass_rate": (df['Final_Exam_Status'] == 'Pass').mean() * 100,
-        "avg_attendance": df['Attendance_Percentage'].mean(),
-        "avg_cgpa": df['CGPA'].mean(),
-        "gender_distribution": df['Gender'].value_counts().to_dict(),
-        "internet_access": df['Internet_Access'].value_counts().to_dict(),
-        "parent_education": df['Parental_Education_Level'].value_counts().to_dict(),
+        "avg_cgpa": float(df['CGPA'].mean()) if not df.empty else 0,
+        "avg_attendance": float(df['Attendance_Percentage'].mean()) if not df.empty else 0,
+        "performance_distribution": df['Performance_Class'].value_counts().to_dict() if not df.empty else {},
+        "advice_distribution": df['Advice_Need'].value_counts().to_dict() if not df.empty else {},
+        "gender_distribution": df['Gender'].value_counts().to_dict() if not df.empty else {},
+        "income_distribution": df['Family_Income_PKR'].value_counts().to_dict() if not df.empty else {},
+        "province_distribution": df['Province'].value_counts().to_dict() if not df.empty else {},
+        "internet_distribution": df['Internet_Access'].value_counts().to_dict() if not df.empty else {},
+        "device_distribution": df['Device_Available'].value_counts().to_dict() if not df.empty else {},
+        "motivation_distribution": df['Motivation_Level'].value_counts().to_dict() if not df.empty else {},
+        "cgpa_by_motivation": df.groupby('Motivation_Level')['CGPA'].mean().to_dict() if not df.empty else {},
+        "cgpa_by_province": df.groupby('Province')['CGPA'].mean().to_dict() if not df.empty else {},
         "marks_distribution": {
-            "Mid_Marks": df['Mid_Marks'].tolist(),
-            "Final_Marks": df['Final_Marks'].tolist()
-        },
-        "engagement_vs_stability": eng_stab,
-        "attendance_impact": att_impact,
-        "study_impact": study_impact,
-        "parental_pass_rate": parent_pass_rate,
-        "trend_distribution": trend_counts,
-        "cgpa_by_district": df.groupby('District')['CGPA'].mean().to_dict()
+            "CGPA": df['CGPA'].tolist() if not df.empty else []
+        }
     }
     return summary
 
-@app.get("/analytics/metrics")
-async def get_metrics():
-    import json
-    metrics_path = "d:/AI Project/models/metrics_report.json"
-    if os.path.exists(metrics_path):
-        with open(metrics_path, "r") as f:
-            return json.load(f)
-    raise HTTPException(status_code=404, detail="Metrics report not found")
-
 @app.post("/upload/class")
 async def upload_class(file: UploadFile = File(...)):
-    if not risk_model or not advising_model:
-        raise HTTPException(status_code=500, detail="Models not loaded")
+    if not performance_model:
+        raise HTTPException(status_code=500, detail="Performance model not loaded")
         
     filename = file.filename.lower()
-    if filename.endswith('.csv'):
-        df_batch = pd.read_csv(file.file)
-    elif filename.endswith(('.xlsx', '.xls')):
-        df_batch = pd.read_excel(file.file)
-    else:
-        raise HTTPException(status_code=400, detail="Unsupported file format. Please upload CSV or Excel.")
-    
-    # Identify missing features
-    all_required = numerical_features_list + categorical_features_list
-    missing_features = [f for f in all_required if f not in df_batch.columns]
-    
-    # Fill missing columns with NaN or defaults for preprocessing
-    for f in missing_features:
-        if f in numerical_features_list:
-            df_batch[f] = 0.0 # Or median
-        else:
-            df_batch[f] = "Unknown"
+    if filename.endswith('.csv'): df_batch = pd.read_csv(file.file)
+    elif filename.endswith(('.xlsx', '.xls')): df_batch = pd.read_excel(file.file)
+    else: raise HTTPException(status_code=400, detail="Unsupported format")
             
     results = []
+    perf_map = {0: 'Average', 1: 'Good', 2: 'Weak'}
+    
     try:
         for idx in range(len(df_batch)):
             row_dict = df_batch.iloc[idx].to_dict()
             df_row = pipeline.preprocess_single_student(row_dict)
-            features = df_row[numerical_features_list + categorical_features_list]
             
-            trend_pred = risk_model.predict(features)[0]
-            trend_label = "Improving" if trend_pred == 1 else "Declining"
-            risk_pred = advising_model.predict(features)[0]
+            perf_pred = performance_model.predict(df_row)[0]
+            perf_label = perf_map.get(perf_pred, "Unknown")
+            
+            # Advice Logic
+            engagement = advising_agent.calculate_metrics(row_dict)
+            advice_label = "Needs Advice" if (perf_label == "Weak" or engagement < 6) else "No Advice"
+            
+            # AI Advice
+            advice_text = advising_agent.generate_advice(row_dict, perf_label)
             
             results.append({
-                "Student_ID": row_dict.get("Student_ID", idx),
-                "Name": row_dict.get("Name", "Unknown"),
-                "Risk_Status": "Pass" if risk_pred == 1 else "Fail",
-                "Performance_Trend": trend_label,
-                "Advice": pipeline.agent(row_dict, trend_label=trend_label, missing_features=missing_features)
+                "Student_ID": row_dict.get("Student_ID", idx + 1),
+                "Name": row_dict.get("Name", f"Student {idx + 1}"),
+                "Age": row_dict.get("Age", "N/A"),
+                "Province": row_dict.get("Province", "N/A"),
+                "CGPA": row_dict.get("CGPA", "N/A"),
+                "Performance_Class": perf_label,
+                "Needs_Advice": advice_label,
+                "Advice": advice_text
             })
-        return {"results": results, "missing_features": missing_features}
+        return {"results": results, "total_processed": len(results)}
     except Exception as e:
-        raise HTTPException(status_code=400, detail=f"Prediction error: {str(e)}")
+        raise HTTPException(status_code=400, detail=f"Batch error: {str(e)}")
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
