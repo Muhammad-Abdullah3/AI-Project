@@ -74,13 +74,3 @@ print("SVM Accuracy: ", svm_accuracy)
 joblib.dump(svm_pipe, 'd:/AI Project/student_performance_svm_model.pkl')
 print("SVM Model Saved.")
 
-# --- TRAIN ADVICE MODEL (Needs Advice vs Doesn't Need Advice) ---
-y_advice = LabelEncoder().fit_transform(df['Advice_Status']) # Doesn't Need Advice=0, Needs Advice=1
-X_train_a, X_test_a, y_train_a, y_test_a = train_test_split(X, y_advice, test_size=0.2, random_state=42)
-
-advice_pipe = Pipeline(steps=[('preprocessor', preprocessor), ('classifier', RandomForestClassifier(random_state=42))])
-advice_pipe.fit(X_train_a, y_train_a)
-advice_accuracy = accuracy_score(y_test_a, advice_pipe.predict(X_test_a))
-print("Advice Model Accuracy: ", advice_accuracy)
-joblib.dump(advice_pipe, 'd:/AI Project/student_assistance_model.pkl')
-print("Advice Model Saved.")

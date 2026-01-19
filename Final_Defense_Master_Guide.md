@@ -13,22 +13,71 @@ This document is structured precisely according to the **BS Level AI Graduation 
 *   **Goal & Scope:** To build an AI Diagnostic system that uses a 24-feature multidimensional approach to predict risk for BS-level students early in the semester.
 
 ### 2. Proposed System Design & Architecture (Slide 2)
-*   **High-Level Architecture:** Decoupled **Client-Server Architecture**.
+*   **High-Level Architecture:** **Hybrid Decoupled Web Architecture**.
+
+#### **A. High-Level System Architecture Diagram**
+```mermaid
+graph TD
+    subgraph "Frontend Layer (Flask)"
+        UI[User Interface]
+        DB[Analytics Dashboard]
+    end
+
+    subgraph "API Layer (FastAPI)"
+        API[RESTful Endpoints]
+        Val[Pydantic Data Validation]
+    end
+
+    subgraph "Intelligence Layer (AI Engine)"
+        Pipe[Cleaning Pipeline]
+        Model[SVM Model]
+        Agent[Rule-Based Logic Agent]
+    end
+
+    UI -->|JSON Request| API
+    API -->|Valid Payload| Pipe
+    Pipe -->|Clean Data| Model
+    Model -->|Class Prediction| Agent
+    Agent -->|Heuristic Advice| API
+    API -->|Unified Response| DB
+```
+
 *   **Key Components:**
-    *   **Input Layer:** Flask-based Web Portal (Single Diagnostic & CSV Batch upload).
-    *   **Preprocessing Layer (`CleaningPipeline`):** Median Imputation (Numeric) + Mode Imputation (Categorical) + One-Hot Encoding.
-    *   **Inference Layer (AI Models):** SVM (Classification) & Random Forest (Advisory Risk).
-    *   **Output Layer:** Result Dashboard + Human-Readable AI Advice.
-*   **Data Flow:** `Web Input` ➔ `JSON Payload` ➔ `FastAPI Backend` ➔ `Pipeline Transformation` ➔ `Model Inference` ➔ `Advice Induction` ➔ `UI Display`.
+    *   **External Sensors (UI):** Flask-based Frontend providing Diagnostic and Batch input buffers.
+    *   **Integrity Layer (`CleaningPipeline`):** Automated data validation, median imputation for numerics, and constant-fill for categoricals.
+    *   **AI Inference Layer:** Scikit-Learn **SVM Model** for core student categorization.
+    *   **Advancement Logic (Heuristic Agent):** A Rule-Based **Advising Agent** that computes an *Engagement Score* and generates structural intervention plans.
+
+#### **B. Data Flow Diagram (Sequence)**
+```mermaid
+sequenceDiagram
+    participant User
+    participant Frontend as Flask App
+    participant Backend as FastAPI Backend
+    participant Pipeline as Cleaning Pipeline
+    participant AI as SVM Engine
+    participant Logic as Heuristic Agent
+
+    User->>Frontend: Enter Student Profile
+    Frontend->>Backend: POST /predict/student (JSON)
+    Backend->>Pipeline: Transform & Scale Data
+    Pipeline->>AI: Predict Performance Class
+    AI->>Logic: Fetch Heuristic Advice
+    Logic->>Backend: Consolidate Final Result
+    Backend->>Frontend: Return Prediction + Advice
+    Frontend->>User: Display Analysis Report
+```
+
 
 ### 3. AI Techniques & Tools Used (Slide 3)
 *   **Techniques:**
-    *   **Support Vector Machine (SVM):** Used for **Performance Classification**. Selected for its ability to create a "Maximum Margin Hyperplane" to separate 'Good', 'Average', and 'Weak' students in 50+ dimensions.
-    *   **Random Forest Classifier:** Used for **Assistance Identification**. An ensemble method that handles non-linear relationships between socioeconomic barriers and grades.
+    1.  **Support Vector Machine (SVM):** Primary classifier for Performance Prediction. Using a *Linear Kernel* to optimize the margin between classification hyperplanes in a high-dimensional feature space.
+    2.  **Rule-Based Heuristic Engine:** A logic-based AI agent that uses condition-action rules (If-Then) to transform raw metrics into pedagogical advice.
+    3.  **Pipeline Engineering:** Automated `StandardScaler` and `OneHotEncoder` integration to ensure mathematical consistency.
 *   **Model Structure:**
-    *   **Linear Kernel (SVM):** Chosen because the boundary between grades in our high-dimensional space is relatively linear. 
-    *   **200+ Estimators (Random Forest):** Prevents overfitting to a single student's unique circumstances.
-*   **Tools:** Python, FastAPI, Flask, Scikit-Learn, Pandas, Joblib.
+    *   **SVM Hyperparameters:** $C=1$ (Regularization parameter) to balance training accuracy with model generalization.
+    *   **Logic Matrix:** Engagement scoring based on weighted academic indicators (Attendance weight=40%, Study Hours weight=40%, Resources=20%).
+*   **Tools:** Python, Scikit-learn, FastAPI, Flask, Joblib, Pandas.
 
 ### 4. Input–Output Validation (Slide 4)
 *   **Input Format:** JSON or CSV containing 24 features (Age, Gender, CGPA, Internet_Access, Motivation_Level, etc.).
@@ -67,8 +116,8 @@ This document is structured precisely according to the **BS Level AI Graduation 
 **Q2: How does your Inference (Prediction) work in the Backend?**  
 > **Mechanism:** "The inference is hosted in `backend/main.py`. We load the `.pkl` files using `joblib`. When a request hits the `@app.post` endpoint, the `CleaningPipeline.preprocess_single_student` ensures the live data is scaled and encoded *exactly* the same way as the training data. This is crucial to avoid 'Prediction Drift'."
 
-**Q3: Explain the `AdvisingAgent` logic.**  
-> **Mechanism:** "It's a Hybrid AI approach. The SVM does the heavy classification, but the `AdvisingAgent` in `cleaning_pipeline.py` calculates an **Engagement Score**. If the student is 'Weak' *OR* their score is < 6, the 'Needs Advice' status is triggered. This ensures we don't miss students who have high grades but are becoming disengaged."
+**Q3: Explain the `AdvisingAgent` logic. Is it another ML model?**  
+> **Mechanism:** "No, we use a **Rule-Based Heuristic Agent**. This is a deliberate design choice for 'Explainability'. While ML models like Random Forest can be 'Black Boxes', a Rule-Based system in education provides transparency. We can prove exactly why a student was advised to use campus labs based on their specific `Internet_Access` parameter and `Engagement Score`."
 
 ### B. The "AI Concepts" Defense
 **Q4: Why not just use Deep Learning (Neural Networks)?**  

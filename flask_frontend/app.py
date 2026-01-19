@@ -33,7 +33,7 @@ def dashboard():
         print(f"Error fetching summary: {e}")
         return render_template('dashboard.html', summary=None)
 
-@app.route('/diagnostic')
+@app.route('/advisor')
 def diagnostic():
     return render_template('diagnostic.html')
 
